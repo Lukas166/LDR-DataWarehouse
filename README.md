@@ -124,34 +124,16 @@ The `LDR_DW` database stores the final data warehouse using a Star Schema.
 
 The final warehouse uses the following Star Schema:
 
-```text
-                     DimDate
-                        |
-DimCustomer ---- FactShipment ---- DimBranch
-                        |
-                    DimService
-                        |
-                    DimCourier
-                        |
-                    DimPackage
-                        |
-                    DimPayment
-                        |
-               DimShipmentStatus
-```
-
-The grain of `FactShipment` is:
-
-```text
-One row represents one shipment transaction.
-```
+![Star Schema](image/StarSchemeLDR.png)
 
 ---
 
 ## 6. ETL Flow
 
-The ETL flow is:
+![ETL Pipeline](image/etl_pipeline.png)
 
+
+The ETL flow is:
 ```text
 CSV Files
    ↓
