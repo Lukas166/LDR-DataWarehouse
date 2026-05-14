@@ -1,0 +1,9 @@
+status_code,status_name,status_category,status_description
+PU,Picked Up,Process,Package has been picked up
+ONP,On Process,Process,Package is being processed
+TRN,In Transit,Process,Package is in transit
+OFD,Out For Delivery,Process,Package is out for delivery
+DLV,Delivered,Success,Package has been delivered
+FAIL,Failed,Failed,Delivery failed
+RTR,Returned,Return,Package returned to sender
+CANCEL,Cancelled,Cancelled,Shipment was cancelled

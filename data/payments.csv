@@ -1,0 +1,221 @@
+payment_id,payment_method,payment_channel,bank_name,payment_date,payment_status,is_cod,refund_status
+PAY001,E-Wallet,Marketplace,DANA,07/04/2026,Pending,False,No
+PAY002,Bank Transfer,Marketplace,,2026/01/01,Unpaid,N,Not Refunded
+PAY003,Cash,Outlet,,06-03-2025,Paid,0,No
+PAY004,Virtual Account,App,GOPAY,2025/11/02,Pending,False,Refunded
+PAY005,Bank Transfer,Outlet,DANA,20/03/2025,PAID,False,No
+PAY006,Corporate Billing,Website,Mandiri,2025-08-08,Belum Bayar,Inactive,Not Refunded
+PAY007,Corporate Billing,Corporate System,BNI,Mar 09 2025,PAID,Inactive,Tidak
+PAY008,Cash,Corporate System,,2026/03/19,Unpaid,False,Not Refunded
+PAY009,E-Wallet,Website,DANA,2025-09-19,Lunas,NO,Refunded
+PAY010,Transfer,Website,GOPAY,2025-05-07,PAID,No,No
+PAY011,Cash,Gerai,,Apr 19 2025,Unpaid,NO,Tidak
+PAY012,E-Wallet,Website,,2025-06-05,Belum Bayar,Inactive,Refunded
+PAY013,Transfer,Gerai,GOPAY,Oct 29 2025,PAID,False,Not Refunded
+PAY014,COD,Marketplace,,,Belum Bayar,Aktif,
+PAY015,Cash,Outlet,,13/04/2026,PAID,,No
+PAY016,Cash,Corporate System,,04/06/2025,Unpaid,Inactive,No
+PAY017,E-Wallet,Mobile App,DANA,10-05-2025,Lunas,Tidak,Tidak
+PAY018,Virtual Account,Gerai,BRI,04-02-2025,Unpaid,No,Not Refunded
+PAY019,COD,Website,,08-03-2025,Paid,Y,Not Refunded
+PAY020,Virtual Account,App,DANA,2025-09-30,PAID,,
+PAY021,Bank Transfer,Corporate System,DANA,2025-05-20,PAID,0,
+PAY022,Virtual Account,Outlet,,Jan 04 2026,PAID,False,Refunded
+PAY023,COD,Outlet,,Jan 24 2025,Paid,Aktif,Not Refunded
+PAY024,Transfer,Mobile App,OVO,27/01/2025,PAID,NO,No
+PAY025,Virtual Account,Website,GOPAY,30-04-2026,Lunas,Inactive,Tidak
+PAY026,COD,Website,,2025-01-30,Lunas,YES,Refunded
+PAY027,E-Wallet,Website,BCA,21-03-2026,Paid,N,Refunded
+PAY028,Corporate Billing,Gerai,Mandiri,23/04/2025,Unpaid,N,Not Refunded
+PAY029,Bank Transfer,Mobile App,DANA,2026/04/07,PAID,,Not Refunded
+PAY030,Corporate Billing,App,BNI,09/09/2025,Belum Bayar,False,No
+PAY031,Transfer,Mobile App,BNI,2025-12-18,PAID,NO,Tidak
+PAY032,E-Wallet,Marketplace,DANA,2025-09-27,Unpaid,NO,Tidak
+PAY033,Bank Transfer,Outlet,BRI,2026-01-26,PAID,0,No
+PAY034,Transfer,Mobile App,BCA,2025-01-05,Unpaid,Tidak,No
+PAY035,E-Wallet,Mobile App,,02/04/2026,Lunas,Tidak,Tidak
+PAY036,E-Wallet,Mobile App,BCA,2025-05-17,Paid,No,No
+PAY037,COD,Website,,30/03/2026,Paid,YES,No
+PAY038,E-Wallet,Marketplace,DANA,2025/12/02,Belum Bayar,NO,Tidak
+PAY039,E-Wallet,Outlet,Mandiri,25-05-2025,Lunas,NO,Refunded
+PAY040,Cash,Outlet,,Apr 02 2025,Unpaid,Inactive,Tidak
+PAY041,E-Wallet,Gerai,OVO,2025-05-27,Lunas,,Refunded
+PAY042,Transfer,App,BRI,18/03/2026,Belum Bayar,Inactive,Refunded
+PAY043,E-Wallet,Marketplace,,2026-02-07,Paid,N,Refunded
+PAY044,E-Wallet,Outlet,GOPAY,Apr 04 2025,Lunas,,Tidak
+PAY045,Bank Transfer,Gerai,DANA,22/11/2025,Pending,N,
+PAY046,Bank Transfer,Corporate System,,2026-02-25,Unpaid,N,
+PAY047,COD,App,,2026-01-19,PAID,Active,No
+PAY048,E-Wallet,App,BCA,2025-08-31,Paid,Tidak,Refunded
+PAY049,Corporate Billing,App,BNI,15-03-2025,Pending,0,Not Refunded
+PAY050,Corporate Billing,Mobile App,BCA,02/03/2025,Pending,No,Tidak
+PAY051,Transfer,Outlet,BRI,07-02-2025,PAID,No,Not Refunded
+PAY052,Transfer,Mobile App,BRI,2025/01/07,PAID,Inactive,Tidak
+PAY053,Virtual Account,Mobile App,OVO,2026-01-05,Lunas,NO,Not Refunded
+PAY054,Cash,Gerai,,,Unpaid,Inactive,No
+PAY055,Bank Transfer,App,DANA,Mar 25 2026,Unpaid,False,Not Refunded
+PAY056,Bank Transfer,Mobile App,OVO,25/09/2025,Belum Bayar,0,Tidak
+PAY057,COD,Outlet,,05-04-2025,Unpaid,Y,No
+PAY058,Corporate Billing,Gerai,,2025/12/01,PAID,No,Refunded
+PAY059,Virtual Account,Marketplace,Mandiri,23-02-2025,Lunas,No,Not Refunded
+PAY060,Transfer,Mobile App,BRI,,Lunas,0,
+PAY061,E-Wallet,Gerai,BCA,13-02-2025,Paid,,No
+PAY062,Cash,Website,,,Lunas,False,Tidak
+PAY063,COD,Mobile App,,20/07/2025,Belum Bayar,Aktif,No
+PAY064,Transfer,Marketplace,BRI,01-02-2026,Pending,,
+PAY065,Corporate Billing,App,BCA,2025-03-19,Belum Bayar,NO,Not Refunded
+PAY066,E-Wallet,App,BNI,24-03-2025,Unpaid,Tidak,Tidak
+PAY067,Corporate Billing,Mobile App,GOPAY,2025/11/16,Paid,N,Not Refunded
+PAY068,E-Wallet,Corporate System,BRI,2025/10/18,Paid,No,Not Refunded
+PAY069,Corporate Billing,App,OVO,2026-02-13,Pending,NO,Tidak
+PAY070,Transfer,Mobile App,OVO,May 24 2025,Paid,NO,Not Refunded
+PAY071,Virtual Account,App,,2025/08/31,Belum Bayar,Inactive,No
+PAY072,COD,Marketplace,,,Pending,1,
+PAY073,Virtual Account,Mobile App,,Mar 09 2026,Lunas,NO,Tidak
+PAY074,COD,Marketplace,,2026-03-25,Unpaid,Aktif,No
+ pay075 ,Virtual Account,App,Mandiri,2025-10-15,Lunas,N,Not Refunded
+PAY076,COD,Marketplace,,2025/04/25,Belum Bayar,Yes,Refunded
+PAY077,Bank Transfer,Marketplace,,2025/04/03,Pending,0,Tidak
+PAY078,Transfer,Outlet,GOPAY,2025/11/06,Paid,False,Tidak
+PAY079,Cash,Corporate System,,29/08/2025,Lunas,No,
+PAY080,Corporate Billing,Marketplace,BCA,2025/07/05,PAID,No,Not Refunded
+PAY081,Corporate Billing,Outlet,DANA,22/11/2025,Paid,False,Tidak
+PAY082,Cash,Website,,20-08-2025,PAID,False,Not Refunded
+PAY083,Corporate Billing,Outlet,BRI,Aug 08 2025,PAID,0,Refunded
+PAY084,Bank Transfer,Marketplace,,2026/02/06,Lunas,N,No
+PAY085,COD,App,,12-04-2025,Unpaid,YES,Refunded
+PAY086,Virtual Account,App,GOPAY,,PAID,,Refunded
+PAY087,Cash,App,,2025-07-28,Pending,Inactive,Tidak
+PAY088,Virtual Account,Corporate System,BRI,,PAID,N,
+PAY089,Corporate Billing,Mobile App,DANA,18-04-2025,Paid,Tidak,Refunded
+PAY090,Cash,Website,,2025-09-15,Belum Bayar,,Tidak
+PAY091,Bank Transfer,Marketplace,GOPAY,Oct 05 2025,Paid,Inactive,Tidak
+PAY092,Bank Transfer,Website,BNI,2025/03/25,Lunas,N,Refunded
+PAY093,Virtual Account,Corporate System,BRI,2026-02-17,Belum Bayar,No,
+PAY094,Bank Transfer,Outlet,,2025-11-16,Belum Bayar,,
+PAY095,COD,App,,,Pending,YES,Not Refunded
+PAY096,Corporate Billing,Marketplace,DANA,2026-03-15,Lunas,,Tidak
+PAY097,Corporate Billing,Gerai,DANA,,PAID,False,Refunded
+PAY098,Virtual Account,Website,OVO,12/02/2026,Paid,N,No
+PAY099,Cash,Outlet,,11-07-2025,Belum Bayar,Tidak,Refunded
+PAY100,E-Wallet,Corporate System,DANA,2025/07/20,Paid,N,Not Refunded
+PAY101,Virtual Account,Marketplace,BNI,2025/06/12,PAID,NO,Not Refunded
+PAY102,COD,Outlet,,Feb 06 2026,Unpaid,YES,Refunded
+ pay103 ,E-Wallet,Outlet,BRI,,Unpaid,Inactive,No
+PAY104,COD,Gerai,,2025-02-10,Belum Bayar,Aktif,Not Refunded
+PAY105,Bank Transfer,Gerai,GOPAY,Dec 01 2025,PAID,0,Tidak
+PAY106,Corporate Billing,Website,BCA,2026-04-24,Belum Bayar,NO,No
+PAY107,Bank Transfer,Corporate System,BRI,25/05/2025,Paid,NO,Tidak
+PAY108,Corporate Billing,Website,Mandiri,2025/09/09,Paid,,No
+PAY109,E-Wallet,Gerai,DANA,2025/06/10,PAID,Inactive,Refunded
+PAY110,Cash,Mobile App,,2025-11-20,Paid,Tidak,Refunded
+PAY111,Bank Transfer,Corporate System,BCA,2026-01-15,PAID,No,
+PAY112,Cash,Corporate System,,Mar 20 2025,Paid,0,No
+PAY113,Transfer,Mobile App,Mandiri,,PAID,False,Refunded
+PAY114,Bank Transfer,Mobile App,BRI,2025/10/10,Belum Bayar,,Tidak
+PAY115,COD,Marketplace,,May 09 2025,Pending,Yes,
+PAY116,Corporate Billing,App,OVO,2025/04/16,Pending,,Tidak
+PAY117,COD,Gerai,,13-06-2025,Pending,1,Not Refunded
+PAY118,COD,Website,,2025/11/20,PAID,Yes,
+PAY119,Transfer,Corporate System,DANA,28-02-2026,Lunas,N,No
+PAY120,Cash,Mobile App,,Aug 08 2025,PAID,NO,Not Refunded
+PAY121,Virtual Account,Website,GOPAY,Jun 10 2025,Belum Bayar,No,Refunded
+PAY122,E-Wallet,Marketplace,GOPAY,Oct 15 2025,Unpaid,0,
+PAY123,E-Wallet,Outlet,OVO,2026-04-30,Unpaid,N,Tidak
+PAY124,Transfer,App,GOPAY,2025/01/26,Paid,False,Tidak
+PAY125,Cash,Outlet,,2025/11/04,PAID,No,Refunded
+PAY126,Cash,Gerai,,2025/10/22,Lunas,Inactive,Tidak
+PAY127,Cash,Corporate System,,2025-01-21,Paid,,No
+PAY128,Corporate Billing,App,DANA,May 21 2025,Pending,NO,
+PAY129,Corporate Billing,Website,,2025/07/21,Pending,NO,Refunded
+PAY130,COD,Outlet,,,Paid,YES,No
+PAY131,Transfer,App,DANA,Feb 15 2025,Unpaid,No,No
+PAY132,Transfer,App,BCA,Apr 30 2026,Lunas,N,Refunded
+PAY133,Virtual Account,Mobile App,BNI,03/03/2025,Unpaid,N,Tidak
+PAY134,Virtual Account,Outlet,Mandiri,Dec 05 2025,Lunas,,Not Refunded
+PAY135,Cash,Website,,31-12-2025,PAID,0,No
+ pay136 ,Cash,Marketplace,,,PAID,,Tidak
+PAY137,E-Wallet,Marketplace,BRI,21-02-2026,Unpaid,Tidak,Refunded
+PAY138,Virtual Account,Marketplace,BNI,24/02/2025,Lunas,N,Tidak
+PAY139,Corporate Billing,Corporate System,Mandiri,2025/04/07,PAID,False,
+PAY140,Virtual Account,Outlet,BNI,24/02/2025,Paid,,Not Refunded
+PAY141,Transfer,Outlet,,2025-08-20,Unpaid,NO,Refunded
+PAY142,Bank Transfer,Mobile App,BNI,2025-08-09,Pending,False,Refunded
+PAY143,Cash,Outlet,,10/01/2026,Lunas,0,Tidak
+PAY144,E-Wallet,Corporate System,OVO,2025-09-10,Belum Bayar,No,Not Refunded
+PAY145,Cash,Mobile App,,Apr 04 2026,PAID,NO,
+PAY146,Cash,Website,,2025/11/14,Pending,N,No
+PAY147,E-Wallet,Gerai,OVO,Mar 29 2025,Belum Bayar,False,
+PAY148,Transfer,Gerai,BCA,,Belum Bayar,,Refunded
+PAY149,Corporate Billing,Gerai,Mandiri,15/12/2025,Lunas,,Not Refunded
+PAY150,Cash,Gerai,,Jun 21 2025,Paid,Inactive,No
+ pay151 ,COD,Website,,26/10/2025,Pending,Yes,No
+PAY152,Corporate Billing,Outlet,OVO,26/09/2025,Paid,NO,Refunded
+PAY153,Corporate Billing,Gerai,GOPAY,12-01-2026,Lunas,,Refunded
+PAY154,Transfer,Marketplace,BCA,04-06-2025,Belum Bayar,,No
+PAY155,Transfer,Gerai,BCA,30/07/2025,Lunas,,No
+PAY156,E-Wallet,Corporate System,DANA,2026/01/17,Belum Bayar,NO,Refunded
+PAY157,Virtual Account,Gerai,,Mar 25 2026,Belum Bayar,Tidak,Refunded
+PAY158,Bank Transfer,Corporate System,DANA,2025-05-22,Unpaid,Tidak,
+PAY159,Cash,Marketplace,,Oct 18 2025,Lunas,NO,No
+PAY160,Bank Transfer,Gerai,BNI,Mar 18 2025,Unpaid,Inactive,Refunded
+PAY161,Bank Transfer,Website,BRI,08/01/2025,Lunas,NO,No
+PAY162,Bank Transfer,Website,BCA,2025-12-05,Lunas,Inactive,Refunded
+PAY163,Transfer,App,BNI,01/01/2026,Pending,NO,Refunded
+PAY164,E-Wallet,Outlet,,2025/05/08,Pending,N,No
+PAY165,Transfer,Website,OVO,Aug 12 2025,Unpaid,Inactive,Not Refunded
+PAY166,Transfer,Mobile App,DANA,Jun 04 2025,Unpaid,,
+PAY167,E-Wallet,Marketplace,DANA,,Belum Bayar,Tidak,
+PAY168,Virtual Account,Gerai,GOPAY,2025/08/07,Pending,No,
+PAY169,Cash,App,,Jan 22 2026,PAID,Tidak,Not Refunded
+PAY170,COD,Corporate System,,2026/03/26,PAID,1,No
+PAY171,Bank Transfer,App,,2025-02-13,Lunas,NO,Refunded
+PAY172,COD,Marketplace,,19-03-2026,Belum Bayar,True,No
+PAY173,Virtual Account,Mobile App,BNI,11/09/2025,Lunas,False,No
+PAY174,Corporate Billing,Marketplace,Mandiri,2025-01-01,Unpaid,NO,Not Refunded
+PAY175,E-Wallet,Outlet,,,Pending,No,No
+PAY176,Transfer,Marketplace,,24-02-2026,Lunas,,
+PAY177,Cash,Marketplace,,12/01/2025,PAID,0,Tidak
+PAY178,Bank Transfer,Website,OVO,Oct 29 2025,Pending,N,No
+PAY179,Bank Transfer,Marketplace,DANA,26-05-2025,Pending,No,
+PAY180,Transfer,Outlet,,,PAID,,Tidak
+PAY181,Transfer,Outlet,BNI,15/03/2026,Lunas,N,
+PAY182,Cash,Mobile App,,30-06-2025,Lunas,,Not Refunded
+PAY183,Transfer,App,OVO,2025/02/04,Pending,,
+PAY184,Virtual Account,Mobile App,OVO,15-06-2025,Lunas,N,No
+PAY185,Cash,Outlet,,2025-03-23,Pending,,Refunded
+PAY186,Corporate Billing,Mobile App,Mandiri,2026/03/27,Pending,NO,No
+PAY187,COD,Website,,2026/03/10,Lunas,True,No
+PAY188,E-Wallet,Website,BRI,13-07-2025,Unpaid,0,Not Refunded
+PAY189,Transfer,Marketplace,,26/04/2025,Pending,0,No
+PAY190,COD,Outlet,,2025-12-09,PAID,Yes,Refunded
+PAY191,Corporate Billing,Marketplace,BRI,16-12-2025,Pending,0,Not Refunded
+PAY192,COD,App,,30-06-2025,PAID,Y,No
+PAY193,Bank Transfer,Marketplace,DANA,19-10-2025,Lunas,NO,No
+PAY194,Bank Transfer,Mobile App,BCA,Jun 19 2025,Lunas,N,Refunded
+PAY195,Cash,App,,28-05-2025,PAID,False,Tidak
+PAY196,COD,Outlet,,2026/04/02,Lunas,Aktif,No
+PAY197,Cash,Website,,2025-04-13,PAID,0,
+PAY198,Corporate Billing,Gerai,GOPAY,2025-12-06,PAID,,No
+PAY199,Corporate Billing,Corporate System,BCA,06-02-2025,Belum Bayar,NO,
+PAY200,Bank Transfer,Mobile App,OVO,23-02-2025,PAID,Tidak,Tidak
+PAY201,Bank Transfer,Website,Mandiri,,PAID,N,No
+PAY202,COD,Marketplace,,,Belum Bayar,YES,Tidak
+PAY203,Virtual Account,Marketplace,BNI,Mar 02 2025,Lunas,0,Refunded
+ pay204 ,Bank Transfer,Outlet,Mandiri,2025/10/29,Belum Bayar,No,No
+PAY205,Corporate Billing,Gerai,Mandiri,2025/02/09,PAID,False,No
+PAY206,Transfer,Website,Mandiri,2025/03/08,Belum Bayar,NO,No
+PAY207,Cash,Website,,Apr 16 2025,PAID,,Refunded
+PAY208,Transfer,App,OVO,May 06 2025,Lunas,NO,No
+PAY209,Transfer,Marketplace,,15-04-2025,PAID,False,
+PAY210,E-Wallet,Outlet,GOPAY,08/02/2026,Belum Bayar,,Tidak
+PAY211,Cash,Outlet,,18-01-2025,Pending,False,No
+PAY212,Cash,Website,,2025/07/16,Pending,,No
+PAY213,E-Wallet,Mobile App,DANA,Aug 09 2025,Paid,Tidak,No
+PAY214,COD,App,,Apr 18 2026,Unpaid,YES,No
+PAY215,Transfer,Gerai,DANA,2026-02-05,Paid,N,Refunded
+PAY216,Corporate Billing,Corporate System,,04-01-2026,Lunas,Inactive,Tidak
+PAY217,Bank Transfer,Gerai,Mandiri,Jan 08 2025,Paid,0,
+PAY218,Transfer,Website,DANA,,Lunas,False,
+PAY219,Cash,Outlet,,Dec 05 2025,PAID,,Tidak
+PAY220,Cash,Marketplace,,,Lunas,,

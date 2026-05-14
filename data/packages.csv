@@ -1,0 +1,221 @@
+package_id,package_type,package_category,weight,weight_unit,length_cm,width_cm,height_cm,fragile_flag,insured_flag,item_description
+PKG001,Cargo,Medium,0.8,KG,31,39,11,YES,Tidak,Electronic Accessories
+PKG002,Document,small,42.3 kg,KG,85,30,19,No,False,Electronic Accessories
+PKG003,Fragile Goods,Cargo,5.3,kg,111,33,67,Y,N,Snacks
+PKG004,Clothing,small,0.6Kg,,87,79,2,Y,N,Books
+PKG005,Clothing,Large,0.6,KG,,39,,No,0,Books
+PKG006,Clothing,small,19.6,,56,45,52,Tidak,N,Snacks
+PKG007,Document,Small,5.6Kg,KG,53,80,8,Tidak,Yes,Household Items
+ pkg008 ,Cargo,Medium,0.9,kg,91,73,58,No,No,Snacks
+PKG009,Fragile Goods,Large,65.1,Kg,104,18,13,No,1,
+PKG010,Spare Parts,Medium,16.0,Kg,83,42,58,No,False,Electronic Accessories
+PKG011,Parcel,Cargo,14.0,Kg,78,11,35,False,Aktif,Spare Parts
+PKG012,Parcel,MEDIUM,2.5 kg,,55,29,15,1,Tidak,Cosmetics
+PKG013,Electronics,Small,7.2,,45,60,30,Inactive,NO,
+PKG014,Spare Parts,small,0.5,Kg,43,33,35,Tidak,N,Clothes
+PKG015,Electronics,Cargo,0.5,kg,81,65,50,Tidak,False,Clothes
+PKG016,Cargo,Large,0.6 KG,Kg,90,22,59,Yes,0,
+PKG017,Electronics,Medium,65.3,Kg,20,58,38,NO,YES,Books
+PKG018,Electronics,Small,15.3,KG,56,76,59,NO,1,Electronic Accessories
+PKG019,Clothing,Large,37.4,KG,23,43,21,Y,Yes,Books
+PKG020,Spare Parts,MEDIUM,20.9,,99,79,24,0,,Clothes
+PKG021,Clothing,Large,2.9,KG,11,72,63,N,Inactive,Household Items
+PKG022,Parcel,Medium,10.2,KG,113,44,54,,Yes,Snacks
+ pkg023 ,Food,Large,13.1 KG,,39,21,21,No,Y,Snacks
+PKG024,Food,Cargo,6.5,,58,11,17,NO,0,Cosmetics
+PKG025,Food,Large,0.5,kg,25,42,63,Tidak,Y,Clothes
+PKG026,Parcel,MEDIUM,78.6,Kg,108,21,33,Aktif,True,Electronic Accessories
+PKG027,Electronics,Large,34.5,kg,34,12,50,0,Tidak,Books
+PKG028,Clothing,MEDIUM,3.0 kg,KG,114,43,48,Tidak,N,Spare Parts
+PKG029,Electronics,Medium,22.9,kg,22,76,10,N,False,Documents
+PKG030,Document,Large,5.3,,116,20,61,No,False,Electronic Accessories
+PKG031,Fragile Goods,MEDIUM,67.6Kg,,82,32,55,N,Inactive,
+PKG032,Food,Cargo,17.6,Kg,91,65,43,Yes,No,
+PKG033,Electronics,Small,,kg,115,45,67,0,Y,Clothes
+PKG034,Clothing,Small,32.8,kg,115,22,40,NO,0,Documents
+PKG035,Clothing,Cargo,9.6,kg,74,38,21,Yes,No,
+PKG036,Food,small,1.7,KG,35,72,52,NO,1,Household Items
+PKG037,Food,Medium,17.4 KG,Kg,112,66,20,0,Inactive,Clothes
+PKG038,Spare Parts,small,0.1,KG,37,36,68,No,Yes,Clothes
+ pkg039 ,Clothing,Medium,0.3Kg,,119,56,15,NO,True,Cosmetics
+PKG040,Fragile Goods,MEDIUM,9.2,Kg,30,12,46,False,No,
+PKG041,Electronics,Cargo,2.7 KG,Kg,96,39,55,YES,0,Snacks
+PKG042,Parcel,Medium,6.0,Kg,30,50,,N,False,Cosmetics
+PKG043,Food,small,6.8,KG,33,,36,Inactive,,Books
+PKG044,Parcel,Medium,3.8 kg,,62,38,27,0,No,Household Items
+PKG045,Clothing,MEDIUM,0.7,kg,115,15,33,Active,False,Clothes
+PKG046,Electronics,Cargo,4.0,,21,,16,0,NO,Clothes
+PKG047,Electronics,Cargo,0.4Kg,,56,20,69,Inactive,YES,Snacks
+PKG048,Cargo,Small,67.9,,26,35,2,,True,Cosmetics
+PKG049,Document,MEDIUM,24.3,Kg,,36,8,False,Yes,Documents
+PKG050,Fragile Goods,Large,8.0,,56,14,13,1,Aktif,Clothes
+PKG051,Cargo,Cargo,0.4Kg,Kg,77,21,63,,,Cosmetics
+PKG052,Clothing,Cargo,7.2 kg,kg,111,25,28,YES,False,Electronic Accessories
+PKG053,Fragile Goods,MEDIUM,16.8,,88,13,24,,Tidak,Cosmetics
+PKG054,Fragile Goods,Large,28.1,kg,81,78,4,Inactive,N,Snacks
+PKG055,Cargo,Medium,28.3,Kg,21,73,32,Yes,No,Cosmetics
+PKG056,Document,Cargo,17.2,,22,76,,NO,Yes,Electronic Accessories
+PKG057,Fragile Goods,Cargo,16.5,kg,35,34,38,NO,Active,
+PKG058,Document,Cargo,2.1 KG,kg,53,79,58,True,,Books
+PKG059,Spare Parts,Small,0.4,,69,26,13,0,True,Clothes
+PKG060,Electronics,Large,,Kg,70,24,46,NO,Aktif,Electronic Accessories
+PKG061,Clothing,Cargo,4.8,Kg,59,18,45,Aktif,,Electronic Accessories
+PKG062,Document,Small,4.3,KG,86,23,50,No,Inactive,Cosmetics
+PKG063,Fragile Goods,Small,23.6,kg,96,48,57,No,No,Documents
+PKG064,Clothing,small,0.7Kg,KG,90,50,50,Tidak,Inactive,Clothes
+PKG065,Clothing,Cargo,1.0 KG,,27,20,19,N,Inactive,Household Items
+PKG066,Fragile Goods,Small,30.9,,56,14,6,False,NO,
+PKG067,Document,Cargo,0.9,,84,49,8,False,Yes,Clothes
+PKG068,Electronics,small,5.0,kg,47,13,38,False,Yes,Snacks
+PKG069,Fragile Goods,Small,6.2,KG,72,33,69,N,0,Cosmetics
+PKG070,Spare Parts,Large,0.8,,24,16,23,N,Inactive,
+PKG071,Clothing,small,33.0,Kg,15,22,70,N,0,Spare Parts
+PKG072,Spare Parts,Large,0.6,KG,11,62,14,No,0,Electronic Accessories
+PKG073,Parcel,MEDIUM,1.9,,42,47,61,Tidak,Y,Electronic Accessories
+PKG074,Food,small,18.6,,66,18,64,0,NO,Cosmetics
+PKG075,Clothing,Large,,KG,73,29,2,,N,Electronic Accessories
+PKG076,Parcel,Large,71.8Kg,Kg,55,52,40,Inactive,N,Spare Parts
+PKG077,Food,Cargo,66.0Kg,,34,27,6,,No,Documents
+PKG078,Food,Small,3.4,kg,68,78,,No,Aktif,Snacks
+PKG079,Food,Small,0.1,KG,85,18,15,Tidak,Aktif,
+PKG080,Electronics,Cargo,6.9,KG,28,63,23,N,No,Cosmetics
+PKG081,Cargo,small,33.0,,108,70,18,YES,NO,Clothes
+PKG082,Food,Large,0.4,kg,79,74,30,,Inactive,Documents
+PKG083,Spare Parts,small,46.3Kg,kg,78,32,22,N,Aktif,Books
+PKG084,Document,Cargo,45.7,KG,38,19,62,,Tidak,Clothes
+PKG085,Electronics,MEDIUM,2.0 KG,KG,31,53,30,,0,Cosmetics
+PKG086,Document,Small,3.0 KG,,85,29,2,NO,0,Electronic Accessories
+PKG087,Electronics,MEDIUM,1.2,,21,12,,Inactive,N,Snacks
+PKG088,Cargo,MEDIUM,0.8,KG,77,14,39,No,Tidak,Documents
+PKG089,Food,small,3.6,kg,81,36,19,0,0,Books
+PKG090,Cargo,Cargo,0.4,Kg,74,77,17,NO,1,Electronic Accessories
+PKG091,Document,Large,0.2 kg,,73,29,28,,No,Clothes
+PKG092,Spare Parts,Cargo,29.7,Kg,92,51,64,0,False,Documents
+PKG093,Document,Large,3.1,KG,32,29,22,Tidak,Inactive,Books
+PKG094,Fragile Goods,MEDIUM,0.5,Kg,28,68,42,Inactive,,Books
+PKG095,Fragile Goods,Small,0.7,KG,117,38,59,No,Y,Cosmetics
+PKG096,Clothing,Large,52.7,,17,56,52,NO,1,Household Items
+PKG097,Spare Parts,small,78.7,Kg,116,21,20,1,False,Household Items
+PKG098,Cargo,Cargo,4.3 KG,,72,15,40,,Aktif,Clothes
+PKG099,Cargo,MEDIUM,0.5,,18,56,63,No,Inactive,Documents
+PKG100,Parcel,small,0.2,KG,55,16,39,Tidak,False,Clothes
+PKG101,Electronics,Small,5.8Kg,KG,109,72,54,NO,NO,Electronic Accessories
+PKG102,Cargo,Small,21.0 KG,kg,86,76,45,YES,Yes,Household Items
+PKG103,Cargo,Small,,kg,94,,9,True,YES,Snacks
+PKG104,Parcel,Small,12.0,kg,30,74,32,Y,NO,Spare Parts
+PKG105,Food,Cargo,7.0,kg,33,55,50,,False,
+PKG106,Cargo,Cargo,52.3,KG,117,66,30,Tidak,Aktif,Cosmetics
+PKG107,Food,Large,0.7 KG,KG,23,31,10,,Aktif,Clothes
+PKG108,Spare Parts,Cargo,51.0,KG,28,68,15,Yes,No,Snacks
+PKG109,Spare Parts,Cargo,0.4,Kg,76,73,61,Y,1,Electronic Accessories
+PKG110,Cargo,MEDIUM,0.4Kg,,48,31,64,,Inactive,
+PKG111,Fragile Goods,Large,24.0,kg,17,13,7,Tidak,No,Spare Parts
+PKG112,Spare Parts,MEDIUM,0.3,,31,12,70,No,N,Household Items
+PKG113,Fragile Goods,Cargo,1.8,KG,107,53,23,0,Yes,Clothes
+PKG114,Spare Parts,Cargo,1.0,KG,85,53,36,False,Tidak,Spare Parts
+PKG115,Spare Parts,Large,2.8,,76,33,65,1,YES,Clothes
+PKG116,Food,Cargo,3.9,KG,46,30,34,,N,Household Items
+PKG117,Spare Parts,Small,12.4,kg,80,32,7,N,NO,Household Items
+PKG118,Parcel,Medium,0.9,kg,109,77,34,0,0,Snacks
+PKG119,Food,Large,0.2,KG,24,50,56,True,Aktif,Documents
+PKG120,Spare Parts,Cargo,14.5,kg,113,25,70,NO,0,Clothes
+PKG121,Fragile Goods,MEDIUM,63.4,,20,72,62,NO,Tidak,Cosmetics
+PKG122,Parcel,Small,43.3,KG,61,35,41,Inactive,N,Books
+PKG123,Clothing,small,11.7,KG,,,25,0,,Spare Parts
+PKG124,Clothing,Cargo,9.4 KG,,82,25,3,False,1,Household Items
+PKG125,Cargo,Medium,24.2,,33,62,20,No,Tidak,Household Items
+PKG126,Document,Small,27.2Kg,Kg,52,40,62,Inactive,No,Snacks
+PKG127,Electronics,Cargo,4.6Kg,Kg,28,43,16,False,N,Snacks
+PKG128,Spare Parts,Cargo,41.8 kg,kg,33,14,62,,NO,Snacks
+PKG129,Electronics,Cargo,1.7,kg,82,37,2,False,NO,Household Items
+PKG130,Document,MEDIUM,0.4Kg,,68,44,2,Inactive,Yes,Clothes
+PKG131,Food,Medium,77.8 KG,,108,61,13,NO,Y,Household Items
+PKG132,Clothing,Cargo,32.4,Kg,75,35,64,Inactive,N,Electronic Accessories
+PKG133,Clothing,Small,3.5,,92,77,12,0,False,Documents
+PKG134,Parcel,small,58.0Kg,kg,114,42,47,1,1,Clothes
+PKG135,Cargo,MEDIUM,28.5,kg,113,,29,Aktif,N,Cosmetics
+PKG136,Document,MEDIUM,66.1,KG,27,11,26,N,0,Electronic Accessories
+ pkg137 ,Spare Parts,small,4.3,KG,66,72,62,Yes,Y,Household Items
+PKG138,Document,Cargo,27.9 KG,Kg,85,72,31,NO,Tidak,Cosmetics
+PKG139,Cargo,MEDIUM,15.8,,85,53,61,,Inactive,Spare Parts
+PKG140,Document,Small,6.3 KG,Kg,63,73,40,No,Tidak,Household Items
+PKG141,Parcel,MEDIUM,23.2,kg,108,44,21,NO,NO,
+PKG142,Parcel,Medium,25.0 KG,Kg,107,74,65,N,No,Spare Parts
+PKG143,Clothing,Medium,15.8,KG,56,41,21,Tidak,,Snacks
+PKG144,Document,MEDIUM,22.0,KG,31,65,9,False,False,Books
+PKG145,Clothing,Medium,1.2,Kg,36,79,58,Inactive,False,Spare Parts
+PKG146,Parcel,MEDIUM,4.9Kg,kg,40,48,56,Y,NO,Cosmetics
+PKG147,Food,Small,6.2,Kg,110,27,50,Inactive,N,Electronic Accessories
+PKG148,Spare Parts,MEDIUM,0.2,,85,76,52,N,Inactive,
+PKG149,Parcel,small,0.2,,14,30,49,NO,Tidak,Clothes
+ pkg150 ,Fragile Goods,Small,70.3 KG,kg,37,33,64,N,Inactive,Snacks
+PKG151,Fragile Goods,small,20.2Kg,kg,62,59,31,Inactive,False,
+PKG152,Parcel,MEDIUM,0.7,KG,106,70,66,,True,Books
+PKG153,Parcel,small,36.0 kg,KG,50,58,34,1,No,Books
+PKG154,Food,Cargo,6.0,,58,25,8,NO,N,Spare Parts
+PKG155,Food,Medium,0.9Kg,Kg,26,48,54,,Y,Cosmetics
+PKG156,Food,small,1.0,Kg,86,42,50,N,Inactive,
+PKG157,Fragile Goods,Large,13.8,KG,91,43,,No,No,Documents
+PKG158,Spare Parts,MEDIUM,66.6,kg,93,19,70,Inactive,No,Electronic Accessories
+PKG159,Cargo,MEDIUM,0.5,KG,100,55,26,0,Y,Household Items
+PKG160,Parcel,Medium,3.0,Kg,97,32,10,False,Aktif,Documents
+PKG161,Clothing,Large,46.4 KG,kg,93,16,43,0,1,
+PKG162,Food,Medium,0.5,Kg,98,64,11,No,Tidak,Clothes
+PKG163,Parcel,Small,33.9,kg,19,66,14,Inactive,Y,Cosmetics
+PKG164,Clothing,Medium,0.1,kg,58,61,14,NO,Aktif,Documents
+PKG165,Clothing,Cargo,0.5,,83,26,67,True,Tidak,Clothes
+PKG166,Document,Cargo,12.0,Kg,76,28,9,Tidak,1,Cosmetics
+PKG167,Document,MEDIUM,23.7,KG,68,15,65,Tidak,N,Spare Parts
+PKG168,Document,Medium,8.3 kg,KG,66,34,48,Y,Inactive,Spare Parts
+PKG169,Food,Large,6.9,Kg,24,53,28,N,NO,Electronic Accessories
+PKG170,Food,small,43.6,Kg,64,41,7,Inactive,,Spare Parts
+PKG171,Spare Parts,Medium,6.5,Kg,92,75,49,,1,Documents
+PKG172,Parcel,Medium,7.3,kg,83,30,49,True,N,Cosmetics
+PKG173,Cargo,small,49.3 KG,kg,92,19,47,Yes,Tidak,Spare Parts
+ pkg174 ,Cargo,Large,28.1Kg,Kg,119,79,35,No,Inactive,Household Items
+PKG175,Clothing,MEDIUM,45.5,,111,20,42,Inactive,Aktif,Documents
+PKG176,Document,small,45.1,kg,109,78,40,N,0,Household Items
+PKG177,Spare Parts,Small,49.8,KG,31,23,24,Active,NO,Cosmetics
+PKG178,Parcel,Cargo,73.7,KG,26,78,55,,True,Clothes
+PKG179,Spare Parts,Cargo,0.6,,115,61,33,,Y,Clothes
+PKG180,Parcel,Cargo,6.8,kg,68,59,25,False,NO,Spare Parts
+PKG181,Cargo,Medium,28.6 kg,kg,109,51,54,N,1,Spare Parts
+PKG182,Food,MEDIUM,11.2,,69,18,12,Yes,Inactive,Clothes
+PKG183,Food,Cargo,0.2,kg,55,32,29,NO,False,Cosmetics
+PKG184,Document,Large,1.1,KG,21,12,55,Y,Inactive,Snacks
+PKG185,Parcel,Large,4.6,Kg,60,64,17,,Aktif,Clothes
+PKG186,Parcel,small,9.9,Kg,23,78,23,Inactive,Aktif,Books
+PKG187,Parcel,Large,35.8,KG,39,74,3,Active,0,Snacks
+PKG188,Clothing,MEDIUM,67.6,Kg,45,50,7,0,0,Spare Parts
+PKG189,Electronics,Small,0.6 KG,KG,34,16,20,Yes,,Clothes
+PKG190,Spare Parts,Small,19.5,Kg,91,35,36,N,,Documents
+PKG191,Cargo,Cargo,10.3,Kg,103,32,34,1,YES,Documents
+PKG192,Parcel,Cargo,57.1,kg,57,59,64,Y,False,Books
+PKG193,Fragile Goods,MEDIUM,66.3,kg,41,71,6,Inactive,True,Snacks
+PKG194,Electronics,Cargo,76.3,Kg,20,76,26,False,NO,Electronic Accessories
+PKG195,Document,Small,6.5,kg,49,10,23,N,Active,Snacks
+PKG196,Food,Large,77.7,,35,17,25,NO,1,Electronic Accessories
+PKG197,Document,Cargo,0.3 KG,Kg,10,15,14,Tidak,Tidak,Books
+PKG198,Clothing,MEDIUM,0.8,KG,,22,2,0,,
+PKG199,Spare Parts,Cargo,34.6 KG,kg,113,51,58,NO,False,Spare Parts
+PKG200,Spare Parts,Small,0.7 kg,,96,80,61,NO,Aktif,Documents
+PKG201,Spare Parts,Small,7.5,Kg,95,25,19,Tidak,N,
+PKG202,Electronics,Large,14.4 kg,,85,,16,N,Tidak,Books
+PKG203,Cargo,Medium,7.5 kg,,68,50,20,No,False,
+PKG204,Fragile Goods,Medium,66.8,KG,47,58,9,Inactive,N,Clothes
+PKG205,Cargo,Large,79.6,KG,54,60,52,No,False,Cosmetics
+PKG206,Parcel,MEDIUM,5.1Kg,KG,93,11,48,Yes,1,Snacks
+PKG207,Clothing,Cargo,50.2,Kg,61,41,6,NO,N,Clothes
+PKG208,Spare Parts,Large,0.7,kg,75,38,4,N,YES,Electronic Accessories
+PKG209,Parcel,Medium,,kg,81,78,69,Tidak,YES,Spare Parts
+PKG210,Document,Medium,0.7,Kg,56,79,23,,1,Books
+PKG211,Cargo,Medium,7.9,KG,15,40,6,True,False,Clothes
+PKG212,Cargo,MEDIUM,18.9,KG,28,78,28,Inactive,Inactive,Books
+PKG213,Parcel,Large,1.0,Kg,97,80,54,NO,0,Household Items
+PKG214,Cargo,small,11.4,Kg,22,77,46,N,Y,
+PKG215,Cargo,Small,18.9Kg,Kg,94,26,20,Inactive,Tidak,Cosmetics
+PKG216,Parcel,Small,3.0,KG,49,62,42,,No,Household Items
+PKG217,Fragile Goods,Medium,0.7,kg,116,10,56,0,Active,Snacks
+PKG218,Spare Parts,Large,19.5,Kg,96,41,17,Active,No,Cosmetics
+PKG219,Document,Small,35.3,,10,54,25,Yes,No,Snacks
+PKG220,Spare Parts,Medium,20.8,KG,113,44,15,0,Active,Documents

@@ -1,0 +1,51 @@
+courier_id,courier_name,gender,phone,branch_id,vehicle_type,hire_date,employee_status,is_active
+CR001,Rina Pratama,L,0822-3588-8230,BR009,Motor,2022-03-09,Outsource,Inactive
+CR002,Budi Nugraha,Female,084002055403,BR021,Truk,Feb 11 2019,Contract,Y
+CR003,Putri Saputra,L,0822-2646-3293,BR021,Motor,2021-05-21,Tetap,True
+CR004,Doni Santoso,L,085720894145,BR022,Mobil,22/09/2023,Permanent,NO
+CR005,BUDI WIJAYA,,0855 4329 3545,BR007,Truk,2019/05/23,Contract,NO
+CR006,ASEP AMINAH,P,0855 3079 5403,BR015,Motorcycle,09-07-2023,Kontrak,Aktif
+CR007,SITI PRATAMA,,0822-5006-1753,BR015,Truk,2018/09/23,Contract,Aktif
+CR008,Maya Wijaya,P,0822-8483-1130,BR003,Van,12-08-2021,Contract,True
+ cr009 ,Putri Putri,Female,085660373732,BR005,Motor,2024/12/12,Permanent,True
+CR010,Andi Sari,F,086128938342,BR013,Mobil,12/09/2019,Outsourced,Yes
+CR011,Siti Saputra,L,080830235629,BR022,Motor,02/01/2019,Outsourced,Aktif
+CR012,Agus Aminah,Male,080094198304,BR019,Car,Mar 09 2021,Contract,0
+CR013,Agus Wijaya,Male,0822-6883-8859,BR016,Mobil,Mar 01 2022,Permanent,Y
+CR014,Doni Santoso,Female,089162890928,BR016,Truck,Oct 01 2023,Tetap,YES
+CR015,Hendra Pratama,Male,0855 1359 3420,BR018,Motorcycle,2023/02/12,Outsource,YES
+CR016,Andi Nugraha,Female,087586368372,BR021,Van,2021-11-19,Contract,Yes
+CR017,Rina Lestari,Male,088673026377,BR011,Mobil,2023-09-13,Tetap,Aktif
+CR018,Rina Saputra,M,0855 8066 3703,BR015,Motorcycle,2023/04/07,Kontrak,True
+CR019,DONI SARI,F,085813426610,BR010,Mobil,21-02-2022,Outsource,Active
+CR020,Andi Pratama,Female,0855 9561 7858,BR002,Van,2021-08-10,Kontrak,Inactive
+CR021,Siti Pratama,Female,0855 7358 7510,BR006,Mobil,20-12-2018,Outsourced,Inactive
+CR022,Andi Gunawan,Male,089512534346,BR019,Mobil,,Outsourced,Active
+CR023,Budi Lestari,,0855 4463 7671,BR010,Car,2018-09-06,Tetap,Y
+ cr024 ,Hendra Hidayat,,0855 7102 9008,BR019,Mobil,Jun 06 2023,Kontrak,No
+CR025,Asep Santoso,Female,0855 4666 5135,BR006,Truck,Jul 13 2022,Contract,Aktif
+CR026,YOGA GUNAWAN,P,089855264323,BR013,Motorcycle,11/11/2024,Kontrak,Active
+CR027,DONI NUGRAHA,P,0822-3785-3967,BR013,Truk,2020-11-11,Contract,Active
+CR028,Asep Lestari,,081065641165,BR012,Mobil,23/06/2020,Outsourced,YES
+ cr029 ,Maya Sari,,0855 9745 4267,,Car,2021-01-22,Contract,Active
+CR030,Doni Saputra,Female,,BR004,Motor,01-12-2021,Permanent,Aktif
+CR031,Putri Santoso,L,0822-3508-4366,BR013,Car,04-07-2020,Permanent,Y
+CR032,Siti Pratama,,085272042930,BR007,Truck,21/05/2019,Outsource,Yes
+CR033,Siti Saputra,P,083707086134,BR002,Mobil,2022/07/23,Kontrak,YES
+CR034,Siti Saputra,,0822-3140-8914,BR023,Truck,23-01-2023,Tetap,YES
+CR035,Agus Lestari,Male,,BR017,Motor,02-05-2023,Kontrak,Y
+CR036,Rina Aminah,Male,0822-5990-9328,BR015,Motor,18-06-2025,Kontrak,Aktif
+CR037,Sarah Aminah,M,083675318487,BR004,Motor,Apr 23 2025,Outsourced,NO
+CR038,Putri Pratama,Female,0855 2696 7347,BR015,Van,20/07/2024,Outsource,1
+CR039,Putri Saputra,P,0855 9255 9888,BR005,Truk,16-09-2023,Kontrak,Aktif
+CR040,Rahmat Hidayat,Male,0822-5835-4342,BR010,Truk,21-12-2021,Tetap,Y
+CR041,Rahmat Wijaya,F,0855 9955 4218,BR023,Motor,06-03-2019,Permanent,True
+CR042,Doni Saputra,M,084909576837,BR006,Truk,18-07-2020,Outsource,YES
+CR043,Agus Lestari,,086457613269,BR011,Car,Sep 25 2018,Tetap,Yes
+CR044,DONI SARI,Male,081950067841,BR007,Motorcycle,Jan 06 2019,Tetap,Active
+CR045,Asep Nugraha,Male,0822-5748-5937,BR015,Motorcycle,18/03/2025,Outsourced,Y
+CR046,Yoga Wijaya,,088690810535,BR021,Van,06/03/2020,Outsource,YES
+CR047,Agus Gunawan,L,0822-2639-5671,BR002,Truck,19/12/2022,Outsource,1
+CR048,Andi Santoso,P,086236344741,BR011,Motorcycle,2019-01-17,Tetap,True
+CR049,Rina Santoso,L,0855 4913 3717,BR018,Van,2020/12/24,Permanent,1
+CR050,RINA AMINAH,Female,0822-5480-5314,BR009,Truck,2019/09/09,Contract,Active

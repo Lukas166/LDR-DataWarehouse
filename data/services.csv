@@ -1,0 +1,8 @@
+service_code,service_name,service_category,delivery_estimation,max_weight,cod_available,status
+REG,Regular Delivery,Regular,2-4 Days,30,Yes,Active
+EXP,Express Delivery,express,1 Day,10 kg,YES,Active
+ECO,Economy Delivery,Economy,3-7 Days,20,No,1
+CARGO,Cargo Delivery,Cargo,3-8 Days,100 KG,N,Active
+COD,Cash On Delivery,Regular,2-5 Days,15,Available,Aktif
+SDS,Same Day Service,Express,Same Day,5 kg,YES,Active
+TRK,Trucking Service,Cargo,4-10 Days,150,No,Active

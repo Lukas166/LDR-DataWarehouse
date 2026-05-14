@@ -1,0 +1,67 @@
+customer_id,customer_name,customer_type,gender,phone,email,city,province,registration_date,status
+C001,Dewi Sari,individual,L,0856 9004 5114,dewi.sari1@email.com,Banjarmasin,Kalimantan Selatan,2024-04-24,YES
+C002,Hendra Lestari,Individual,Female,0812-3532-4878,hendra.lestari2@email.com,Semarang,Jawa Tengah,26/04/2025,Active
+C003,PT Digital Nusantara,Corporate,,086320735683,ptdigital.nusantara3@email.com,Jakarta,DKI Jakarta,02-01-2024,Aktif
+C004,Rahmat Sari,individual,P,0215024564,rahmat.sari4@email.com,Manado,Sulawesi Utara,23/01/2026,Aktif
+C005,Maya Aminah,individual,P,0211688872,maya.aminah5@email.com,Surabaya,Jawa Timur,2026/03/31,True
+C006,Medan Grosir,E-Commerce Partner,,0214723801,medan.grosir6@email.com,Mataram,Nusa Tenggara Barat,2025/07/09,1
+C007,putri gunawan,Personal,,084923885778,putri.gunawan7@email.com,Denpasar,Bali,14/03/2025,Active
+C008,Rina Pratama,individual,F,0856 5051 4266,rina.pratama8@email.com,Kupang,Nusa Tenggara Timur,27/04/2024,No
+C009,Dewi Sari,Individual,P,0215388196,dewi.sari9@email.com,Jakarta Pusat,DKI Jakarta,03-10-2024,1
+C010,Hendra Gunawan,Individual,,,hendra.gunawan10@email.com,Malang,Jawa Timur,Sep 06 2024,True
+C011,Asep Hidayat,individual,M,0856 2647 4180,asep.hidayat11@email.com,Malang,Jawa Timur,13-01-2024,Active
+C012,PT Maju Jaya,Marketplace Seller,,081045618902,ptmaju.jaya12@email.com,Padang,Sumatera Barat,09/06/2024,No
+C013,rahmat gunawan,Personal,M,0856 3330 2169,rahmat.gunawan13@email.com,Semarang,Jawa Tengah,,Active
+C014,Budi Aminah,Personal,,0213368362,budi.aminah14@email.com,Makassar,Sulawesi Selatan,2024-11-27,True
+C015,Budi Sari,Individual,Male,0215099418,budi.sari15@email.com,Pekanbaru,Riau,2025/05/09,1
+C016,CV Sumber Rejeki,Corporate,,0213554316,CVSUMBER.REJEKI16@EMAIL.COM,Malang,Jawa Timur,2025/12/23,Y
+C017,Andi Pratama,individual,L,088454746149,andi.pratama17@email.com,Bandung,Jawa Barat,2024-08-20,NO
+C018,rahmat wijaya,Individual,,083424611636,rahmat.wijaya18@email.com,Semarang,Jawa Tengah,Mar 10 2025,1
+C019,Siti Putri,Personal,M,080830879978,siti.putri19@email.com,Semarang,Jawa Tengah,Apr 02 2024,YES
+C020,PT Sentosa Abadi,E-Commerce Partner,,0210321372,ptsentosa.abadi20@email.com,Pekanbaru,Riau,26-01-2024,True
+C021,Toko Berkah,E-Commerce Partner,,0856 9850 7866,toko.berkah21@email.com,Palembang,Sumatera Selatan,2025-01-06,Aktif
+C022,Asep Wijaya,individual,,0812-4394-4538,asep.wijaya22@email.com,Jakarta Pusat,DKI Jakarta,18/03/2026,False
+C023,Bali Craft Store,E-Commerce Partner,,087475159078,bali.craft.store23@email.com,Bandung,Jawa Barat,22-08-2025,True
+C024,sarah hidayat,Individual,P,0856 5176 7132,sarah.hidayat24@email.com,Balikpapan,Kalimantan Timur,2024-12-03,Y
+C025,Rahmat Santoso,Individual,M,085148351224,RAHMAT.SANTOSO25@EMAIL.COM,Makassar,Sulawesi Selatan,2024/08/08,Active
+ c026 ,PT Sentosa Abadi,E-Commerce Partner,,080016626442,ptsentosa.abadi26@email.com,Manado,Sulawesi Utara,Sep 18 2024,N
+C027,Bali Craft Store,E-Commerce Partner,,082563374403,bali.craft.store27@email.com,Pontianak,Kalimantan Barat,2024/03/21,YES
+C028,Andi Aminah,Individual,L,0216869393,andi.aminah28@email.com,Kupang,Nusa Tenggara Timur,Feb 27 2024,1
+C029,PT Sentosa Abadi,Marketplace Seller,,0812-4084-6267,ptsentosa.abadi29@email.com,Jakarta Pusat,DKI Jakarta,16/09/2025,1
+C030,Maya Sari,individual,P,083532896106,maya.sari30@email.com,Jakarta Pusat,DKI Jakarta,03/07/2024,YES
+C031,CV Sumber Rejeki,Corporate,,0217037967,cvsumber.rejeki31@email.com,Jakarta Pusat,DKI Jakarta,Jul 17 2024,1
+C032,Doni Nugraha,Individual,Female,0218098894,doni.nugraha32@email.com,Manado,Sulawesi Utara,Jan 29 2024,Aktif
+C033,ANDI SAPUTRA,individual,,088746902196,andi.saputra33@email.com,Pontianak,Kalimantan Barat,02-01-2024,YES
+C034,siti hidayat,Personal,L,0812-4950-2698,siti.hidayat34@email.com,Pekanbaru,Riau,,Yes
+C035,Toko Makmur,E-Commerce Partner,,089527137831,toko.makmur35@email.com,Denpasar,Bali,Jul 12 2025,False
+C036,Bali Craft Store,Corporate,,0856 9406 3621,BALI.CRAFT.STORE36@EMAIL.COM,Pontianak,Kalimantan Barat,Apr 05 2025,True
+C037,PT Sentosa Abadi,Marketplace Seller,,0856 4279 3009,ptsentosa.abadi37@email.com,Yogyakarta,DI Yogyakarta,03/11/2024,Aktif
+C038,PT Sentosa Abadi,E-Commerce Partner,,081217053856,ptsentosa.abadi38@email.com,Surabaya,Jawa Timur,09-03-2026,YES
+C039,Hendra Santoso,Individual,M,,HENDRA.SANTOSO39@EMAIL.COM,Tangerang,Banten,Aug 13 2025,1
+C040,Budi Pratama,individual,P,082844614431,budi.pratama40@email.com,Padang,Sumatera Barat,Jun 12 2024,YES
+C041,Sarah Hidayat,Individual,F,0856 2761 8060,sarah.hidayat41@email.com,Jakarta Pusat,DKI Jakarta,13-10-2024,NO
+C042,Putri Lestari,Individual,Female,0856 7438 5902,putri.lestari42@email.com,Manado,Sulawesi Utara,2026-01-12,Aktif
+C043,Putri Gunawan,individual,L,0812-7861-3481,putri.gunawan43@email.com,Tangerang,Banten,2024/06/26,Active
+C044,Hendra Sari,individual,L,089229977644,hendra.sari44@email.com,Bekasi,Jawa Barat,25-07-2024,Active
+C045,PT Digital Nusantara,Corporate,,0812-3587-7666,ptdigital.nusantara45@email.com,JKT Pusat,DKI Jakarta,2024/06/28,Yes
+C046,Asep Pratama,individual,,0812-8668-5470,asep.pratama46@email.com,JKT Pusat,DKI Jakarta,Jun 11 2025,YES
+C047,sarah lestari,Individual,F,0856 6095 2923,sarah.lestari47@email.com,Palembang,Sumatera Selatan,11/11/2025,True
+C048,Siti Hidayat,Personal,Male,,,Bandung,Jawa Barat,Mar 09 2025,Yes
+C049,SITI PRATAMA,Individual,F,0856 6697 2943,siti.pratama49@email.com,Kupang,Nusa Tenggara Timur,23/08/2024,YES
+C050,RAHMAT AMINAH,individual,P,0856 4839 9843,rahmat.aminah50@email.com,Manado,Sulawesi Utara,26-05-2024,Yes
+C051,Dewi Saputra,Individual,F,0215951226,dewi.saputra51@email.com,Solo,Jawa Tengah,2024/10/01,Y
+C052,PT Digital Nusantara,Marketplace Seller,,088390991942,ptdigital.nusantara52@email.com,Bekasi,Jawa Barat,Jul 27 2024,0
+C053,Budi Wijaya,individual,P,081338466289,,Semarang,Jawa Tengah,2024/01/07,Yes
+C054,Budi Putri,Personal,L,089960540752,budi.putri54@email.com,Banjarmasin,Kalimantan Selatan,Aug 19 2024,Aktif
+ c055 ,AGUS SANTOSO,individual,F,0856 4463 8790,agus.santoso55@email.com,Batam,Kepulauan Riau,2025-02-11,True
+C056,Asep Sari,Personal,,0217425315,asep.sari56@email.com,Bogor,Jawa Barat,Mar 25 2024,Aktif
+C057,Bali Craft Store,Marketplace Seller,,0812-1430-2468,bali.craft.store57@email.com,Solo,Jawa Tengah,Nov 04 2024,N
+C058,Toko Makmur,Marketplace Seller,,0214865366,toko.makmur58@email.com,Jakarta Pusat,DKI Jakarta,2025/12/12,Active
+C059,Hendra Nugraha,Personal,Female,0212677094,hendra.nugraha59@email.com,Batam,Kepulauan Riau,Feb 07 2024,True
+C060,Siti Aminah,Individual,M,0213755301,siti.aminah60@email.com,Balikpapan,Kalimantan Timur,Dec 22 2024,True
+C061,Sarah Aminah,Individual,M,0217616378,sarah.aminah61@email.com,Semarang,Jawa Tengah,2026-02-09,True
+C062,PT Sentosa Abadi,Corporate,,0213213135,ptsentosa.abadi62@email.com,Palembang,Sumatera Selatan,26-06-2024,YES
+C063,Medan Grosir,E-Commerce Partner,,0215720227,medan.grosir63@email.com,JKT Pusat,DKI Jakarta,10-01-2025,
+C064,Asep Aminah,individual,Female,0856 3281 4385,asep.aminah64@email.com,JKT Pusat,DKI Jakarta,2025-11-26,1
+C065,Doni Sari,Individual,Female,083283166307,doni.sari65@email.com,Pontianak,Kalimantan Barat,05-03-2024,Y
+C066,BUDI S.,Personal,Male,081234567890,budi@email.com,Jakarta Pusat,DKI Jakarta,03-03-2025,Active
