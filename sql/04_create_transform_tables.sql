@@ -3,13 +3,9 @@
     File     : 04_create_transform_tables.sql
     Purpose  : Create transform tables for cleaned data
 
-    Notes:
-    - Transform tables store data that has been cleaned from staging tables.
-    - Data types are already adjusted, for example:
-      VARCHAR date  -> DATE
-      VARCHAR money -> DECIMAL
-      Yes/No text   -> BIT
-      Dirty status  -> standardized status code/name
+    Updated:
+    - Trf_Shipments now includes delay_days.
+    - Business calculation fields are prepared in transform layer.
 */
 
 USE LDR_Staging;
@@ -46,6 +42,7 @@ CREATE TABLE dbo.Trf_Shipments (
     status_name             VARCHAR(100),
     estimated_days          INT,
     actual_days             INT,
+    delay_days              INT,
     shipping_fee            DECIMAL(18,2),
     insurance_fee           DECIMAL(18,2),
     discount_amount         DECIMAL(18,2),

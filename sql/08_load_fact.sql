@@ -12,24 +12,18 @@
 
     Notes:
     - Grain: one row represents one shipment transaction.
-    - total_amount is calculated during fact loading using:
-      shipping_fee + insurance_fee - discount_amount
-    - This prevents total_revenue from becoming 0 because of dirty total_amount values
-      in the source CSV.
+    - Business cleaning, total_amount calculation, estimated_days filling,
+      and delay_days calculation are already handled in 05_transform_data.sql.
 */
 
 USE LDR_DW;
 GO
-
-/* Clear fact table before reload */
 
 DELETE FROM dbo.FactShipment;
 GO
 
 DBCC CHECKIDENT ('dbo.FactShipment', RESEED, 0);
 GO
-
-/* Load FactShipment */
 
 INSERT INTO dbo.FactShipment (
     shipment_id,
@@ -96,23 +90,14 @@ SELECT
 
     s.estimated_days,
     s.actual_days,
-
-    CASE
-        WHEN s.actual_days IS NOT NULL 
-         AND s.estimated_days IS NOT NULL
-            THEN s.actual_days - s.estimated_days
-        ELSE NULL
-    END AS delay_days,
+    s.delay_days,
 
     p.weight AS package_weight,
 
-    ISNULL(s.shipping_fee, 0) AS shipping_fee,
-    ISNULL(s.insurance_fee, 0) AS insurance_fee,
-    ISNULL(s.discount_amount, 0) AS discount_amount,
-
-    ISNULL(s.shipping_fee, 0)
-    + ISNULL(s.insurance_fee, 0)
-    - ISNULL(s.discount_amount, 0) AS total_amount,
+    s.shipping_fee,
+    s.insurance_fee,
+    s.discount_amount,
+    s.total_amount,
 
     s.is_delivered,
     s.is_late,
@@ -152,8 +137,6 @@ LEFT JOIN dbo.DimShipmentStatus dss
 WHERE s.transaction_date IS NOT NULL;
 GO
 
-/* Check fact row count and total revenue */
-
 SELECT 
     COUNT(*) AS total_fact_rows,
     SUM(shipping_fee) AS total_shipping_fee,
@@ -162,15 +145,6 @@ SELECT
     SUM(total_amount) AS total_revenue
 FROM dbo.FactShipment;
 GO
-
-/* Preview fact table */
-
-SELECT TOP 20 *
-FROM dbo.FactShipment
-ORDER BY shipment_key;
-GO
-
-/* Check unmapped foreign keys */
 
 SELECT
     SUM(CASE WHEN transaction_date_key IS NULL THEN 1 ELSE 0 END) AS null_transaction_date_key,
@@ -181,11 +155,10 @@ SELECT
     SUM(CASE WHEN courier_key IS NULL THEN 1 ELSE 0 END) AS null_courier_key,
     SUM(CASE WHEN package_key IS NULL THEN 1 ELSE 0 END) AS null_package_key,
     SUM(CASE WHEN payment_key IS NULL THEN 1 ELSE 0 END) AS null_payment_key,
-    SUM(CASE WHEN status_key IS NULL THEN 1 ELSE 0 END) AS null_status_key
+    SUM(CASE WHEN status_key IS NULL THEN 1 ELSE 0 END) AS null_status_key,
+    SUM(CASE WHEN delay_days < 0 THEN 1 ELSE 0 END) AS negative_delay_days
 FROM dbo.FactShipment;
 GO
-
-/* Analysis preview after fact loading */
 
 SELECT
     s.service_name,
