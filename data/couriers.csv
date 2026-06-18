@@ -1,51 +1,251 @@
 courier_id,courier_name,gender,phone,branch_id,vehicle_type,hire_date,employee_status,is_active
-CR001,Rina Pratama,L,0822-3588-8230,BR009,Motor,2022-03-09,Outsource,Inactive
-CR002,Budi Nugraha,Female,084002055403,BR021,Truk,Feb 11 2019,Contract,Y
-CR003,Putri Saputra,L,0822-2646-3293,BR021,Motor,2021-05-21,Tetap,True
-CR004,Doni Santoso,L,085720894145,BR022,Mobil,22/09/2023,Permanent,NO
-CR005,BUDI WIJAYA,,0855 4329 3545,BR007,Truk,2019/05/23,Contract,NO
-CR006,ASEP AMINAH,P,0855 3079 5403,BR015,Motorcycle,09-07-2023,Kontrak,Aktif
-CR007,SITI PRATAMA,,0822-5006-1753,BR015,Truk,2018/09/23,Contract,Aktif
-CR008,Maya Wijaya,P,0822-8483-1130,BR003,Van,12-08-2021,Contract,True
- cr009 ,Putri Putri,Female,085660373732,BR005,Motor,2024/12/12,Permanent,True
-CR010,Andi Sari,F,086128938342,BR013,Mobil,12/09/2019,Outsourced,Yes
-CR011,Siti Saputra,L,080830235629,BR022,Motor,02/01/2019,Outsourced,Aktif
-CR012,Agus Aminah,Male,080094198304,BR019,Car,Mar 09 2021,Contract,0
-CR013,Agus Wijaya,Male,0822-6883-8859,BR016,Mobil,Mar 01 2022,Permanent,Y
-CR014,Doni Santoso,Female,089162890928,BR016,Truck,Oct 01 2023,Tetap,YES
-CR015,Hendra Pratama,Male,0855 1359 3420,BR018,Motorcycle,2023/02/12,Outsource,YES
-CR016,Andi Nugraha,Female,087586368372,BR021,Van,2021-11-19,Contract,Yes
-CR017,Rina Lestari,Male,088673026377,BR011,Mobil,2023-09-13,Tetap,Aktif
-CR018,Rina Saputra,M,0855 8066 3703,BR015,Motorcycle,2023/04/07,Kontrak,True
-CR019,DONI SARI,F,085813426610,BR010,Mobil,21-02-2022,Outsource,Active
-CR020,Andi Pratama,Female,0855 9561 7858,BR002,Van,2021-08-10,Kontrak,Inactive
-CR021,Siti Pratama,Female,0855 7358 7510,BR006,Mobil,20-12-2018,Outsourced,Inactive
-CR022,Andi Gunawan,Male,089512534346,BR019,Mobil,,Outsourced,Active
-CR023,Budi Lestari,,0855 4463 7671,BR010,Car,2018-09-06,Tetap,Y
- cr024 ,Hendra Hidayat,,0855 7102 9008,BR019,Mobil,Jun 06 2023,Kontrak,No
-CR025,Asep Santoso,Female,0855 4666 5135,BR006,Truck,Jul 13 2022,Contract,Aktif
-CR026,YOGA GUNAWAN,P,089855264323,BR013,Motorcycle,11/11/2024,Kontrak,Active
-CR027,DONI NUGRAHA,P,0822-3785-3967,BR013,Truk,2020-11-11,Contract,Active
-CR028,Asep Lestari,,081065641165,BR012,Mobil,23/06/2020,Outsourced,YES
- cr029 ,Maya Sari,,0855 9745 4267,,Car,2021-01-22,Contract,Active
-CR030,Doni Saputra,Female,,BR004,Motor,01-12-2021,Permanent,Aktif
-CR031,Putri Santoso,L,0822-3508-4366,BR013,Car,04-07-2020,Permanent,Y
-CR032,Siti Pratama,,085272042930,BR007,Truck,21/05/2019,Outsource,Yes
-CR033,Siti Saputra,P,083707086134,BR002,Mobil,2022/07/23,Kontrak,YES
-CR034,Siti Saputra,,0822-3140-8914,BR023,Truck,23-01-2023,Tetap,YES
-CR035,Agus Lestari,Male,,BR017,Motor,02-05-2023,Kontrak,Y
-CR036,Rina Aminah,Male,0822-5990-9328,BR015,Motor,18-06-2025,Kontrak,Aktif
-CR037,Sarah Aminah,M,083675318487,BR004,Motor,Apr 23 2025,Outsourced,NO
-CR038,Putri Pratama,Female,0855 2696 7347,BR015,Van,20/07/2024,Outsource,1
-CR039,Putri Saputra,P,0855 9255 9888,BR005,Truk,16-09-2023,Kontrak,Aktif
-CR040,Rahmat Hidayat,Male,0822-5835-4342,BR010,Truk,21-12-2021,Tetap,Y
-CR041,Rahmat Wijaya,F,0855 9955 4218,BR023,Motor,06-03-2019,Permanent,True
-CR042,Doni Saputra,M,084909576837,BR006,Truk,18-07-2020,Outsource,YES
-CR043,Agus Lestari,,086457613269,BR011,Car,Sep 25 2018,Tetap,Yes
-CR044,DONI SARI,Male,081950067841,BR007,Motorcycle,Jan 06 2019,Tetap,Active
-CR045,Asep Nugraha,Male,0822-5748-5937,BR015,Motorcycle,18/03/2025,Outsourced,Y
-CR046,Yoga Wijaya,,088690810535,BR021,Van,06/03/2020,Outsource,YES
-CR047,Agus Gunawan,L,0822-2639-5671,BR002,Truck,19/12/2022,Outsource,1
-CR048,Andi Santoso,P,086236344741,BR011,Motorcycle,2019-01-17,Tetap,True
-CR049,Rina Santoso,L,0855 4913 3717,BR018,Van,2020/12/24,Permanent,1
-CR050,RINA AMINAH,Female,0822-5480-5314,BR009,Truck,2019/09/09,Contract,Active
+CR0001,Nadia Hartono,Female,081200050001,BR006,Van,18/01/2021,Contract,Active
+CR0002,Rani Wijaya,Male,081200050002,BR019,Motorcycle,2018/10/24,Contract,Active
+CR0003,Citra Pratama,Female,081200050003,BR010,Car,03-01-2025,Outsourced,1
+CR0004,Wulan Gunawan,Male,081200050004,BR004,Motorcycle,Nov 04 2018,Permanent,Y
+CR0005,Lestari Lestari,Male,081200050005,BR027,Motorcycle,2020-10-28,Permanent,Y
+CR0006,Maya Putri,Female,081200050006,BR038,Motorcycle,22/07/2021,Contract,Y
+CR0007,Lestari Pratama,Male,081200050007,BR016,Truck,2020/05/08,Outsourced,True
+CR0008,Joko Saputra,Female,081200050008,BR025,Truck,03-10-2022,Permanent,True
+CR0009,Tono Santoso,Female,081200050009,BR004,Motorcycle,Feb 09 2023,Outsourced,True
+CR0010,Sari Wulandari,Female,081200050010,BR020,Car,2025-01-25,Permanent,Active
+CR0011,Indra Wijaya,Female,081200050011,BR007,Motorcycle,23/12/2024,Outsourced,True
+CR0012,Wulan Wulandari,Female,081200050012,BR029,Car,2022/01/23,Contract,Y
+CR0013,Sari Saputra,Female,081200050013,BR002,Car,19-09-2020,Permanent,True
+CR0014,Rani Santoso,Male,081200050014,BR040,Car,Dec 11 2020,Permanent,Active
+CR0015,Eka Gunawan,Male,081200050015,BR006,Truck,2018-09-22,Contract,Y
+CR0016,Maya Gunawan,Male,081200050016,BR034,Motorcycle,15/04/2022,Permanent,Y
+CR0017,Nadia Saputra,Female,081200050017,BR024,Truck,2024/08/13,Outsourced,Yes
+CR0018,Sari Putri,Male,081200050018,BR027,Motorcycle,24-05-2022,Outsourced,1
+CR0019,Budi Saputra,Male,081200050019,BR015,Motorcycle,Aug 04 2024,Permanent,Active
+CR0020,Lestari Maulana,Female,081200050020,BR021,Truck,2024-12-19,Outsourced,1
+CR0021,Budi Gunawan,Female,081200050021,BR025,Motorcycle,28/08/2024,Contract,Yes
+CR0022,Budi Santoso,Female,081200050022,BR018,Motorcycle,2022/04/12,Outsourced,Yes
+CR0023,Kartika Saputra,Male,081200050023,BR027,Van,12-05-2022,Outsourced,Yes
+CR0024,Utami Maulana,Female,081200050024,BR039,Motorcycle,Oct 01 2018,Outsourced,True
+CR0025,Hendra Santoso,Male,081200050025,BR009,Van,2019-07-09,Contract,True
+CR0026,Eka Maulana,Female,081200050026,BR026,Van,12/01/2025,Contract,Yes
+CR0027,Gita Santoso,Male,081200050027,BR035,Motorcycle,2018/03/21,Contract,Active
+CR0028,Nadia Putri,Female,081200050028,BR022,Truck,19-11-2024,Outsourced,True
+CR0029,Indra Wulandari,Male,081200050029,BR027,Van,Dec 20 2020,Permanent,1
+CR0030,Joko Saputra,Male,081200050030,BR011,Truck,2024-01-01,Outsourced,1
+CR0031,Citra Maulana,Female,081200050031,BR023,Car,17/03/2019,Outsourced,Y
+CR0032,Nadia Santoso,Female,081200050032,BR010,Truck,2019/08/01,Permanent,1
+CR0033,Indra Maulana,Male,081200050033,BR023,Motorcycle,28-12-2019,Permanent,Yes
+CR0034,Rani Putri,Female,081200050034,BR023,Car,Aug 28 2024,Contract,Active
+CR0035,Joko Maulana,Male,081200050035,BR011,Van,2021-11-02,Permanent,Y
+CR0036,Sari Putri,Male,081200050036,BR022,Van,01/05/2023,Contract,Active
+CR0037,Fajar Santoso,Female,081200050037,BR025,Van,2019/12/15,Contract,Active
+CR0038,Nadia Lestari,Male,081200050038,BR040,Truck,02-01-2020,Outsourced,1
+CR0039,Wulan Putri,Female,081200050039,BR010,Truck,Apr 10 2022,Permanent,Y
+CR0040,Indra Santoso,Female,081200050040,BR018,Motorcycle,2019-05-09,Permanent,Active
+CR0041,Fajar Wulandari,Male,081200050041,BR003,Motorcycle,22/12/2023,Outsourced,Active
+CR0042,Hendra Hartono,Female,081200050042,BR012,Van,2022/11/16,Contract,1
+CR0043,Joko Saputra,Female,081200050043,BR030,Truck,20-08-2018,Outsourced,Active
+CR0044,Fajar Hartono,Female,081200050044,BR023,Van,Sep 15 2024,Permanent,Y
+CR0045,Gita Wulandari,Male,081200050045,BR009,Car,2022-06-08,Permanent,Yes
+CR0046,Indra Hartono,Female,081200050046,BR018,Motorcycle,31/12/2022,Permanent,True
+CR0047,Lestari Lestari,Female,081200050047,BR017,Car,2020/06/02,Permanent,1
+CR0048,Hendra Maulana,Female,081200050048,BR033,Car,23-04-2024,Permanent,Y
+CR0049,Joko Lestari,Male,081200050049,BR032,Motorcycle,Oct 27 2020,Permanent,1
+CR0050,Andi Lestari,Male,081200050050,BR022,Van,2023-08-26,Permanent,Yes
+CR0051,Gita Maulana,Female,081200050051,BR015,Van,19/06/2023,Outsourced,Yes
+CR0052,Utami Pratama,Male,081200050052,BR032,Car,2020/07/01,Permanent,Y
+CR0053,Rani Hartono,Female,081200050053,BR025,Van,30-10-2024,Outsourced,True
+CR0054,Nadia Saputra,Female,081200050054,BR017,Motorcycle,Aug 23 2022,Contract,True
+CR0055,Rani Wijaya,Female,081200050055,BR016,Van,2023-12-20,Outsourced,True
+CR0056,Rani Gunawan,Male,081200050056,BR023,Truck,19/11/2023,Contract,Yes
+CR0057,Nadia Saputra,Female,081200050057,BR007,Motorcycle,2018/05/07,Outsourced,True
+CR0058,Indra Maulana,Female,081200050058,BR023,Truck,17-02-2020,Permanent,Y
+CR0059,Sari Hartono,Female,081200050059,BR014,Car,Mar 25 2024,Outsourced,Y
+CR0060,Dewi Wulandari,Female,081200050060,BR021,Motorcycle,2020-07-07,Outsourced,True
+CR0061,Putra Wulandari,Male,081200050061,BR008,Truck,19/06/2019,Contract,Active
+CR0062,Tono Maulana,Male,081200050062,BR001,Van,2021/01/05,Outsourced,Yes
+CR0063,Eka Wijaya,Female,081200050063,BR023,Car,03-10-2018,Outsourced,Yes
+CR0064,Tono Santoso,Male,081200050064,BR039,Truck,May 22 2022,Permanent,Yes
+CR0065,Kartika Putri,Female,081200050065,BR031,Truck,2023-02-23,Outsourced,Yes
+CR0066,Fajar Putri,Female,081200050066,BR001,Car,15/10/2021,Outsourced,True
+CR0067,Andi Hartono,Male,081200050067,BR034,Van,2023/09/03,Permanent,True
+CR0068,Gita Wijaya,Female,081200050068,BR004,Truck,25-08-2021,Contract,Active
+CR0069,Joko Saputra,Female,081200050069,BR022,Van,May 11 2019,Outsourced,True
+CR0070,Wulan Gunawan,Male,081200050070,BR003,Truck,2021-01-02,Permanent,True
+CR0071,Kartika Wijaya,Male,081200050071,BR015,Truck,27/05/2020,Outsourced,Active
+CR0072,Tono Saputra,Male,081200050072,BR021,Truck,2019/09/08,Outsourced,Active
+CR0073,Hendra Lestari,Female,081200050073,BR034,Motorcycle,15-07-2019,Permanent,True
+CR0074,Rani Saputra,Male,081200050074,BR030,Car,Dec 04 2023,Outsourced,Yes
+CR0075,Tono Wijaya,Female,081200050075,BR034,Truck,2020-03-02,Contract,Yes
+CR0076,Rani Putri,Male,081200050076,BR031,Truck,25/01/2021,Contract,1
+CR0077,Sari Hartono,Male,081200050077,BR017,Van,2019/09/07,Contract,Yes
+CR0078,Maya Santoso,Female,081200050078,BR003,Truck,25-02-2019,Outsourced,Active
+CR0079,Budi Saputra,Male,081200050079,BR002,Car,Sep 15 2018,Contract,True
+CR0080,Budi Maulana,Male,081200050080,BR015,Motorcycle,2024-08-04,Contract,Y
+CR0081,Hendra Wulandari,Female,081200050081,BR011,Car,13/04/2018,Permanent,True
+CR0082,Maya Wijaya,Male,081200050082,BR015,Van,2023/01/04,Contract,True
+CR0083,Utami Santoso,Female,081200050083,BR005,Motorcycle,29-12-2021,Contract,Yes
+CR0084,Budi Gunawan,Female,081200050084,BR007,Van,Apr 06 2020,Outsourced,Yes
+CR0085,Gita Hartono,Female,081200050085,BR016,Car,2018-06-10,Contract,Y
+CR0086,Nadia Putri,Female,081200050086,BR011,Truck,17/07/2024,Outsourced,Active
+CR0087,Tono Maulana,Male,081200050087,BR027,Motorcycle,2019/10/23,Permanent,Y
+CR0088,Wulan Wijaya,Female,081200050088,BR012,Car,05-12-2024,Contract,Y
+CR0089,Gita Santoso,Male,081200050089,BR003,Van,Dec 11 2024,Contract,Yes
+CR0090,Fajar Saputra,Male,081200050090,BR001,Truck,2019-02-25,Permanent,Yes
+CR0091,Hendra Santoso,Male,081200050091,BR016,Truck,05/05/2020,Contract,Yes
+CR0092,Dewi Wulandari,Male,081200050092,BR018,Motorcycle,2022/05/10,Outsourced,Yes
+CR0093,Sari Maulana,Female,081200050093,BR027,Motorcycle,14-05-2021,Outsourced,Active
+CR0094,Kartika Saputra,Male,081200050094,BR033,Car,Jan 11 2023,Outsourced,1
+CR0095,Indra Wijaya,Female,081200050095,BR014,Van,2021-06-18,Outsourced,Yes
+CR0096,Dewi Wijaya,Male,081200050096,BR029,Motorcycle,02/09/2022,Contract,True
+CR0097,Sari Wijaya,Female,081200050097,BR037,Van,2021/12/19,Contract,Yes
+CR0098,Rani Santoso,Male,081200050098,BR014,Car,04-02-2018,Outsourced,True
+CR0099,Andi Hartono,Male,081200050099,BR028,Truck,Feb 06 2024,Permanent,Active
+CR0100,Putra Saputra,Male,081200050100,BR005,Car,2020-12-20,Contract,1
+CR0101,Dewi Putri,Male,081200050101,BR035,Van,09/03/2019,Permanent,1
+CR0102,Kartika Pratama,Male,081200050102,BR033,Motorcycle,2022/12/01,Permanent,1
+CR0103,Lestari Wijaya,Male,081200050103,BR012,Van,25-11-2018,Contract,Active
+CR0104,Eka Hartono,Male,081200050104,BR021,Car,Jan 13 2025,Contract,1
+CR0105,Fajar Hartono,Female,081200050105,BR018,Car,2024-01-10,Outsourced,Y
+CR0106,Indra Lestari,Male,081200050106,BR018,Van,25/03/2019,Permanent,Yes
+CR0107,Wulan Santoso,Male,081200050107,BR016,Car,2022/03/24,Contract,Yes
+CR0108,Budi Putri,Female,081200050108,BR038,Car,04-08-2022,Outsourced,Active
+CR0109,Budi Hartono,Male,081200050109,BR024,Van,May 11 2020,Permanent,1
+CR0110,Sari Santoso,Female,081200050110,BR028,Truck,2019-08-21,Outsourced,Yes
+CR0111,Joko Lestari,Female,081200050111,BR030,Motorcycle,01/10/2018,Contract,Yes
+CR0112,Joko Gunawan,Female,081200050112,BR008,Motorcycle,2024/01/11,Permanent,True
+CR0113,Fajar Lestari,Male,081200050113,BR040,Motorcycle,12-07-2020,Outsourced,Yes
+CR0114,Wulan Lestari,Male,081200050114,BR030,Motorcycle,Feb 13 2025,Permanent,Y
+CR0115,Sari Gunawan,Male,081200050115,BR012,Motorcycle,2018-10-14,Contract,Active
+CR0116,Joko Wulandari,Female,081200050116,BR018,Motorcycle,12/02/2023,Contract,1
+CR0117,Nadia Wijaya,Female,081200050117,BR011,Truck,2024/07/01,Outsourced,Active
+CR0118,Andi Putri,Female,081200050118,BR034,Car,16-12-2019,Contract,True
+CR0119,Fajar Pratama,Male,081200050119,BR011,Car,Sep 16 2019,Contract,Active
+CR0120,Dewi Maulana,Male,081200050120,BR012,Car,2023-05-08,Permanent,1
+CR0121,Maya Lestari,Female,081200050121,BR011,Car,11/09/2023,Contract,Y
+CR0122,Gita Pratama,Male,081200050122,BR011,Motorcycle,2022/08/18,Permanent,Active
+CR0123,Tono Wijaya,Female,081200050123,BR039,Motorcycle,11-03-2018,Contract,Yes
+CR0124,Citra Lestari,Male,081200050124,BR016,Van,Oct 12 2023,Outsourced,True
+CR0125,Andi Maulana,Male,081200050125,BR020,Motorcycle,2025-01-22,Contract,1
+CR0126,Tono Gunawan,Female,081200050126,BR038,Van,07/08/2020,Permanent,Active
+CR0127,Indra Pratama,Male,081200050127,BR018,Car,2024/01/10,Permanent,1
+CR0128,Rani Hartono,Female,081200050128,BR026,Car,18-11-2023,Contract,1
+CR0129,Putra Saputra,Female,081200050129,BR017,Motorcycle,Sep 18 2020,Permanent,Y
+CR0130,Andi Lestari,Female,081200050130,BR013,Motorcycle,2021-04-02,Outsourced,True
+CR0131,Putra Maulana,Female,081200050131,BR038,Van,02/05/2023,Contract,1
+CR0132,Eka Maulana,Male,081200050132,BR028,Car,2022/02/12,Contract,1
+CR0133,Budi Wijaya,Female,081200050133,BR034,Motorcycle,14-01-2022,Permanent,Yes
+CR0134,Indra Lestari,Female,081200050134,BR037,Van,Jun 19 2020,Permanent,1
+CR0135,Rani Wulandari,Male,081200050135,BR020,Motorcycle,2023-06-10,Permanent,1
+CR0136,Andi Wijaya,Male,081200050136,BR015,Van,09/08/2024,Contract,Yes
+CR0137,Indra Wulandari,Female,081200050137,BR020,Car,2019/12/23,Permanent,1
+CR0138,Maya Hartono,Female,081200050138,BR005,Truck,26-05-2023,Contract,1
+CR0139,Budi Pratama,Female,081200050139,BR033,Motorcycle,Mar 27 2019,Permanent,1
+CR0140,Andi Maulana,Female,081200050140,BR006,Car,2023-12-20,Outsourced,1
+CR0141,Eka Saputra,Male,081200050141,BR013,Car,11/08/2023,Contract,True
+CR0142,Gita Lestari,Female,081200050142,BR019,Van,2019/07/01,Permanent,True
+CR0143,Hendra Lestari,Female,081200050143,BR019,Motorcycle,18-10-2024,Outsourced,Active
+CR0144,Wulan Gunawan,Male,081200050144,BR010,Motorcycle,Sep 27 2023,Permanent,Y
+CR0145,Nadia Pratama,Male,081200050145,BR026,Motorcycle,2020-02-07,Outsourced,Yes
+CR0146,Wulan Saputra,Male,081200050146,BR023,Truck,08/11/2020,Permanent,Yes
+CR0147,Andi Lestari,Female,081200050147,BR040,Motorcycle,2020/08/26,Contract,Y
+CR0148,Andi Wijaya,Male,081200050148,BR003,Car,08-03-2019,Permanent,Yes
+CR0149,Citra Putri,Male,081200050149,BR035,Van,Mar 24 2022,Contract,Active
+CR0150,Kartika Wulandari,Female,081200050150,BR025,Van,2023-02-15,Permanent,Yes
+CR0151,Sari Gunawan,Male,081200050151,BR030,Van,27/11/2023,Permanent,Yes
+CR0152,Citra Wijaya,Male,081200050152,BR020,Motorcycle,2023/07/17,Outsourced,Y
+CR0153,Budi Gunawan,Female,081200050153,BR002,Van,27-11-2021,Permanent,True
+CR0154,Gita Hartono,Female,081200050154,BR003,Car,Sep 15 2020,Outsourced,Y
+CR0155,Kartika Putri,Male,081200050155,BR006,Van,2019-03-15,Permanent,Yes
+CR0156,Citra Saputra,Female,081200050156,BR024,Motorcycle,14/12/2022,Permanent,Yes
+CR0157,Budi Putri,Male,081200050157,BR018,Motorcycle,2022/11/08,Permanent,Yes
+CR0158,Tono Wijaya,Male,081200050158,BR010,Truck,19-10-2021,Outsourced,1
+CR0159,Lestari Wulandari,Male,081200050159,BR011,Car,Oct 23 2021,Permanent,True
+CR0160,Citra Pratama,Male,081200050160,BR011,Truck,2023-06-01,Permanent,True
+CR0161,Wulan Wijaya,Male,081200050161,BR016,Van,22/08/2019,Permanent,Y
+CR0162,Dewi Gunawan,Female,081200050162,BR009,Truck,2018/10/03,Outsourced,True
+CR0163,Gita Wulandari,Female,081200050163,BR034,Motorcycle,21-07-2020,Contract,1
+CR0164,Sari Wijaya,Male,081200050164,BR004,Truck,Aug 27 2018,Outsourced,Active
+CR0165,Sari Hartono,Female,081200050165,BR006,Car,2020-05-09,Permanent,Yes
+CR0166,Joko Gunawan,Female,081200050166,BR039,Truck,16/01/2022,Permanent,True
+CR0167,Maya Pratama,Female,081200050167,BR019,Car,2021/05/08,Contract,Y
+CR0168,Joko Saputra,Female,081200050168,BR021,Car,14-06-2023,Outsourced,Yes
+CR0169,Budi Wulandari,Female,081200050169,BR012,Car,May 05 2020,Outsourced,Active
+CR0170,Kartika Putri,Male,081200050170,BR026,Van,2018-08-18,Contract,Active
+CR0171,Andi Lestari,Female,081200050171,BR008,Van,02/05/2018,Contract,Y
+CR0172,Eka Lestari,Male,081200050172,BR029,Truck,2023/09/23,Contract,Y
+CR0173,Indra Putri,Female,081200050173,BR005,Truck,11-10-2020,Contract,Yes
+CR0174,Citra Saputra,Female,081200050174,BR023,Car,Apr 03 2023,Contract,Active
+CR0175,Utami Wijaya,Female,081200050175,BR019,Van,2025-01-11,Contract,Active
+CR0176,Hendra Gunawan,Male,081200050176,BR028,Truck,12/07/2022,Outsourced,Active
+CR0177,Budi Wijaya,Female,081200050177,BR004,Van,2023/08/20,Outsourced,Active
+CR0178,Gita Maulana,Male,081200050178,BR039,Van,10-03-2022,Contract,Y
+CR0179,Andi Gunawan,Male,081200050179,BR013,Car,Apr 10 2018,Outsourced,Yes
+CR0180,Andi Maulana,Male,081200050180,BR020,Motorcycle,2019-08-01,Outsourced,Yes
+CR0181,Joko Saputra,Female,081200050181,BR033,Van,29/08/2020,Outsourced,Y
+CR0182,Citra Gunawan,Female,081200050182,BR026,Motorcycle,2019/11/10,Outsourced,1
+CR0183,Gita Hartono,Female,081200050183,BR011,Motorcycle,10-06-2024,Outsourced,Active
+CR0184,Joko Hartono,Male,081200050184,BR020,Truck,Apr 23 2020,Permanent,1
+CR0185,Kartika Maulana,Male,081200050185,BR014,Motorcycle,2020-07-20,Outsourced,Yes
+CR0186,Citra Wulandari,Male,081200050186,BR027,Motorcycle,10/12/2024,Permanent,Yes
+CR0187,Joko Pratama,Female,081200050187,BR014,Van,2019/10/07,Contract,True
+CR0188,Indra Wijaya,Female,081200050188,BR023,Car,23-01-2021,Outsourced,True
+CR0189,Indra Saputra,Male,081200050189,BR033,Truck,Sep 24 2022,Outsourced,Y
+CR0190,Fajar Maulana,Female,081200050190,BR005,Truck,2023-03-21,Permanent,Y
+CR0191,Maya Maulana,Male,081200050191,BR017,Truck,12/08/2021,Outsourced,Yes
+CR0192,Hendra Maulana,Male,081200050192,BR019,Motorcycle,2021/03/08,Outsourced,Yes
+CR0193,Nadia Lestari,Male,081200050193,BR029,Motorcycle,31-10-2023,Contract,Y
+CR0194,Tono Maulana,Female,081200050194,BR011,Truck,Jan 20 2021,Permanent,Yes
+CR0195,Eka Pratama,Male,081200050195,BR004,Van,2018-06-25,Permanent,True
+CR0196,Utami Pratama,Male,081200050196,BR033,Truck,10/03/2022,Contract,Yes
+CR0197,Citra Santoso,Male,081200050197,BR026,Car,2019/07/26,Contract,Y
+CR0198,Nadia Wulandari,Female,081200050198,BR013,Truck,01-02-2023,Permanent,True
+CR0199,Maya Putri,Male,081200050199,BR034,Car,Dec 24 2023,Outsourced,Yes
+CR0200,Joko Wulandari,Male,081200050200,BR015,Truck,2018-07-22,Outsourced,Yes
+CR0201,Wulan Saputra,Female,081200050201,BR040,Truck,04/09/2019,Contract,1
+CR0202,Indra Saputra,Male,081200050202,BR004,Motorcycle,2024/11/09,Permanent,1
+CR0203,Gita Saputra,Male,081200050203,BR021,Car,30-07-2022,Permanent,Y
+CR0204,Utami Lestari,Male,081200050204,BR040,Van,Feb 18 2021,Outsourced,1
+CR0205,Utami Santoso,Female,081200050205,BR006,Motorcycle,2019-07-11,Outsourced,Active
+CR0206,Kartika Gunawan,Female,081200050206,BR024,Van,23/12/2024,Outsourced,True
+CR0207,Gita Santoso,Female,081200050207,BR019,Car,2018/01/06,Permanent,Active
+CR0208,Citra Santoso,Male,081200050208,BR022,Truck,13-06-2024,Outsourced,True
+CR0209,Citra Saputra,Female,081200050209,BR017,Van,May 16 2020,Contract,Yes
+CR0210,Gita Pratama,Female,081200050210,BR029,Truck,2022-02-06,Outsourced,Y
+CR0211,Gita Wijaya,Female,081200050211,BR014,Motorcycle,18/12/2019,Contract,True
+CR0212,Dewi Pratama,Male,081200050212,BR030,Van,2019/10/04,Contract,Active
+CR0213,Budi Maulana,Female,081200050213,BR027,Van,08-09-2022,Contract,True
+CR0214,Andi Lestari,Male,081200050214,BR033,Van,Apr 16 2018,Outsourced,Yes
+CR0215,Tono Wulandari,Male,081200050215,BR031,Truck,2018-08-04,Contract,Active
+CR0216,Wulan Maulana,Female,081200050216,BR013,Van,18/02/2024,Permanent,Y
+CR0217,Gita Lestari,Female,081200050217,BR024,Motorcycle,2024/12/18,Contract,Y
+CR0218,Lestari Putri,Male,081200050218,BR021,Truck,06-11-2023,Contract,Active
+CR0219,Joko Saputra,Female,081200050219,BR022,Van,Jun 24 2019,Permanent,Y
+CR0220,Lestari Saputra,Female,081200050220,BR004,Motorcycle,2020-03-09,Outsourced,True
+CR0221,Citra Lestari,Female,081200050221,BR018,Truck,26/02/2019,Contract,Active
+CR0222,Tono Santoso,Female,081200050222,BR009,Van,2022/04/02,Permanent,True
+CR0223,Nadia Lestari,Female,081200050223,BR028,Motorcycle,20-08-2022,Outsourced,Y
+CR0224,Budi Saputra,Female,081200050224,BR023,Motorcycle,Mar 15 2024,Permanent,Active
+CR0225,Nadia Maulana,Female,081200050225,BR037,Car,2020-11-25,Permanent,Active
+CR0226,Tono Saputra,Female,081200050226,BR002,Truck,21/10/2020,Permanent,Yes
+CR0227,Eka Santoso,Female,081200050227,BR009,Car,2019/12/23,Permanent,1
+CR0228,Kartika Putri,Male,081200050228,BR003,Car,11-01-2018,Outsourced,True
+CR0229,Indra Pratama,Male,081200050229,BR014,Car,Jan 10 2025,Permanent,True
+CR0230,Joko Lestari,Female,081200050230,BR018,Van,2020-04-29,Outsourced,1
+CR0231,Dewi Pratama,Female,081200050231,BR022,Van,20/07/2020,Contract,Yes
+CR0232,Indra Gunawan,Male,081200050232,BR012,Car,2018/05/10,Contract,Y
+CR0233,Dewi Pratama,Female,081200050233,BR011,Van,29-06-2022,Outsourced,Y
+CR0234,Eka Gunawan,Female,081200050234,BR003,Van,Jan 28 2019,Permanent,Yes
+CR0235,Gita Wijaya,Male,081200050235,BR027,Car,2022-08-31,Permanent,Yes
+CR0236,Andi Hartono,Male,081200050236,BR019,Van,30/06/2023,Permanent,Active
+CR0237,Putra Hartono,Female,081200050237,BR012,Truck,2019/09/16,Permanent,Active
+CR0238,Andi Maulana,Female,081200050238,BR011,Motorcycle,31-03-2024,Outsourced,True
+CR0239,Fajar Hartono,Female,081200050239,BR009,Van,Sep 29 2021,Outsourced,Y
+CR0240,Kartika Lestari,Female,081200050240,BR025,Van,2019-12-11,Permanent,Yes
+CR0241,Wulan Hartono,Male,081200050241,BR036,Motorcycle,02/03/2022,Permanent,Yes
+CR0242,Maya Hartono,Female,081200050242,BR008,Van,2021/04/11,Permanent,Y
+CR0243,Maya Santoso,Male,081200050243,BR028,Van,10-11-2024,Contract,True
+CR0244,Andi Santoso,Female,081200050244,BR007,Car,Apr 25 2024,Contract,Y
+CR0245,Putra Wijaya,Male,081200050245,BR030,Van,2025-01-20,Permanent,1
+CR0246,Nadia Santoso,Male,081200050246,BR031,Motorcycle,23/09/2020,Permanent,Active
+CR0247,Rani Hartono,Male,081200050247,BR022,Truck,2022/07/18,Permanent,True
+CR0248,Kartika Hartono,Male,081200050248,BR017,Motorcycle,29-07-2023,Outsourced,Y
+CR0249,Fajar Maulana,Male,081200050249,BR034,Car,Nov 07 2023,Contract,1
+CR0250,Eka Gunawan,Female,081200050250,BR036,Car,2020-02-24,Outsourced,Yes

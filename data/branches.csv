@@ -1,26 +1,41 @@
 branch_id,branch_name,branch_type,address,city,province,region,manager_name,opening_date,is_active
-BR001,LDR Jakarta,Main Branch,Jl. Gatot Subroto No. 36,Jakarta,DKI Jakarta,Jabodetabek,Andi Wijaya,24-11-2017,Yes
-BR002,LDR JKT Pusat,Gudang,Jl. Diponegoro No. 4,JKT Pusat,DKI Jakarta,Jabodetabek,Andi Wijaya,15-04-2022,Y
-BR003,LDR Jakarta Pusat,Sorting Center,Jl. Pemuda No. 44,Jakarta Pusat,DKI Jakarta,Jabodetabek,Sari Wulandari,2021/02/03,True
-BR004,LDR Bandung,Main Branch,Jl. Gatot Subroto No. 59,Bandung,Jawa Barat,West Java,Rudi Hartono,Feb 18 2022,Y
-BR005,LDR Bogor,Outlet,Jl. Gatot Subroto No. 9,Bogor,Jawa Barat,Jabodetabek,Agus Santoso,2020-02-08,Y
-BR006,LDR Tangerang,Warehouse,Jl. Thamrin No. 27,Tangerang,Banten,Jabodetabek,Sari Wulandari,21/10/2017,1
-BR007,LDR Bekasi,Sorting Center,Jl. Gatot Subroto No. 72,Bekasi,Jawa Barat,Jabodetabek,Andi Wijaya,Apr 02 2016,Tidak
-BR008,LDR Surabaya,Agent,Jl. Pemuda No. 83,Surabaya,Jawa Timur,East Java,Hendra Gunawan,24-04-2018,1
-BR009,LDR Malang,Agent,Jl. Thamrin No. 29,Malang,Jawa Timur,East Java,Dewi Lestari,04/01/2017,1
-BR010,LDR Semarang,Agent,Jl. Pemuda No. 77,Semarang,Jawa Tengah,Central Java,Hendra Gunawan,2016-11-24,Active
-BR011,LDR Yogyakarta,Warehouse,Jl. Merdeka No. 38,Yogyakarta,DI Yogyakarta,Central Java,Maya Putri,Dec 24 2016,True
-BR012,LDR Solo,Cabang Utama,Jl. Gatot Subroto No. 39,Solo,Jawa Tengah,Central Java,Andi Wijaya,25-09-2018,1
- br013 ,LDR Denpasar,Warehouse,Jl. Thamrin No. 31,Denpasar,Bali,Bali Nusra,Agus Santoso,2017/02/24,True
-BR014,LDR Medan,Outlet,Jl. Gatot Subroto No. 61,Medan,Sumatera Utara,Sumatra,Dewi Lestari,18/04/2022,Aktif
-BR015,LDR Palembang,Agent,Jl. Diponegoro No. 58,Palembang,Sumatera Selatan,Sumatra,Rudi Hartono,01-06-2017,Yes
-BR016,LDR Padang,Sorting Center,Jl. Merdeka No. 30,Padang,Sumatera Barat,Sumatra,Rudi Hartono,17/02/2021,True
-BR017,LDR Pekanbaru,Gudang,Jl. Diponegoro No. 61,Pekanbaru,Riau,Sumatra,Andi Wijaya,2022-04-04,1
-BR018,LDR Batam,Sorting Center,Jl. Merdeka No. 87,Batam,Kepulauan Riau,Sumatra,,08/02/2021,1
-BR019,LDR Makassar,Agent,Jl. Sudirman No. 10,Makassar,Sulawesi Selatan,Sulawesi,Hendra Gunawan,21-01-2017,Y
-BR020,LDR Manado,Outlet,Jl. Pemuda No. 63,Manado,Sulawesi Utara,Sulawesi,Hendra Gunawan,,Y
-BR021,LDR Balikpapan,Warehouse,Jl. Pemuda No. 90,Balikpapan,Kalimantan Timur,Kalimantan,Hendra Gunawan,02-04-2020,Tidak
-BR022,LDR Banjarmasin,Gudang,Jl. Pemuda No. 65,Banjarmasin,Kalimantan Selatan,Kalimantan,,,1
-BR023,LDR Pontianak,Gudang,Jl. Sudirman No. 75,Pontianak,Kalimantan Barat,Kalimantan,Agus Santoso,19-11-2022,YES
-BR024,LDR Mataram,Warehouse,Jl. Sudirman No. 34,Mataram,Nusa Tenggara Barat,Bali Nusra,Maya Putri,,True
-BR025,LDR Kupang,Main Branch,Jl. Diponegoro No. 28,Kupang,Nusa Tenggara Timur,Bali Nusra,Sari Wulandari,Feb 08 2021,True
+BR001,LDR Jakarta,Warehouse,Jl. Sudirman No. 60,Jakarta,DKI Jakarta,Jabodetabek,Lestari Santoso,06/06/2016,1
+BR002,LDR Jakarta Pusat,Sorting Center,Jl. Diponegoro No. 3,Jakarta Pusat,DKI Jakarta,Jabodetabek,Sari Gunawan,2022/09/18,True
+BR003,LDR Bandung,Sorting Center,Jl. Pemuda No. 23,Bandung,Jawa Barat,West Java,Budi Santoso,05-03-2020,Yes
+BR004,LDR Bogor,Outlet,Jl. Merdeka No. 21,Bogor,Jawa Barat,Jabodetabek,Sari Hartono,Mar 19 2020,Y
+BR005,LDR Tangerang,Warehouse,Jl. Diponegoro No. 24,Tangerang,Banten,Jabodetabek,Maya Santoso,2020-05-03,Yes
+BR006,LDR Bekasi,Main Branch,Jl. Sudirman No. 8,Bekasi,Jawa Barat,Jabodetabek,Fajar Wulandari,30/06/2022,Active
+BR007,LDR Surabaya,Main Branch,Jl. Diponegoro No. 84,Surabaya,Jawa Timur,East Java,Budi Santoso,2016/11/11,True
+BR008,LDR Malang,Warehouse,Jl. Thamrin No. 68,Malang,Jawa Timur,East Java,Putra Pratama,16-02-2021,Y
+BR009,LDR Semarang,Warehouse,Jl. Merdeka No. 113,Semarang,Jawa Tengah,Central Java,Utami Wulandari,Nov 24 2016,Active
+BR010,LDR Yogyakarta,Outlet,Jl. Diponegoro No. 10,Yogyakarta,DI Yogyakarta,Central Java,Tono Santoso,2024-03-02,Active
+BR011,LDR Solo,Warehouse,Jl. Pemuda No. 6,Solo,Jawa Tengah,Central Java,Rani Gunawan,20/07/2021,True
+BR012,LDR Denpasar,Warehouse,Jl. Sudirman No. 83,Denpasar,Bali,Bali Nusra,Citra Pratama,2016/12/08,True
+BR013,LDR Medan,Main Branch,Jl. Diponegoro No. 55,Medan,Sumatera Utara,Sumatra,Putra Maulana,13-06-2019,Yes
+BR014,LDR Palembang,Main Branch,Jl. Merdeka No. 116,Palembang,Sumatera Selatan,Sumatra,Dewi Pratama,Aug 23 2017,Yes
+BR015,LDR Padang,Main Branch,Jl. Diponegoro No. 64,Padang,Sumatera Barat,Sumatra,Indra Hartono,2019-10-14,Active
+BR016,LDR Pekanbaru,Main Branch,Jl. Merdeka No. 12,Pekanbaru,Riau,Sumatra,Gita Gunawan,28/04/2020,Y
+BR017,LDR Batam,Sorting Center,Jl. Thamrin No. 77,Batam,Kepulauan Riau,Sumatra,Utami Gunawan,2023/09/06,Active
+BR018,LDR Makassar,Warehouse,Jl. Merdeka No. 24,Makassar,Sulawesi Selatan,Sulawesi,Tono Pratama,17-06-2020,Y
+BR019,LDR Manado,Main Branch,Jl. Sudirman No. 39,Manado,Sulawesi Utara,Sulawesi,Hendra Lestari,Dec 02 2023,Y
+BR020,LDR Balikpapan,Sorting Center,Jl. Pemuda No. 29,Balikpapan,Kalimantan Timur,Kalimantan,Budi Hartono,2018-06-05,True
+BR021,LDR Banjarmasin,Main Branch,Jl. Merdeka No. 4,Banjarmasin,Kalimantan Selatan,Kalimantan,Tono Maulana,07/09/2016,True
+BR022,LDR Pontianak,Main Branch,Jl. Diponegoro No. 45,Pontianak,Kalimantan Barat,Kalimantan,Indra Saputra,2021/08/24,Y
+BR023,LDR Mataram,Sorting Center,Jl. Sudirman No. 32,Mataram,Nusa Tenggara Barat,Bali Nusra,Andi Santoso,12-01-2021,Y
+BR024,LDR Kupang,Sorting Center,Jl. Sudirman No. 49,Kupang,Nusa Tenggara Timur,Bali Nusra,Nadia Santoso,May 25 2017,Yes
+BR025,LDR Jakarta,Sorting Center,Jl. Merdeka No. 43,Jakarta,DKI Jakarta,Jabodetabek,Kartika Wulandari,2018-02-04,True
+BR026,LDR Jakarta Pusat,Outlet,Jl. Sudirman No. 26,Jakarta Pusat,DKI Jakarta,Jabodetabek,Hendra Wijaya,02/07/2017,Yes
+BR027,LDR Bandung,Sorting Center,Jl. Thamrin No. 108,Bandung,Jawa Barat,West Java,Citra Hartono,2019/01/03,Active
+BR028,LDR Bogor,Warehouse,Jl. Sudirman No. 2,Bogor,Jawa Barat,Jabodetabek,Gita Hartono,05-08-2017,Y
+BR029,LDR Tangerang,Sorting Center,Jl. Thamrin No. 93,Tangerang,Banten,Jabodetabek,Rani Hartono,Mar 17 2019,Active
+BR030,LDR Bekasi,Sorting Center,Jl. Diponegoro No. 79,Bekasi,Jawa Barat,Jabodetabek,Nadia Gunawan,2022-02-24,True
+BR031,LDR Surabaya,Main Branch,Jl. Sudirman No. 79,Surabaya,Jawa Timur,East Java,Eka Maulana,13/06/2022,Yes
+BR032,LDR Malang,Main Branch,Jl. Merdeka No. 116,Malang,Jawa Timur,East Java,Hendra Saputra,2023/04/01,Y
+BR033,LDR Semarang,Main Branch,Jl. Thamrin No. 22,Semarang,Jawa Tengah,Central Java,Rani Hartono,06-11-2022,1
+BR034,LDR Yogyakarta,Main Branch,Jl. Thamrin No. 59,Yogyakarta,DI Yogyakarta,Central Java,Putra Wulandari,May 02 2019,1
+BR035,LDR Solo,Main Branch,Jl. Thamrin No. 46,Solo,Jawa Tengah,Central Java,Kartika Lestari,2017-07-24,Yes
+BR036,LDR Denpasar,Sorting Center,Jl. Thamrin No. 40,Denpasar,Bali,Bali Nusra,Gita Saputra,06/05/2020,1
+BR037,LDR Medan,Warehouse,Jl. Thamrin No. 56,Medan,Sumatera Utara,Sumatra,Hendra Maulana,2018/01/16,Active
+BR038,LDR Palembang,Main Branch,Jl. Sudirman No. 39,Palembang,Sumatera Selatan,Sumatra,Eka Pratama,29-11-2021,Y
+BR039,LDR Padang,Outlet,Jl. Diponegoro No. 65,Padang,Sumatera Barat,Sumatra,Gita Wulandari,Jul 27 2017,1
+BR040,LDR Pekanbaru,Outlet,Jl. Thamrin No. 107,Pekanbaru,Riau,Sumatra,Dewi Putri,2020-05-10,Active

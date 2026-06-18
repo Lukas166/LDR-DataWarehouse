@@ -1,67 +1,801 @@
 customer_id,customer_name,customer_type,gender,phone,email,city,province,registration_date,status
-C001,Dewi Sari,individual,L,0856 9004 5114,dewi.sari1@email.com,Banjarmasin,Kalimantan Selatan,2024-04-24,YES
-C002,Hendra Lestari,Individual,Female,0812-3532-4878,hendra.lestari2@email.com,Semarang,Jawa Tengah,26/04/2025,Active
-C003,PT Digital Nusantara,Corporate,,086320735683,ptdigital.nusantara3@email.com,Jakarta,DKI Jakarta,02-01-2024,Aktif
-C004,Rahmat Sari,individual,P,0215024564,rahmat.sari4@email.com,Manado,Sulawesi Utara,23/01/2026,Aktif
-C005,Maya Aminah,individual,P,0211688872,maya.aminah5@email.com,Surabaya,Jawa Timur,2026/03/31,True
-C006,Medan Grosir,E-Commerce Partner,,0214723801,medan.grosir6@email.com,Mataram,Nusa Tenggara Barat,2025/07/09,1
-C007,putri gunawan,Personal,,084923885778,putri.gunawan7@email.com,Denpasar,Bali,14/03/2025,Active
-C008,Rina Pratama,individual,F,0856 5051 4266,rina.pratama8@email.com,Kupang,Nusa Tenggara Timur,27/04/2024,No
-C009,Dewi Sari,Individual,P,0215388196,dewi.sari9@email.com,Jakarta Pusat,DKI Jakarta,03-10-2024,1
-C010,Hendra Gunawan,Individual,,,hendra.gunawan10@email.com,Malang,Jawa Timur,Sep 06 2024,True
-C011,Asep Hidayat,individual,M,0856 2647 4180,asep.hidayat11@email.com,Malang,Jawa Timur,13-01-2024,Active
-C012,PT Maju Jaya,Marketplace Seller,,081045618902,ptmaju.jaya12@email.com,Padang,Sumatera Barat,09/06/2024,No
-C013,rahmat gunawan,Personal,M,0856 3330 2169,rahmat.gunawan13@email.com,Semarang,Jawa Tengah,,Active
-C014,Budi Aminah,Personal,,0213368362,budi.aminah14@email.com,Makassar,Sulawesi Selatan,2024-11-27,True
-C015,Budi Sari,Individual,Male,0215099418,budi.sari15@email.com,Pekanbaru,Riau,2025/05/09,1
-C016,CV Sumber Rejeki,Corporate,,0213554316,CVSUMBER.REJEKI16@EMAIL.COM,Malang,Jawa Timur,2025/12/23,Y
-C017,Andi Pratama,individual,L,088454746149,andi.pratama17@email.com,Bandung,Jawa Barat,2024-08-20,NO
-C018,rahmat wijaya,Individual,,083424611636,rahmat.wijaya18@email.com,Semarang,Jawa Tengah,Mar 10 2025,1
-C019,Siti Putri,Personal,M,080830879978,siti.putri19@email.com,Semarang,Jawa Tengah,Apr 02 2024,YES
-C020,PT Sentosa Abadi,E-Commerce Partner,,0210321372,ptsentosa.abadi20@email.com,Pekanbaru,Riau,26-01-2024,True
-C021,Toko Berkah,E-Commerce Partner,,0856 9850 7866,toko.berkah21@email.com,Palembang,Sumatera Selatan,2025-01-06,Aktif
-C022,Asep Wijaya,individual,,0812-4394-4538,asep.wijaya22@email.com,Jakarta Pusat,DKI Jakarta,18/03/2026,False
-C023,Bali Craft Store,E-Commerce Partner,,087475159078,bali.craft.store23@email.com,Bandung,Jawa Barat,22-08-2025,True
-C024,sarah hidayat,Individual,P,0856 5176 7132,sarah.hidayat24@email.com,Balikpapan,Kalimantan Timur,2024-12-03,Y
-C025,Rahmat Santoso,Individual,M,085148351224,RAHMAT.SANTOSO25@EMAIL.COM,Makassar,Sulawesi Selatan,2024/08/08,Active
- c026 ,PT Sentosa Abadi,E-Commerce Partner,,080016626442,ptsentosa.abadi26@email.com,Manado,Sulawesi Utara,Sep 18 2024,N
-C027,Bali Craft Store,E-Commerce Partner,,082563374403,bali.craft.store27@email.com,Pontianak,Kalimantan Barat,2024/03/21,YES
-C028,Andi Aminah,Individual,L,0216869393,andi.aminah28@email.com,Kupang,Nusa Tenggara Timur,Feb 27 2024,1
-C029,PT Sentosa Abadi,Marketplace Seller,,0812-4084-6267,ptsentosa.abadi29@email.com,Jakarta Pusat,DKI Jakarta,16/09/2025,1
-C030,Maya Sari,individual,P,083532896106,maya.sari30@email.com,Jakarta Pusat,DKI Jakarta,03/07/2024,YES
-C031,CV Sumber Rejeki,Corporate,,0217037967,cvsumber.rejeki31@email.com,Jakarta Pusat,DKI Jakarta,Jul 17 2024,1
-C032,Doni Nugraha,Individual,Female,0218098894,doni.nugraha32@email.com,Manado,Sulawesi Utara,Jan 29 2024,Aktif
-C033,ANDI SAPUTRA,individual,,088746902196,andi.saputra33@email.com,Pontianak,Kalimantan Barat,02-01-2024,YES
-C034,siti hidayat,Personal,L,0812-4950-2698,siti.hidayat34@email.com,Pekanbaru,Riau,,Yes
-C035,Toko Makmur,E-Commerce Partner,,089527137831,toko.makmur35@email.com,Denpasar,Bali,Jul 12 2025,False
-C036,Bali Craft Store,Corporate,,0856 9406 3621,BALI.CRAFT.STORE36@EMAIL.COM,Pontianak,Kalimantan Barat,Apr 05 2025,True
-C037,PT Sentosa Abadi,Marketplace Seller,,0856 4279 3009,ptsentosa.abadi37@email.com,Yogyakarta,DI Yogyakarta,03/11/2024,Aktif
-C038,PT Sentosa Abadi,E-Commerce Partner,,081217053856,ptsentosa.abadi38@email.com,Surabaya,Jawa Timur,09-03-2026,YES
-C039,Hendra Santoso,Individual,M,,HENDRA.SANTOSO39@EMAIL.COM,Tangerang,Banten,Aug 13 2025,1
-C040,Budi Pratama,individual,P,082844614431,budi.pratama40@email.com,Padang,Sumatera Barat,Jun 12 2024,YES
-C041,Sarah Hidayat,Individual,F,0856 2761 8060,sarah.hidayat41@email.com,Jakarta Pusat,DKI Jakarta,13-10-2024,NO
-C042,Putri Lestari,Individual,Female,0856 7438 5902,putri.lestari42@email.com,Manado,Sulawesi Utara,2026-01-12,Aktif
-C043,Putri Gunawan,individual,L,0812-7861-3481,putri.gunawan43@email.com,Tangerang,Banten,2024/06/26,Active
-C044,Hendra Sari,individual,L,089229977644,hendra.sari44@email.com,Bekasi,Jawa Barat,25-07-2024,Active
-C045,PT Digital Nusantara,Corporate,,0812-3587-7666,ptdigital.nusantara45@email.com,JKT Pusat,DKI Jakarta,2024/06/28,Yes
-C046,Asep Pratama,individual,,0812-8668-5470,asep.pratama46@email.com,JKT Pusat,DKI Jakarta,Jun 11 2025,YES
-C047,sarah lestari,Individual,F,0856 6095 2923,sarah.lestari47@email.com,Palembang,Sumatera Selatan,11/11/2025,True
-C048,Siti Hidayat,Personal,Male,,,Bandung,Jawa Barat,Mar 09 2025,Yes
-C049,SITI PRATAMA,Individual,F,0856 6697 2943,siti.pratama49@email.com,Kupang,Nusa Tenggara Timur,23/08/2024,YES
-C050,RAHMAT AMINAH,individual,P,0856 4839 9843,rahmat.aminah50@email.com,Manado,Sulawesi Utara,26-05-2024,Yes
-C051,Dewi Saputra,Individual,F,0215951226,dewi.saputra51@email.com,Solo,Jawa Tengah,2024/10/01,Y
-C052,PT Digital Nusantara,Marketplace Seller,,088390991942,ptdigital.nusantara52@email.com,Bekasi,Jawa Barat,Jul 27 2024,0
-C053,Budi Wijaya,individual,P,081338466289,,Semarang,Jawa Tengah,2024/01/07,Yes
-C054,Budi Putri,Personal,L,089960540752,budi.putri54@email.com,Banjarmasin,Kalimantan Selatan,Aug 19 2024,Aktif
- c055 ,AGUS SANTOSO,individual,F,0856 4463 8790,agus.santoso55@email.com,Batam,Kepulauan Riau,2025-02-11,True
-C056,Asep Sari,Personal,,0217425315,asep.sari56@email.com,Bogor,Jawa Barat,Mar 25 2024,Aktif
-C057,Bali Craft Store,Marketplace Seller,,0812-1430-2468,bali.craft.store57@email.com,Solo,Jawa Tengah,Nov 04 2024,N
-C058,Toko Makmur,Marketplace Seller,,0214865366,toko.makmur58@email.com,Jakarta Pusat,DKI Jakarta,2025/12/12,Active
-C059,Hendra Nugraha,Personal,Female,0212677094,hendra.nugraha59@email.com,Batam,Kepulauan Riau,Feb 07 2024,True
-C060,Siti Aminah,Individual,M,0213755301,siti.aminah60@email.com,Balikpapan,Kalimantan Timur,Dec 22 2024,True
-C061,Sarah Aminah,Individual,M,0217616378,sarah.aminah61@email.com,Semarang,Jawa Tengah,2026-02-09,True
-C062,PT Sentosa Abadi,Corporate,,0213213135,ptsentosa.abadi62@email.com,Palembang,Sumatera Selatan,26-06-2024,YES
-C063,Medan Grosir,E-Commerce Partner,,0215720227,medan.grosir63@email.com,JKT Pusat,DKI Jakarta,10-01-2025,
-C064,Asep Aminah,individual,Female,0856 3281 4385,asep.aminah64@email.com,JKT Pusat,DKI Jakarta,2025-11-26,1
-C065,Doni Sari,Individual,Female,083283166307,doni.sari65@email.com,Pontianak,Kalimantan Barat,05-03-2024,Y
-C066,BUDI S.,Personal,Male,081234567890,budi@email.com,Jakarta Pusat,DKI Jakarta,03-03-2025,Active
+C0001,Nadia Putri,Corporate,Female,081200000001,nadia.putri1@example.com,Makassar,Sulawesi Selatan,22/04/2021,Yes
+C0002,Joko Wijaya,Individual,Male,081200000002,joko.wijaya2@example.com,Malang,Jawa Timur,2021/04/22,Yes
+C0003,Sari Wulandari,E-Commerce Partner,Female,081200000003,sari.wulandari3@example.com,Mataram,Nusa Tenggara Barat,30-03-2024,Y
+C0004,Citra Lestari,Individual,Male,081200000004,citra.lestari4@example.com,Yogyakarta,DI Yogyakarta,Oct 13 2021,True
+C0005,Dewi Wulandari,Marketplace Seller,Male,081200000005,dewi.wulandari5@example.com,Solo,Jawa Tengah,2021-03-17,Y
+C0006,Maya Santoso,Corporate,Male,081200000006,maya.santoso6@example.com,Pekanbaru,Riau,04/05/2025,Yes
+C0007,Indra Saputra,E-Commerce Partner,Male,081200000007,indra.saputra7@example.com,Jakarta Pusat,DKI Jakarta,2020/06/26,Y
+C0008,Lestari Hartono,Corporate,Male,081200000008,lestari.hartono8@example.com,Banjarmasin,Kalimantan Selatan,01-02-2025,1
+C0009,Putra Lestari,Marketplace Seller,Male,081200000009,putra.lestari9@example.com,Balikpapan,Kalimantan Timur,Jun 27 2020,Active
+C0010,Hendra Wijaya,Marketplace Seller,Female,081200000010,hendra.wijaya10@example.com,Manado,Sulawesi Utara,2026-03-27,True
+C0011,Gita Gunawan,Marketplace Seller,Male,081200000011,gita.gunawan11@example.com,Bogor,Jawa Barat,18/01/2024,Yes
+C0012,Wulan Wijaya,E-Commerce Partner,Male,081200000012,wulan.wijaya12@example.com,Palembang,Sumatera Selatan,2020/07/15,Yes
+C0013,Fajar Wijaya,Individual,Female,081200000013,fajar.wijaya13@example.com,Balikpapan,Kalimantan Timur,17-04-2023,Active
+C0014,Andi Gunawan,Corporate,Male,081200000014,andi.gunawan14@example.com,Semarang,Jawa Tengah,Dec 31 2021,Y
+C0015,Rani Wulandari,Marketplace Seller,Female,081200000015,rani.wulandari15@example.com,Bandung,Jawa Barat,2025-09-29,Active
+C0016,Joko Hartono,E-Commerce Partner,Female,081200000016,joko.hartono16@example.com,Yogyakarta,DI Yogyakarta,01/07/2024,True
+C0017,Putra Santoso,Corporate,Male,081200000017,putra.santoso17@example.com,Solo,Jawa Tengah,2022/10/29,Yes
+C0018,Citra Hartono,E-Commerce Partner,Male,081200000018,citra.hartono18@example.com,Medan,Sumatera Utara,14-11-2023,Y
+C0019,Utami Pratama,Marketplace Seller,Male,081200000019,utami.pratama19@example.com,Semarang,Jawa Tengah,Dec 24 2025,Active
+C0020,Hendra Putri,Marketplace Seller,Female,081200000020,hendra.putri20@example.com,Pekanbaru,Riau,2020-10-26,Yes
+C0021,Putra Wulandari,Marketplace Seller,Male,081200000021,putra.wulandari21@example.com,Tangerang,Banten,07/08/2022,Y
+C0022,Kartika Hartono,Individual,Female,081200000022,kartika.hartono22@example.com,Tangerang,Banten,2020/01/20,1
+C0023,Maya Maulana,E-Commerce Partner,Male,081200000023,maya.maulana23@example.com,Banjarmasin,Kalimantan Selatan,10-09-2025,Yes
+C0024,Fajar Pratama,Marketplace Seller,Female,081200000024,fajar.pratama24@example.com,Kupang,Nusa Tenggara Timur,Jan 21 2020,Active
+C0025,Tono Saputra,Corporate,Male,081200000025,tono.saputra25@example.com,Balikpapan,Kalimantan Timur,2021-06-13,True
+C0026,Andi Santoso,E-Commerce Partner,Male,081200000026,andi.santoso26@example.com,Bogor,Jawa Barat,24/01/2021,Y
+C0027,Maya Pratama,Individual,Female,081200000027,maya.pratama27@example.com,Semarang,Jawa Tengah,2021/10/24,True
+C0028,Utami Lestari,Individual,Male,081200000028,utami.lestari28@example.com,Banjarmasin,Kalimantan Selatan,28-03-2023,Yes
+C0029,Dewi Saputra,Individual,Male,081200000029,dewi.saputra29@example.com,Jakarta,DKI Jakarta,Nov 10 2021,True
+C0030,Dewi Pratama,E-Commerce Partner,Female,081200000030,dewi.pratama30@example.com,Palembang,Sumatera Selatan,2023-01-23,Yes
+C0031,Utami Wulandari,Marketplace Seller,Female,081200000031,utami.wulandari31@example.com,Tangerang,Banten,12/05/2023,Yes
+C0032,Fajar Hartono,E-Commerce Partner,Female,081200000032,fajar.hartono32@example.com,Bekasi,Jawa Barat,2023/03/10,1
+C0033,Joko Wulandari,E-Commerce Partner,Female,081200000033,joko.wulandari33@example.com,Mataram,Nusa Tenggara Barat,27-12-2024,1
+C0034,Putra Santoso,Corporate,Female,081200000034,putra.santoso34@example.com,Mataram,Nusa Tenggara Barat,Feb 15 2023,Yes
+C0035,Rani Pratama,Marketplace Seller,Male,081200000035,rani.pratama35@example.com,Denpasar,Bali,2020-06-18,1
+C0036,Nadia Wulandari,E-Commerce Partner,Male,081200000036,nadia.wulandari36@example.com,Jakarta Pusat,DKI Jakarta,23/01/2023,Active
+C0037,Hendra Putri,Corporate,Male,081200000037,hendra.putri37@example.com,Yogyakarta,DI Yogyakarta,2020/03/20,Y
+C0038,Kartika Hartono,Individual,Female,081200000038,kartika.hartono38@example.com,Pekanbaru,Riau,23-01-2020,Yes
+C0039,Hendra Maulana,Marketplace Seller,Male,081200000039,hendra.maulana39@example.com,Solo,Jawa Tengah,Feb 08 2020,Active
+C0040,Rani Wijaya,Marketplace Seller,Female,081200000040,rani.wijaya40@example.com,Mataram,Nusa Tenggara Barat,2020-10-26,Active
+C0041,Fajar Hartono,Corporate,Male,081200000041,fajar.hartono41@example.com,Semarang,Jawa Tengah,10/09/2020,Y
+C0042,Citra Wijaya,Marketplace Seller,Female,081200000042,citra.wijaya42@example.com,Jakarta Pusat,DKI Jakarta,2020/03/16,Active
+C0043,Tono Lestari,E-Commerce Partner,Male,081200000043,tono.lestari43@example.com,Padang,Sumatera Barat,26-07-2022,Active
+C0044,Andi Gunawan,Individual,Male,081200000044,andi.gunawan44@example.com,Jakarta,DKI Jakarta,Apr 04 2026,True
+C0045,Hendra Maulana,E-Commerce Partner,Male,081200000045,hendra.maulana45@example.com,Manado,Sulawesi Utara,2026-03-09,1
+C0046,Rani Maulana,Individual,Female,081200000046,rani.maulana46@example.com,Batam,Kepulauan Riau,27/05/2022,Active
+C0047,Sari Pratama,Marketplace Seller,Female,081200000047,sari.pratama47@example.com,Surabaya,Jawa Timur,2021/01/26,Y
+C0048,Hendra Putri,E-Commerce Partner,Male,081200000048,hendra.putri48@example.com,Solo,Jawa Tengah,15-12-2020,Y
+C0049,Gita Gunawan,E-Commerce Partner,Male,081200000049,gita.gunawan49@example.com,Jakarta,DKI Jakarta,Jan 12 2025,Active
+C0050,Maya Saputra,Marketplace Seller,Female,081200000050,maya.saputra50@example.com,Surabaya,Jawa Timur,2022-02-27,Y
+C0051,Nadia Lestari,Marketplace Seller,Female,081200000051,nadia.lestari51@example.com,Jakarta Pusat,DKI Jakarta,19/05/2024,True
+C0052,Tono Wulandari,Corporate,Male,081200000052,tono.wulandari52@example.com,Manado,Sulawesi Utara,2024/02/11,1
+C0053,Rani Maulana,Marketplace Seller,Female,081200000053,rani.maulana53@example.com,Pontianak,Kalimantan Barat,13-03-2021,Yes
+C0054,Joko Maulana,Corporate,Female,081200000054,joko.maulana54@example.com,Balikpapan,Kalimantan Timur,Dec 15 2025,Active
+C0055,Wulan Santoso,Marketplace Seller,Male,081200000055,wulan.santoso55@example.com,Surabaya,Jawa Timur,2025-06-29,True
+C0056,Hendra Lestari,Individual,Male,081200000056,hendra.lestari56@example.com,Bekasi,Jawa Barat,30/01/2023,True
+C0057,Citra Gunawan,Corporate,Male,081200000057,citra.gunawan57@example.com,Pekanbaru,Riau,2026/04/08,True
+C0058,Gita Hartono,Corporate,Female,081200000058,gita.hartono58@example.com,Yogyakarta,DI Yogyakarta,22-08-2023,Y
+C0059,Tono Maulana,Individual,Female,081200000059,tono.maulana59@example.com,Medan,Sumatera Utara,Feb 25 2024,Y
+C0060,Citra Wijaya,Marketplace Seller,Male,081200000060,citra.wijaya60@example.com,Bandung,Jawa Barat,2026-02-26,1
+C0061,Tono Hartono,Individual,Male,081200000061,tono.hartono61@example.com,Denpasar,Bali,17/10/2021,Y
+C0062,Rani Gunawan,Individual,Male,081200000062,rani.gunawan62@example.com,Jakarta Pusat,DKI Jakarta,2022/12/18,Y
+C0063,Maya Wulandari,Individual,Female,081200000063,maya.wulandari63@example.com,Jakarta,DKI Jakarta,31-01-2022,Y
+C0064,Gita Wulandari,Corporate,Female,081200000064,gita.wulandari64@example.com,Jakarta,DKI Jakarta,May 13 2020,1
+C0065,Nadia Wulandari,Individual,Female,081200000065,nadia.wulandari65@example.com,Palembang,Sumatera Selatan,2025-11-26,Active
+C0066,Nadia Saputra,E-Commerce Partner,Female,081200000066,nadia.saputra66@example.com,Bogor,Jawa Barat,01/04/2025,True
+C0067,Hendra Saputra,E-Commerce Partner,Male,081200000067,hendra.saputra67@example.com,Solo,Jawa Tengah,2024/02/22,Yes
+C0068,Kartika Putri,E-Commerce Partner,Male,081200000068,kartika.putri68@example.com,Pekanbaru,Riau,18-04-2023,True
+C0069,Hendra Maulana,Individual,Female,081200000069,hendra.maulana69@example.com,Palembang,Sumatera Selatan,Mar 13 2023,Active
+C0070,Kartika Pratama,Individual,Female,081200000070,kartika.pratama70@example.com,Balikpapan,Kalimantan Timur,2025-01-30,Active
+C0071,Sari Wijaya,Individual,Male,081200000071,sari.wijaya71@example.com,Tangerang,Banten,16/11/2020,Active
+C0072,Fajar Pratama,Individual,Female,081200000072,fajar.pratama72@example.com,Tangerang,Banten,2022/11/09,Y
+C0073,Budi Saputra,Corporate,Female,081200000073,budi.saputra73@example.com,Batam,Kepulauan Riau,07-05-2020,Active
+C0074,Budi Pratama,Marketplace Seller,Female,081200000074,budi.pratama74@example.com,Bogor,Jawa Barat,Feb 09 2025,True
+C0075,Gita Lestari,Individual,Female,081200000075,gita.lestari75@example.com,Denpasar,Bali,2021-06-17,Active
+C0076,Budi Gunawan,Marketplace Seller,Female,081200000076,budi.gunawan76@example.com,Malang,Jawa Timur,09/01/2023,Y
+C0077,Putra Putri,E-Commerce Partner,Male,081200000077,putra.putri77@example.com,Yogyakarta,DI Yogyakarta,2020/04/13,Y
+C0078,Utami Pratama,Marketplace Seller,Female,081200000078,utami.pratama78@example.com,Solo,Jawa Tengah,14-08-2021,Active
+C0079,Gita Santoso,E-Commerce Partner,Female,081200000079,gita.santoso79@example.com,Makassar,Sulawesi Selatan,Apr 17 2020,True
+C0080,Nadia Gunawan,Corporate,Male,081200000080,nadia.gunawan80@example.com,Jakarta Pusat,DKI Jakarta,2024-05-20,1
+C0081,Hendra Wijaya,Corporate,Male,081200000081,hendra.wijaya81@example.com,Makassar,Sulawesi Selatan,20/12/2020,Y
+C0082,Citra Maulana,Marketplace Seller,Male,081200000082,citra.maulana82@example.com,Pontianak,Kalimantan Barat,2020/03/09,1
+C0083,Dewi Maulana,Marketplace Seller,Male,081200000083,dewi.maulana83@example.com,Mataram,Nusa Tenggara Barat,10-11-2023,Yes
+C0084,Eka Wulandari,Individual,Male,081200000084,eka.wulandari84@example.com,Pontianak,Kalimantan Barat,Aug 27 2024,Active
+C0085,Indra Wulandari,Corporate,Male,081200000085,indra.wulandari85@example.com,Kupang,Nusa Tenggara Timur,2020-12-16,Active
+C0086,Sari Gunawan,Individual,Female,081200000086,sari.gunawan86@example.com,Jakarta Pusat,DKI Jakarta,24/05/2024,Yes
+C0087,Wulan Wijaya,Individual,Female,081200000087,wulan.wijaya87@example.com,Banjarmasin,Kalimantan Selatan,2022/09/30,1
+C0088,Utami Lestari,Corporate,Female,081200000088,utami.lestari88@example.com,Surabaya,Jawa Timur,28-08-2022,True
+C0089,Budi Wulandari,E-Commerce Partner,Male,081200000089,budi.wulandari89@example.com,Kupang,Nusa Tenggara Timur,Feb 01 2022,1
+C0090,Budi Maulana,Individual,Male,081200000090,budi.maulana90@example.com,Solo,Jawa Tengah,2021-08-17,Active
+C0091,Sari Wijaya,Individual,Female,081200000091,sari.wijaya91@example.com,Yogyakarta,DI Yogyakarta,08/03/2024,1
+C0092,Nadia Maulana,E-Commerce Partner,Female,081200000092,nadia.maulana92@example.com,Palembang,Sumatera Selatan,2024/08/30,True
+C0093,Sari Gunawan,Individual,Female,081200000093,sari.gunawan93@example.com,Jakarta Pusat,DKI Jakarta,16-10-2024,1
+C0094,Rani Gunawan,E-Commerce Partner,Male,081200000094,rani.gunawan94@example.com,Palembang,Sumatera Selatan,Nov 18 2024,1
+C0095,Fajar Hartono,Corporate,Male,081200000095,fajar.hartono95@example.com,Bogor,Jawa Barat,2022-04-28,Yes
+C0096,Sari Putri,E-Commerce Partner,Male,081200000096,sari.putri96@example.com,Padang,Sumatera Barat,22/10/2020,True
+C0097,Sari Putri,E-Commerce Partner,Male,081200000097,sari.putri97@example.com,Semarang,Jawa Tengah,2025/05/09,Y
+C0098,Sari Saputra,Corporate,Female,081200000098,sari.saputra98@example.com,Bandung,Jawa Barat,08-09-2020,1
+C0099,Fajar Lestari,Marketplace Seller,Male,081200000099,fajar.lestari99@example.com,Bekasi,Jawa Barat,May 22 2025,Active
+C0100,Citra Pratama,E-Commerce Partner,Female,081200000100,citra.pratama100@example.com,Mataram,Nusa Tenggara Barat,2023-02-26,Y
+C0101,Gita Saputra,Marketplace Seller,Female,081200000101,gita.saputra101@example.com,Bogor,Jawa Barat,19/01/2024,1
+C0102,Lestari Santoso,Corporate,Female,081200000102,lestari.santoso102@example.com,Padang,Sumatera Barat,2025/04/23,True
+C0103,Fajar Saputra,Marketplace Seller,Male,081200000103,fajar.saputra103@example.com,Makassar,Sulawesi Selatan,08-11-2025,1
+C0104,Andi Saputra,Individual,Female,081200000104,andi.saputra104@example.com,Palembang,Sumatera Selatan,May 25 2023,True
+C0105,Sari Saputra,Marketplace Seller,Male,081200000105,sari.saputra105@example.com,Solo,Jawa Tengah,2025-03-27,Yes
+C0106,Nadia Lestari,E-Commerce Partner,Female,081200000106,nadia.lestari106@example.com,Surabaya,Jawa Timur,29/09/2021,Active
+C0107,Joko Wulandari,E-Commerce Partner,Male,081200000107,joko.wulandari107@example.com,Bekasi,Jawa Barat,2024/08/18,Active
+C0108,Putra Santoso,Marketplace Seller,Male,081200000108,putra.santoso108@example.com,Mataram,Nusa Tenggara Barat,03-10-2023,Yes
+C0109,Hendra Wulandari,Individual,Female,081200000109,hendra.wulandari109@example.com,Malang,Jawa Timur,Dec 16 2021,Yes
+C0110,Tono Gunawan,Individual,Male,081200000110,tono.gunawan110@example.com,Bekasi,Jawa Barat,2023-10-21,Active
+C0111,Gita Hartono,E-Commerce Partner,Female,081200000111,gita.hartono111@example.com,Makassar,Sulawesi Selatan,09/09/2021,Yes
+C0112,Lestari Maulana,Individual,Female,081200000112,lestari.maulana112@example.com,Manado,Sulawesi Utara,2022/03/04,Active
+C0113,Kartika Pratama,Individual,Female,081200000113,kartika.pratama113@example.com,Kupang,Nusa Tenggara Timur,02-05-2023,Active
+C0114,Dewi Gunawan,Marketplace Seller,Male,081200000114,dewi.gunawan114@example.com,Solo,Jawa Tengah,Apr 19 2020,1
+C0115,Wulan Wijaya,Corporate,Female,081200000115,wulan.wijaya115@example.com,Pekanbaru,Riau,2025-06-04,Y
+C0116,Gita Hartono,Corporate,Female,081200000116,gita.hartono116@example.com,Manado,Sulawesi Utara,21/11/2020,Y
+C0117,Rani Pratama,Marketplace Seller,Male,081200000117,rani.pratama117@example.com,Medan,Sumatera Utara,2024/06/16,Yes
+C0118,Indra Wijaya,E-Commerce Partner,Female,081200000118,indra.wijaya118@example.com,Pekanbaru,Riau,29-01-2020,Active
+C0119,Utami Lestari,E-Commerce Partner,Female,081200000119,utami.lestari119@example.com,Solo,Jawa Tengah,Oct 10 2021,Yes
+C0120,Joko Hartono,Marketplace Seller,Male,081200000120,joko.hartono120@example.com,Kupang,Nusa Tenggara Timur,2021-02-19,Active
+C0121,Gita Pratama,E-Commerce Partner,Male,081200000121,gita.pratama121@example.com,Denpasar,Bali,07/02/2020,Active
+C0122,Gita Hartono,E-Commerce Partner,Female,081200000122,gita.hartono122@example.com,Bogor,Jawa Barat,2020/11/22,Active
+C0123,Citra Pratama,Individual,Male,081200000123,citra.pratama123@example.com,Balikpapan,Kalimantan Timur,16-08-2023,Yes
+C0124,Putra Santoso,Corporate,Male,081200000124,putra.santoso124@example.com,Pontianak,Kalimantan Barat,Jun 04 2021,Yes
+C0125,Utami Wulandari,Marketplace Seller,Female,081200000125,utami.wulandari125@example.com,Pekanbaru,Riau,2021-07-11,True
+C0126,Lestari Wijaya,E-Commerce Partner,Female,081200000126,lestari.wijaya126@example.com,Bogor,Jawa Barat,30/01/2023,True
+C0127,Budi Lestari,Marketplace Seller,Male,081200000127,budi.lestari127@example.com,Batam,Kepulauan Riau,2022/01/27,Active
+C0128,Gita Maulana,E-Commerce Partner,Female,081200000128,gita.maulana128@example.com,Manado,Sulawesi Utara,01-08-2025,Y
+C0129,Dewi Wulandari,E-Commerce Partner,Male,081200000129,dewi.wulandari129@example.com,Bandung,Jawa Barat,Jun 06 2020,1
+C0130,Budi Santoso,Marketplace Seller,Male,081200000130,budi.santoso130@example.com,Denpasar,Bali,2022-04-12,Y
+C0131,Putra Putri,Individual,Female,081200000131,putra.putri131@example.com,Pontianak,Kalimantan Barat,15/06/2020,Yes
+C0132,Wulan Wijaya,Marketplace Seller,Male,081200000132,wulan.wijaya132@example.com,Solo,Jawa Tengah,2020/08/10,True
+C0133,Indra Wulandari,E-Commerce Partner,Male,081200000133,indra.wulandari133@example.com,Solo,Jawa Tengah,08-12-2021,Active
+C0134,Dewi Wijaya,Individual,Female,081200000134,dewi.wijaya134@example.com,Denpasar,Bali,Aug 05 2025,True
+C0135,Maya Wijaya,E-Commerce Partner,Male,081200000135,maya.wijaya135@example.com,Pontianak,Kalimantan Barat,2025-01-08,Active
+C0136,Joko Pratama,E-Commerce Partner,Female,081200000136,joko.pratama136@example.com,Jakarta,DKI Jakarta,21/07/2023,1
+C0137,Budi Putri,Individual,Male,081200000137,budi.putri137@example.com,Medan,Sumatera Utara,2021/05/09,1
+C0138,Maya Putri,Marketplace Seller,Male,081200000138,maya.putri138@example.com,Balikpapan,Kalimantan Timur,30-03-2022,Active
+C0139,Sari Putri,Marketplace Seller,Male,081200000139,sari.putri139@example.com,Pontianak,Kalimantan Barat,Aug 16 2022,Active
+C0140,Putra Hartono,Corporate,Female,081200000140,putra.hartono140@example.com,Surabaya,Jawa Timur,2025-12-05,Active
+C0141,Joko Putri,Individual,Female,081200000141,joko.putri141@example.com,Solo,Jawa Tengah,20/08/2020,Y
+C0142,Utami Putri,Individual,Female,081200000142,utami.putri142@example.com,Surabaya,Jawa Timur,2020/06/16,1
+C0143,Joko Lestari,Marketplace Seller,Male,081200000143,joko.lestari143@example.com,Palembang,Sumatera Selatan,14-08-2022,True
+C0144,Maya Maulana,Individual,Male,081200000144,maya.maulana144@example.com,Bogor,Jawa Barat,Apr 03 2021,1
+C0145,Eka Putri,Individual,Male,081200000145,eka.putri145@example.com,Mataram,Nusa Tenggara Barat,2021-12-21,1
+C0146,Sari Maulana,Marketplace Seller,Male,081200000146,sari.maulana146@example.com,Pontianak,Kalimantan Barat,23/12/2023,Y
+C0147,Joko Lestari,Marketplace Seller,Male,081200000147,joko.lestari147@example.com,Malang,Jawa Timur,2020/08/16,Active
+C0148,Andi Santoso,Corporate,Male,081200000148,andi.santoso148@example.com,Bandung,Jawa Barat,16-02-2022,Yes
+C0149,Fajar Hartono,Marketplace Seller,Male,081200000149,fajar.hartono149@example.com,Balikpapan,Kalimantan Timur,Jul 07 2021,Y
+C0150,Joko Santoso,Individual,Female,081200000150,joko.santoso150@example.com,Surabaya,Jawa Timur,2020-12-10,Y
+C0151,Andi Lestari,Marketplace Seller,Male,081200000151,andi.lestari151@example.com,Makassar,Sulawesi Selatan,27/08/2025,True
+C0152,Rani Pratama,Marketplace Seller,Female,081200000152,rani.pratama152@example.com,Yogyakarta,DI Yogyakarta,2024/01/08,True
+C0153,Fajar Pratama,Marketplace Seller,Female,081200000153,fajar.pratama153@example.com,Medan,Sumatera Utara,11-12-2023,True
+C0154,Kartika Wijaya,Individual,Female,081200000154,kartika.wijaya154@example.com,Kupang,Nusa Tenggara Timur,May 10 2025,Y
+C0155,Tono Saputra,E-Commerce Partner,Female,081200000155,tono.saputra155@example.com,Semarang,Jawa Tengah,2023-09-04,1
+C0156,Sari Maulana,Corporate,Male,081200000156,sari.maulana156@example.com,Denpasar,Bali,12/06/2022,True
+C0157,Tono Hartono,Individual,Male,081200000157,tono.hartono157@example.com,Balikpapan,Kalimantan Timur,2025/06/18,True
+C0158,Gita Santoso,E-Commerce Partner,Female,081200000158,gita.santoso158@example.com,Padang,Sumatera Barat,20-01-2023,Active
+C0159,Sari Wijaya,Individual,Male,081200000159,sari.wijaya159@example.com,Makassar,Sulawesi Selatan,Jan 28 2023,Active
+C0160,Indra Wulandari,E-Commerce Partner,Male,081200000160,indra.wulandari160@example.com,Palembang,Sumatera Selatan,2025-04-13,Yes
+C0161,Joko Maulana,Corporate,Male,081200000161,joko.maulana161@example.com,Denpasar,Bali,11/02/2023,Y
+C0162,Nadia Hartono,Corporate,Male,081200000162,nadia.hartono162@example.com,Tangerang,Banten,2022/07/13,Active
+C0163,Lestari Maulana,Corporate,Female,081200000163,lestari.maulana163@example.com,Manado,Sulawesi Utara,30-01-2024,True
+C0164,Dewi Pratama,Individual,Male,081200000164,dewi.pratama164@example.com,Bandung,Jawa Barat,Oct 11 2023,Yes
+C0165,Putra Wulandari,E-Commerce Partner,Male,081200000165,putra.wulandari165@example.com,Denpasar,Bali,2023-10-20,Y
+C0166,Putra Maulana,Corporate,Female,081200000166,putra.maulana166@example.com,Semarang,Jawa Tengah,01/01/2024,Active
+C0167,Nadia Lestari,Marketplace Seller,Female,081200000167,nadia.lestari167@example.com,Bandung,Jawa Barat,2022/02/19,Active
+C0168,Andi Wulandari,Marketplace Seller,Male,081200000168,andi.wulandari168@example.com,Semarang,Jawa Tengah,18-01-2026,Active
+C0169,Budi Hartono,E-Commerce Partner,Male,081200000169,budi.hartono169@example.com,Bogor,Jawa Barat,Dec 19 2023,Yes
+C0170,Andi Wulandari,Individual,Female,081200000170,andi.wulandari170@example.com,Makassar,Sulawesi Selatan,2023-10-24,Y
+C0171,Nadia Saputra,E-Commerce Partner,Male,081200000171,nadia.saputra171@example.com,Semarang,Jawa Tengah,02/04/2025,Yes
+C0172,Fajar Hartono,Corporate,Female,081200000172,fajar.hartono172@example.com,Malang,Jawa Timur,2024/11/01,True
+C0173,Fajar Saputra,Corporate,Female,081200000173,fajar.saputra173@example.com,Pontianak,Kalimantan Barat,19-12-2022,1
+C0174,Utami Lestari,Individual,Female,081200000174,utami.lestari174@example.com,Padang,Sumatera Barat,Jul 02 2022,Y
+C0175,Utami Gunawan,Marketplace Seller,Male,081200000175,utami.gunawan175@example.com,Malang,Jawa Timur,2025-12-24,Y
+C0176,Citra Pratama,Marketplace Seller,Male,081200000176,citra.pratama176@example.com,Pontianak,Kalimantan Barat,20/04/2021,True
+C0177,Lestari Maulana,E-Commerce Partner,Female,081200000177,lestari.maulana177@example.com,Batam,Kepulauan Riau,2022/03/23,1
+C0178,Joko Wijaya,Corporate,Male,081200000178,joko.wijaya178@example.com,Kupang,Nusa Tenggara Timur,25-04-2021,True
+C0179,Putra Gunawan,E-Commerce Partner,Female,081200000179,putra.gunawan179@example.com,Denpasar,Bali,Jan 27 2024,Y
+C0180,Tono Gunawan,Marketplace Seller,Male,081200000180,tono.gunawan180@example.com,Yogyakarta,DI Yogyakarta,2020-01-25,Y
+C0181,Dewi Wulandari,Corporate,Male,081200000181,dewi.wulandari181@example.com,Mataram,Nusa Tenggara Barat,20/09/2023,True
+C0182,Tono Hartono,Marketplace Seller,Male,081200000182,tono.hartono182@example.com,Kupang,Nusa Tenggara Timur,2021/07/14,Y
+C0183,Utami Lestari,Individual,Female,081200000183,utami.lestari183@example.com,Bogor,Jawa Barat,01-04-2025,1
+C0184,Putra Lestari,Individual,Male,081200000184,putra.lestari184@example.com,Pontianak,Kalimantan Barat,Jun 05 2025,Y
+C0185,Joko Lestari,Marketplace Seller,Female,081200000185,joko.lestari185@example.com,Pekanbaru,Riau,2021-10-09,True
+C0186,Fajar Wijaya,Corporate,Female,081200000186,fajar.wijaya186@example.com,Medan,Sumatera Utara,25/12/2021,Y
+C0187,Fajar Gunawan,Corporate,Female,081200000187,fajar.gunawan187@example.com,Makassar,Sulawesi Selatan,2023/04/14,Y
+C0188,Hendra Pratama,E-Commerce Partner,Female,081200000188,hendra.pratama188@example.com,Bekasi,Jawa Barat,22-08-2020,1
+C0189,Joko Gunawan,Individual,Male,081200000189,joko.gunawan189@example.com,Banjarmasin,Kalimantan Selatan,May 28 2020,Yes
+C0190,Tono Wulandari,Individual,Male,081200000190,tono.wulandari190@example.com,Pekanbaru,Riau,2022-09-03,Active
+C0191,Eka Santoso,Corporate,Male,081200000191,eka.santoso191@example.com,Medan,Sumatera Utara,17/02/2024,1
+C0192,Rani Santoso,Corporate,Male,081200000192,rani.santoso192@example.com,Semarang,Jawa Tengah,2025/12/06,Active
+C0193,Hendra Saputra,Marketplace Seller,Female,081200000193,hendra.saputra193@example.com,Bogor,Jawa Barat,03-10-2022,Active
+C0194,Utami Gunawan,Corporate,Male,081200000194,utami.gunawan194@example.com,Makassar,Sulawesi Selatan,Sep 08 2024,Active
+C0195,Rani Lestari,E-Commerce Partner,Female,081200000195,rani.lestari195@example.com,Bogor,Jawa Barat,2020-10-31,True
+C0196,Gita Wulandari,Individual,Female,081200000196,gita.wulandari196@example.com,Medan,Sumatera Utara,15/11/2025,Yes
+C0197,Fajar Hartono,Marketplace Seller,Female,081200000197,fajar.hartono197@example.com,Medan,Sumatera Utara,2026/01/13,Yes
+C0198,Fajar Putri,E-Commerce Partner,Male,081200000198,fajar.putri198@example.com,Jakarta,DKI Jakarta,06-10-2024,Y
+C0199,Rani Lestari,Marketplace Seller,Female,081200000199,rani.lestari199@example.com,Banjarmasin,Kalimantan Selatan,Feb 10 2021,Active
+C0200,Indra Maulana,Marketplace Seller,Male,081200000200,indra.maulana200@example.com,Bandung,Jawa Barat,2022-05-27,True
+C0201,Maya Putri,Corporate,Male,081200000201,maya.putri201@example.com,Pontianak,Kalimantan Barat,27/11/2023,Active
+C0202,Nadia Wulandari,E-Commerce Partner,Female,081200000202,nadia.wulandari202@example.com,Mataram,Nusa Tenggara Barat,2024/09/21,True
+C0203,Andi Putri,E-Commerce Partner,Male,081200000203,andi.putri203@example.com,Jakarta Pusat,DKI Jakarta,16-03-2021,Active
+C0204,Dewi Maulana,Individual,Male,081200000204,dewi.maulana204@example.com,Jakarta,DKI Jakarta,Mar 18 2025,Yes
+C0205,Fajar Pratama,E-Commerce Partner,Female,081200000205,fajar.pratama205@example.com,Batam,Kepulauan Riau,2022-03-28,1
+C0206,Utami Santoso,Marketplace Seller,Female,081200000206,utami.santoso206@example.com,Yogyakarta,DI Yogyakarta,02/12/2023,Yes
+C0207,Gita Saputra,Individual,Female,081200000207,gita.saputra207@example.com,Pontianak,Kalimantan Barat,2024/08/22,Active
+C0208,Joko Wijaya,Corporate,Male,081200000208,joko.wijaya208@example.com,Makassar,Sulawesi Selatan,05-11-2024,Active
+C0209,Joko Lestari,E-Commerce Partner,Female,081200000209,joko.lestari209@example.com,Yogyakarta,DI Yogyakarta,Nov 17 2025,Y
+C0210,Andi Putri,Marketplace Seller,Male,081200000210,andi.putri210@example.com,Manado,Sulawesi Utara,2020-07-15,Yes
+C0211,Rani Putri,Marketplace Seller,Female,081200000211,rani.putri211@example.com,Pekanbaru,Riau,03/09/2020,True
+C0212,Rani Wulandari,E-Commerce Partner,Male,081200000212,rani.wulandari212@example.com,Bandung,Jawa Barat,2022/07/31,True
+C0213,Andi Pratama,Corporate,Male,081200000213,andi.pratama213@example.com,Padang,Sumatera Barat,25-01-2020,Y
+C0214,Nadia Gunawan,Corporate,Female,081200000214,nadia.gunawan214@example.com,Jakarta,DKI Jakarta,Dec 02 2022,Yes
+C0215,Nadia Hartono,E-Commerce Partner,Male,081200000215,nadia.hartono215@example.com,Bekasi,Jawa Barat,2023-03-31,1
+C0216,Eka Pratama,Individual,Male,081200000216,eka.pratama216@example.com,Banjarmasin,Kalimantan Selatan,06/06/2022,True
+C0217,Kartika Gunawan,Marketplace Seller,Female,081200000217,kartika.gunawan217@example.com,Mataram,Nusa Tenggara Barat,2020/07/15,1
+C0218,Gita Santoso,Corporate,Male,081200000218,gita.santoso218@example.com,Bogor,Jawa Barat,23-02-2025,1
+C0219,Citra Wulandari,Marketplace Seller,Male,081200000219,citra.wulandari219@example.com,Bogor,Jawa Barat,Nov 13 2022,True
+C0220,Lestari Hartono,Individual,Female,081200000220,lestari.hartono220@example.com,Pontianak,Kalimantan Barat,2021-02-23,1
+C0221,Rani Santoso,Corporate,Male,081200000221,rani.santoso221@example.com,Tangerang,Banten,14/05/2020,Yes
+C0222,Hendra Wijaya,Corporate,Female,081200000222,hendra.wijaya222@example.com,Bekasi,Jawa Barat,2022/01/22,Active
+C0223,Indra Gunawan,Individual,Male,081200000223,indra.gunawan223@example.com,Mataram,Nusa Tenggara Barat,31-07-2024,True
+C0224,Sari Wijaya,Corporate,Male,081200000224,sari.wijaya224@example.com,Pontianak,Kalimantan Barat,Apr 14 2022,Y
+C0225,Andi Saputra,Corporate,Male,081200000225,andi.saputra225@example.com,Yogyakarta,DI Yogyakarta,2021-02-17,1
+C0226,Indra Hartono,Individual,Female,081200000226,indra.hartono226@example.com,Kupang,Nusa Tenggara Timur,09/10/2021,Yes
+C0227,Gita Hartono,Individual,Male,081200000227,gita.hartono227@example.com,Yogyakarta,DI Yogyakarta,2020/07/16,Y
+C0228,Maya Maulana,E-Commerce Partner,Male,081200000228,maya.maulana228@example.com,Malang,Jawa Timur,13-08-2025,Yes
+C0229,Eka Santoso,Corporate,Female,081200000229,eka.santoso229@example.com,Jakarta,DKI Jakarta,Nov 14 2025,Active
+C0230,Dewi Lestari,Marketplace Seller,Female,081200000230,dewi.lestari230@example.com,Pekanbaru,Riau,2022-02-19,Y
+C0231,Fajar Wulandari,Marketplace Seller,Male,081200000231,fajar.wulandari231@example.com,Denpasar,Bali,09/06/2021,Active
+C0232,Utami Gunawan,Individual,Male,081200000232,utami.gunawan232@example.com,Padang,Sumatera Barat,2021/10/23,1
+C0233,Kartika Wijaya,Corporate,Male,081200000233,kartika.wijaya233@example.com,Solo,Jawa Tengah,28-02-2022,Active
+C0234,Fajar Putri,E-Commerce Partner,Male,081200000234,fajar.putri234@example.com,Denpasar,Bali,Apr 20 2025,Yes
+C0235,Indra Saputra,E-Commerce Partner,Male,081200000235,indra.saputra235@example.com,Tangerang,Banten,2026-01-23,1
+C0236,Budi Saputra,Marketplace Seller,Female,081200000236,budi.saputra236@example.com,Padang,Sumatera Barat,23/01/2025,Yes
+C0237,Utami Hartono,Marketplace Seller,Female,081200000237,utami.hartono237@example.com,Medan,Sumatera Utara,2020/09/03,Yes
+C0238,Hendra Maulana,E-Commerce Partner,Male,081200000238,hendra.maulana238@example.com,Bekasi,Jawa Barat,01-03-2024,1
+C0239,Putra Wulandari,Corporate,Male,081200000239,putra.wulandari239@example.com,Palembang,Sumatera Selatan,May 26 2020,Yes
+C0240,Fajar Gunawan,Corporate,Female,081200000240,fajar.gunawan240@example.com,Denpasar,Bali,2025-05-01,Y
+C0241,Gita Wijaya,Corporate,Female,081200000241,gita.wijaya241@example.com,Bekasi,Jawa Barat,06/07/2020,Y
+C0242,Sari Gunawan,E-Commerce Partner,Male,081200000242,sari.gunawan242@example.com,Semarang,Jawa Tengah,2024/05/20,1
+C0243,Utami Gunawan,Marketplace Seller,Female,081200000243,utami.gunawan243@example.com,Pontianak,Kalimantan Barat,02-12-2020,Active
+C0244,Lestari Lestari,Corporate,Male,081200000244,lestari.lestari244@example.com,Batam,Kepulauan Riau,Nov 12 2020,True
+C0245,Gita Hartono,Individual,Male,081200000245,gita.hartono245@example.com,Solo,Jawa Tengah,2025-02-04,Y
+C0246,Tono Putri,Individual,Male,081200000246,tono.putri246@example.com,Yogyakarta,DI Yogyakarta,13/04/2023,1
+C0247,Kartika Pratama,Corporate,Male,081200000247,kartika.pratama247@example.com,Bogor,Jawa Barat,2022/09/16,True
+C0248,Kartika Gunawan,Corporate,Female,081200000248,kartika.gunawan248@example.com,Batam,Kepulauan Riau,28-11-2023,Yes
+C0249,Indra Wulandari,Individual,Male,081200000249,indra.wulandari249@example.com,Manado,Sulawesi Utara,Dec 30 2021,Y
+C0250,Andi Putri,Corporate,Male,081200000250,andi.putri250@example.com,Bogor,Jawa Barat,2023-12-10,1
+C0251,Utami Lestari,E-Commerce Partner,Male,081200000251,utami.lestari251@example.com,Manado,Sulawesi Utara,14/09/2021,1
+C0252,Indra Hartono,Individual,Male,081200000252,indra.hartono252@example.com,Balikpapan,Kalimantan Timur,2023/01/16,Active
+C0253,Putra Hartono,E-Commerce Partner,Female,081200000253,putra.hartono253@example.com,Bogor,Jawa Barat,16-03-2020,Y
+C0254,Eka Wulandari,Individual,Male,081200000254,eka.wulandari254@example.com,Solo,Jawa Tengah,Feb 11 2025,1
+C0255,Sari Putri,Marketplace Seller,Female,081200000255,sari.putri255@example.com,Padang,Sumatera Barat,2020-10-16,True
+C0256,Putra Maulana,E-Commerce Partner,Male,081200000256,putra.maulana256@example.com,Palembang,Sumatera Selatan,27/03/2021,True
+C0257,Fajar Maulana,Individual,Male,081200000257,fajar.maulana257@example.com,Bogor,Jawa Barat,2021/04/05,Yes
+C0258,Hendra Wulandari,Marketplace Seller,Female,081200000258,hendra.wulandari258@example.com,Bekasi,Jawa Barat,23-01-2026,Active
+C0259,Tono Lestari,Individual,Male,081200000259,tono.lestari259@example.com,Kupang,Nusa Tenggara Timur,Nov 21 2020,True
+C0260,Tono Maulana,Marketplace Seller,Male,081200000260,tono.maulana260@example.com,Batam,Kepulauan Riau,2026-03-09,True
+C0261,Indra Maulana,Marketplace Seller,Female,081200000261,indra.maulana261@example.com,Padang,Sumatera Barat,18/04/2025,True
+C0262,Kartika Saputra,Individual,Female,081200000262,kartika.saputra262@example.com,Banjarmasin,Kalimantan Selatan,2022/08/08,Y
+C0263,Indra Gunawan,Corporate,Male,081200000263,indra.gunawan263@example.com,Bandung,Jawa Barat,24-03-2023,Y
+C0264,Sari Lestari,Corporate,Female,081200000264,sari.lestari264@example.com,Mataram,Nusa Tenggara Barat,Dec 17 2020,Active
+C0265,Wulan Lestari,Marketplace Seller,Female,081200000265,wulan.lestari265@example.com,Yogyakarta,DI Yogyakarta,2024-09-04,Y
+C0266,Dewi Santoso,E-Commerce Partner,Male,081200000266,dewi.santoso266@example.com,Solo,Jawa Tengah,18/09/2022,True
+C0267,Citra Maulana,Marketplace Seller,Female,081200000267,citra.maulana267@example.com,Yogyakarta,DI Yogyakarta,2023/09/14,True
+C0268,Budi Saputra,Individual,Female,081200000268,budi.saputra268@example.com,Jakarta Pusat,DKI Jakarta,22-05-2023,Active
+C0269,Utami Santoso,Individual,Male,081200000269,utami.santoso269@example.com,Bekasi,Jawa Barat,Jul 02 2023,Active
+C0270,Nadia Hartono,E-Commerce Partner,Male,081200000270,nadia.hartono270@example.com,Palembang,Sumatera Selatan,2024-08-18,Yes
+C0271,Indra Pratama,Marketplace Seller,Male,081200000271,indra.pratama271@example.com,Bogor,Jawa Barat,12/02/2020,Yes
+C0272,Sari Lestari,E-Commerce Partner,Male,081200000272,sari.lestari272@example.com,Pontianak,Kalimantan Barat,2023/07/18,Y
+C0273,Sari Wijaya,E-Commerce Partner,Female,081200000273,sari.wijaya273@example.com,Denpasar,Bali,26-04-2021,Y
+C0274,Utami Pratama,Marketplace Seller,Female,081200000274,utami.pratama274@example.com,Surabaya,Jawa Timur,Jul 24 2021,Active
+C0275,Lestari Wulandari,Individual,Male,081200000275,lestari.wulandari275@example.com,Kupang,Nusa Tenggara Timur,2025-04-21,Yes
+C0276,Dewi Hartono,Marketplace Seller,Male,081200000276,dewi.hartono276@example.com,Balikpapan,Kalimantan Timur,15/03/2023,Active
+C0277,Dewi Santoso,Corporate,Male,081200000277,dewi.santoso277@example.com,Yogyakarta,DI Yogyakarta,2022/09/05,1
+C0278,Gita Wulandari,Individual,Male,081200000278,gita.wulandari278@example.com,Padang,Sumatera Barat,07-05-2025,Y
+C0279,Rani Gunawan,Individual,Female,081200000279,rani.gunawan279@example.com,Pontianak,Kalimantan Barat,Oct 16 2024,Active
+C0280,Nadia Lestari,E-Commerce Partner,Female,081200000280,nadia.lestari280@example.com,Padang,Sumatera Barat,2024-06-25,Yes
+C0281,Nadia Hartono,Individual,Male,081200000281,nadia.hartono281@example.com,Kupang,Nusa Tenggara Timur,15/11/2021,True
+C0282,Joko Putri,E-Commerce Partner,Female,081200000282,joko.putri282@example.com,Mataram,Nusa Tenggara Barat,2025/02/08,Y
+C0283,Lestari Putri,Corporate,Male,081200000283,lestari.putri283@example.com,Banjarmasin,Kalimantan Selatan,22-03-2023,Y
+C0284,Rani Lestari,Corporate,Female,081200000284,rani.lestari284@example.com,Tangerang,Banten,Dec 14 2023,Active
+C0285,Maya Wulandari,Marketplace Seller,Female,081200000285,maya.wulandari285@example.com,Palembang,Sumatera Selatan,2026-01-12,Y
+C0286,Budi Gunawan,Marketplace Seller,Female,081200000286,budi.gunawan286@example.com,Bekasi,Jawa Barat,05/09/2023,1
+C0287,Indra Santoso,E-Commerce Partner,Female,081200000287,indra.santoso287@example.com,Jakarta,DKI Jakarta,2025/08/24,Yes
+C0288,Utami Wulandari,Individual,Female,081200000288,utami.wulandari288@example.com,Medan,Sumatera Utara,19-06-2025,1
+C0289,Gita Saputra,E-Commerce Partner,Female,081200000289,gita.saputra289@example.com,Solo,Jawa Tengah,Aug 27 2023,Yes
+C0290,Gita Wijaya,E-Commerce Partner,Female,081200000290,gita.wijaya290@example.com,Solo,Jawa Tengah,2020-08-25,True
+C0291,Maya Saputra,Marketplace Seller,Male,081200000291,maya.saputra291@example.com,Bogor,Jawa Barat,23/07/2023,True
+C0292,Andi Putri,E-Commerce Partner,Female,081200000292,andi.putri292@example.com,Batam,Kepulauan Riau,2021/09/25,Active
+C0293,Eka Lestari,Individual,Male,081200000293,eka.lestari293@example.com,Tangerang,Banten,29-04-2024,1
+C0294,Tono Saputra,Corporate,Female,081200000294,tono.saputra294@example.com,Banjarmasin,Kalimantan Selatan,Dec 28 2023,True
+C0295,Hendra Gunawan,E-Commerce Partner,Male,081200000295,hendra.gunawan295@example.com,Tangerang,Banten,2020-07-19,True
+C0296,Putra Pratama,Marketplace Seller,Female,081200000296,putra.pratama296@example.com,Medan,Sumatera Utara,07/09/2022,Active
+C0297,Sari Wulandari,Corporate,Male,081200000297,sari.wulandari297@example.com,Jakarta Pusat,DKI Jakarta,2024/06/06,1
+C0298,Sari Wijaya,Corporate,Male,081200000298,sari.wijaya298@example.com,Banjarmasin,Kalimantan Selatan,28-07-2024,1
+C0299,Kartika Saputra,Individual,Male,081200000299,kartika.saputra299@example.com,Bekasi,Jawa Barat,Mar 03 2026,Yes
+C0300,Citra Gunawan,Marketplace Seller,Male,081200000300,citra.gunawan300@example.com,Makassar,Sulawesi Selatan,2023-08-15,True
+C0301,Gita Santoso,Corporate,Female,081200000301,gita.santoso301@example.com,Batam,Kepulauan Riau,13/09/2021,True
+C0302,Kartika Pratama,Individual,Female,081200000302,kartika.pratama302@example.com,Jakarta,DKI Jakarta,2021/09/21,1
+C0303,Lestari Hartono,Corporate,Male,081200000303,lestari.hartono303@example.com,Pontianak,Kalimantan Barat,17-01-2023,1
+C0304,Hendra Maulana,E-Commerce Partner,Female,081200000304,hendra.maulana304@example.com,Makassar,Sulawesi Selatan,Feb 28 2026,Yes
+C0305,Fajar Santoso,Corporate,Male,081200000305,fajar.santoso305@example.com,Pekanbaru,Riau,2020-11-08,Active
+C0306,Utami Saputra,Marketplace Seller,Female,081200000306,utami.saputra306@example.com,Pontianak,Kalimantan Barat,06/01/2023,Active
+C0307,Gita Gunawan,Individual,Male,081200000307,gita.gunawan307@example.com,Pekanbaru,Riau,2022/11/12,True
+C0308,Sari Gunawan,Corporate,Female,081200000308,sari.gunawan308@example.com,Semarang,Jawa Tengah,12-03-2021,Active
+C0309,Fajar Santoso,Individual,Female,081200000309,fajar.santoso309@example.com,Pontianak,Kalimantan Barat,Apr 03 2025,Yes
+C0310,Fajar Santoso,Corporate,Male,081200000310,fajar.santoso310@example.com,Makassar,Sulawesi Selatan,2021-09-14,1
+C0311,Dewi Putri,Individual,Female,081200000311,dewi.putri311@example.com,Tangerang,Banten,18/09/2022,1
+C0312,Tono Hartono,Corporate,Female,081200000312,tono.hartono312@example.com,Denpasar,Bali,2021/07/26,Active
+C0313,Hendra Wijaya,Individual,Female,081200000313,hendra.wijaya313@example.com,Pontianak,Kalimantan Barat,03-03-2025,Active
+C0314,Wulan Hartono,Marketplace Seller,Female,081200000314,wulan.hartono314@example.com,Bekasi,Jawa Barat,Oct 19 2025,Active
+C0315,Putra Hartono,Corporate,Male,081200000315,putra.hartono315@example.com,Yogyakarta,DI Yogyakarta,2025-09-23,True
+C0316,Kartika Lestari,Individual,Female,081200000316,kartika.lestari316@example.com,Bandung,Jawa Barat,28/10/2020,Yes
+C0317,Gita Maulana,E-Commerce Partner,Female,081200000317,gita.maulana317@example.com,Malang,Jawa Timur,2021/08/06,Y
+C0318,Fajar Wijaya,Corporate,Male,081200000318,fajar.wijaya318@example.com,Batam,Kepulauan Riau,28-03-2026,True
+C0319,Indra Lestari,Corporate,Male,081200000319,indra.lestari319@example.com,Medan,Sumatera Utara,May 22 2021,Y
+C0320,Citra Wulandari,E-Commerce Partner,Male,081200000320,citra.wulandari320@example.com,Batam,Kepulauan Riau,2024-05-01,True
+C0321,Hendra Wulandari,Individual,Female,081200000321,hendra.wulandari321@example.com,Jakarta,DKI Jakarta,29/06/2024,Y
+C0322,Maya Putri,Marketplace Seller,Female,081200000322,maya.putri322@example.com,Mataram,Nusa Tenggara Barat,2021/04/18,Active
+C0323,Citra Gunawan,Corporate,Female,081200000323,citra.gunawan323@example.com,Kupang,Nusa Tenggara Timur,04-09-2025,Yes
+C0324,Utami Saputra,Marketplace Seller,Male,081200000324,utami.saputra324@example.com,Bandung,Jawa Barat,Oct 04 2022,Yes
+C0325,Sari Saputra,Individual,Male,081200000325,sari.saputra325@example.com,Pontianak,Kalimantan Barat,2023-08-11,Y
+C0326,Hendra Gunawan,E-Commerce Partner,Female,081200000326,hendra.gunawan326@example.com,Bekasi,Jawa Barat,01/10/2021,Active
+C0327,Budi Wijaya,E-Commerce Partner,Female,081200000327,budi.wijaya327@example.com,Banjarmasin,Kalimantan Selatan,2022/11/09,True
+C0328,Gita Wulandari,Corporate,Male,081200000328,gita.wulandari328@example.com,Mataram,Nusa Tenggara Barat,02-01-2021,Active
+C0329,Dewi Lestari,Marketplace Seller,Male,081200000329,dewi.lestari329@example.com,Semarang,Jawa Tengah,Nov 28 2021,Active
+C0330,Citra Pratama,Corporate,Female,081200000330,citra.pratama330@example.com,Surabaya,Jawa Timur,2023-10-29,Yes
+C0331,Andi Wijaya,E-Commerce Partner,Female,081200000331,andi.wijaya331@example.com,Jakarta Pusat,DKI Jakarta,13/06/2021,Active
+C0332,Andi Lestari,E-Commerce Partner,Male,081200000332,andi.lestari332@example.com,Kupang,Nusa Tenggara Timur,2025/08/05,Active
+C0333,Joko Lestari,Corporate,Female,081200000333,joko.lestari333@example.com,Palembang,Sumatera Selatan,14-05-2024,Yes
+C0334,Tono Santoso,Marketplace Seller,Female,081200000334,tono.santoso334@example.com,Bogor,Jawa Barat,Dec 19 2020,Yes
+C0335,Maya Lestari,Individual,Male,081200000335,maya.lestari335@example.com,Balikpapan,Kalimantan Timur,2023-09-24,Active
+C0336,Indra Wulandari,Individual,Female,081200000336,indra.wulandari336@example.com,Jakarta Pusat,DKI Jakarta,11/10/2022,1
+C0337,Sari Gunawan,Marketplace Seller,Female,081200000337,sari.gunawan337@example.com,Bogor,Jawa Barat,2020/02/14,True
+C0338,Gita Maulana,Individual,Male,081200000338,gita.maulana338@example.com,Bogor,Jawa Barat,19-12-2022,Yes
+C0339,Sari Gunawan,Marketplace Seller,Male,081200000339,sari.gunawan339@example.com,Mataram,Nusa Tenggara Barat,Jul 02 2021,1
+C0340,Eka Hartono,E-Commerce Partner,Female,081200000340,eka.hartono340@example.com,Bekasi,Jawa Barat,2022-05-17,Yes
+C0341,Eka Maulana,Marketplace Seller,Female,081200000341,eka.maulana341@example.com,Medan,Sumatera Utara,03/10/2024,Active
+C0342,Nadia Santoso,E-Commerce Partner,Male,081200000342,nadia.santoso342@example.com,Manado,Sulawesi Utara,2022/01/16,Active
+C0343,Putra Hartono,Corporate,Male,081200000343,putra.hartono343@example.com,Batam,Kepulauan Riau,09-08-2023,Active
+C0344,Indra Putri,Individual,Female,081200000344,indra.putri344@example.com,Makassar,Sulawesi Selatan,Mar 25 2021,True
+C0345,Kartika Wijaya,E-Commerce Partner,Male,081200000345,kartika.wijaya345@example.com,Manado,Sulawesi Utara,2024-04-26,Yes
+C0346,Fajar Putri,Corporate,Female,081200000346,fajar.putri346@example.com,Palembang,Sumatera Selatan,05/12/2021,Active
+C0347,Gita Saputra,Corporate,Female,081200000347,gita.saputra347@example.com,Surabaya,Jawa Timur,2021/10/11,True
+C0348,Joko Maulana,Corporate,Male,081200000348,joko.maulana348@example.com,Malang,Jawa Timur,16-07-2023,Active
+C0349,Indra Hartono,E-Commerce Partner,Female,081200000349,indra.hartono349@example.com,Semarang,Jawa Tengah,Apr 16 2026,True
+C0350,Rani Lestari,E-Commerce Partner,Male,081200000350,rani.lestari350@example.com,Surabaya,Jawa Timur,2021-11-19,1
+C0351,Sari Lestari,Individual,Female,081200000351,sari.lestari351@example.com,Tangerang,Banten,18/04/2023,Y
+C0352,Nadia Gunawan,Individual,Female,081200000352,nadia.gunawan352@example.com,Makassar,Sulawesi Selatan,2026/03/27,Active
+C0353,Hendra Lestari,Corporate,Female,081200000353,hendra.lestari353@example.com,Padang,Sumatera Barat,28-03-2023,Y
+C0354,Sari Santoso,Corporate,Female,081200000354,sari.santoso354@example.com,Pekanbaru,Riau,Oct 13 2020,1
+C0355,Putra Pratama,Corporate,Male,081200000355,putra.pratama355@example.com,Mataram,Nusa Tenggara Barat,2026-02-15,Active
+C0356,Maya Saputra,E-Commerce Partner,Female,081200000356,maya.saputra356@example.com,Jakarta Pusat,DKI Jakarta,11/09/2020,Yes
+C0357,Wulan Gunawan,Corporate,Male,081200000357,wulan.gunawan357@example.com,Pontianak,Kalimantan Barat,2023/11/18,Y
+C0358,Lestari Saputra,Individual,Male,081200000358,lestari.saputra358@example.com,Surabaya,Jawa Timur,18-02-2022,Y
+C0359,Indra Putri,Corporate,Male,081200000359,indra.putri359@example.com,Bandung,Jawa Barat,Nov 19 2023,Active
+C0360,Tono Wijaya,E-Commerce Partner,Male,081200000360,tono.wijaya360@example.com,Tangerang,Banten,2021-06-21,1
+C0361,Hendra Wijaya,Individual,Female,081200000361,hendra.wijaya361@example.com,Malang,Jawa Timur,17/11/2025,Y
+C0362,Andi Hartono,Marketplace Seller,Male,081200000362,andi.hartono362@example.com,Bogor,Jawa Barat,2025/04/08,1
+C0363,Dewi Lestari,Individual,Male,081200000363,dewi.lestari363@example.com,Medan,Sumatera Utara,06-04-2022,True
+C0364,Putra Saputra,Corporate,Male,081200000364,putra.saputra364@example.com,Jakarta,DKI Jakarta,Dec 24 2020,Y
+C0365,Wulan Wijaya,Marketplace Seller,Male,081200000365,wulan.wijaya365@example.com,Denpasar,Bali,2020-03-22,True
+C0366,Putra Pratama,E-Commerce Partner,Male,081200000366,putra.pratama366@example.com,Medan,Sumatera Utara,08/10/2023,Yes
+C0367,Dewi Wijaya,Individual,Male,081200000367,dewi.wijaya367@example.com,Palembang,Sumatera Selatan,2022/03/20,True
+C0368,Eka Wijaya,Corporate,Female,081200000368,eka.wijaya368@example.com,Solo,Jawa Tengah,22-02-2026,Yes
+C0369,Utami Maulana,Corporate,Female,081200000369,utami.maulana369@example.com,Batam,Kepulauan Riau,May 13 2023,Yes
+C0370,Fajar Wulandari,E-Commerce Partner,Male,081200000370,fajar.wulandari370@example.com,Bandung,Jawa Barat,2024-08-08,Active
+C0371,Andi Santoso,Corporate,Male,081200000371,andi.santoso371@example.com,Pontianak,Kalimantan Barat,12/05/2020,Yes
+C0372,Hendra Saputra,Individual,Female,081200000372,hendra.saputra372@example.com,Kupang,Nusa Tenggara Timur,2026/03/22,Y
+C0373,Indra Putri,Corporate,Male,081200000373,indra.putri373@example.com,Pekanbaru,Riau,14-05-2025,Active
+C0374,Lestari Hartono,Marketplace Seller,Male,081200000374,lestari.hartono374@example.com,Pekanbaru,Riau,Jun 06 2021,Active
+C0375,Rani Gunawan,Individual,Female,081200000375,rani.gunawan375@example.com,Bekasi,Jawa Barat,2021-03-09,1
+C0376,Tono Santoso,Individual,Female,081200000376,tono.santoso376@example.com,Jakarta Pusat,DKI Jakarta,10/07/2023,True
+C0377,Gita Saputra,Individual,Male,081200000377,gita.saputra377@example.com,Pontianak,Kalimantan Barat,2021/05/24,True
+C0378,Kartika Lestari,E-Commerce Partner,Female,081200000378,kartika.lestari378@example.com,Banjarmasin,Kalimantan Selatan,13-02-2021,True
+C0379,Nadia Santoso,Corporate,Male,081200000379,nadia.santoso379@example.com,Palembang,Sumatera Selatan,Feb 21 2026,Y
+C0380,Indra Wijaya,Marketplace Seller,Male,081200000380,indra.wijaya380@example.com,Surabaya,Jawa Timur,2026-01-05,Yes
+C0381,Fajar Hartono,Individual,Female,081200000381,fajar.hartono381@example.com,Makassar,Sulawesi Selatan,12/12/2024,1
+C0382,Andi Saputra,Marketplace Seller,Female,081200000382,andi.saputra382@example.com,Tangerang,Banten,2023/03/20,Y
+C0383,Putra Putri,Individual,Male,081200000383,putra.putri383@example.com,Bogor,Jawa Barat,04-01-2021,True
+C0384,Rani Gunawan,Marketplace Seller,Female,081200000384,rani.gunawan384@example.com,Tangerang,Banten,Mar 18 2021,True
+C0385,Kartika Maulana,Individual,Male,081200000385,kartika.maulana385@example.com,Medan,Sumatera Utara,2025-07-13,Active
+C0386,Joko Pratama,Individual,Male,081200000386,joko.pratama386@example.com,Solo,Jawa Tengah,02/08/2022,Active
+C0387,Tono Pratama,Corporate,Male,081200000387,tono.pratama387@example.com,Jakarta Pusat,DKI Jakarta,2023/05/03,Yes
+C0388,Fajar Wulandari,Individual,Female,081200000388,fajar.wulandari388@example.com,Padang,Sumatera Barat,12-12-2023,Y
+C0389,Kartika Gunawan,Marketplace Seller,Male,081200000389,kartika.gunawan389@example.com,Surabaya,Jawa Timur,Mar 01 2026,True
+C0390,Maya Saputra,Individual,Male,081200000390,maya.saputra390@example.com,Jakarta,DKI Jakarta,2025-10-10,Active
+C0391,Wulan Santoso,E-Commerce Partner,Male,081200000391,wulan.santoso391@example.com,Tangerang,Banten,20/11/2020,Yes
+C0392,Indra Pratama,Individual,Male,081200000392,indra.pratama392@example.com,Bandung,Jawa Barat,2020/09/01,Y
+C0393,Sari Santoso,Individual,Female,081200000393,sari.santoso393@example.com,Manado,Sulawesi Utara,05-04-2022,Active
+C0394,Fajar Putri,Marketplace Seller,Female,081200000394,fajar.putri394@example.com,Tangerang,Banten,Oct 13 2024,True
+C0395,Fajar Wijaya,Marketplace Seller,Male,081200000395,fajar.wijaya395@example.com,Mataram,Nusa Tenggara Barat,2022-03-28,Active
+C0396,Maya Santoso,Individual,Female,081200000396,maya.santoso396@example.com,Malang,Jawa Timur,13/01/2024,1
+C0397,Joko Saputra,E-Commerce Partner,Male,081200000397,joko.saputra397@example.com,Denpasar,Bali,2024/07/08,Active
+C0398,Gita Wijaya,Marketplace Seller,Female,081200000398,gita.wijaya398@example.com,Manado,Sulawesi Utara,09-06-2020,1
+C0399,Citra Wijaya,Marketplace Seller,Female,081200000399,citra.wijaya399@example.com,Palembang,Sumatera Selatan,Jan 31 2021,Y
+C0400,Joko Hartono,E-Commerce Partner,Male,081200000400,joko.hartono400@example.com,Padang,Sumatera Barat,2022-06-27,Active
+C0401,Gita Saputra,Corporate,Male,081200000401,gita.saputra401@example.com,Jakarta Pusat,DKI Jakarta,05/07/2024,Active
+C0402,Andi Santoso,Corporate,Female,081200000402,andi.santoso402@example.com,Bogor,Jawa Barat,2021/03/17,Y
+C0403,Wulan Saputra,Individual,Female,081200000403,wulan.saputra403@example.com,Bogor,Jawa Barat,23-02-2024,True
+C0404,Kartika Santoso,Marketplace Seller,Female,081200000404,kartika.santoso404@example.com,Balikpapan,Kalimantan Timur,Aug 12 2020,Active
+C0405,Budi Hartono,Corporate,Male,081200000405,budi.hartono405@example.com,Batam,Kepulauan Riau,2021-12-27,1
+C0406,Nadia Wijaya,Marketplace Seller,Male,081200000406,nadia.wijaya406@example.com,Medan,Sumatera Utara,04/11/2022,Y
+C0407,Maya Gunawan,E-Commerce Partner,Female,081200000407,maya.gunawan407@example.com,Bandung,Jawa Barat,2021/10/20,True
+C0408,Fajar Hartono,Marketplace Seller,Male,081200000408,fajar.hartono408@example.com,Tangerang,Banten,10-11-2022,1
+C0409,Indra Pratama,Marketplace Seller,Male,081200000409,indra.pratama409@example.com,Semarang,Jawa Tengah,Mar 04 2023,True
+C0410,Indra Putri,E-Commerce Partner,Female,081200000410,indra.putri410@example.com,Yogyakarta,DI Yogyakarta,2020-01-21,Yes
+C0411,Budi Saputra,Corporate,Female,081200000411,budi.saputra411@example.com,Bogor,Jawa Barat,21/12/2024,Active
+C0412,Joko Santoso,E-Commerce Partner,Female,081200000412,joko.santoso412@example.com,Banjarmasin,Kalimantan Selatan,2020/06/03,Active
+C0413,Budi Maulana,E-Commerce Partner,Male,081200000413,budi.maulana413@example.com,Jakarta,DKI Jakarta,17-10-2025,Active
+C0414,Indra Putri,Corporate,Male,081200000414,indra.putri414@example.com,Manado,Sulawesi Utara,Jul 01 2020,1
+C0415,Sari Santoso,Marketplace Seller,Male,081200000415,sari.santoso415@example.com,Jakarta,DKI Jakarta,2020-06-20,True
+C0416,Eka Santoso,Corporate,Female,081200000416,eka.santoso416@example.com,Banjarmasin,Kalimantan Selatan,18/07/2020,Active
+C0417,Putra Wijaya,Corporate,Male,081200000417,putra.wijaya417@example.com,Padang,Sumatera Barat,2025/04/25,1
+C0418,Citra Putri,Marketplace Seller,Female,081200000418,citra.putri418@example.com,Bandung,Jawa Barat,28-10-2024,1
+C0419,Utami Hartono,E-Commerce Partner,Male,081200000419,utami.hartono419@example.com,Medan,Sumatera Utara,Oct 24 2020,Yes
+C0420,Eka Hartono,E-Commerce Partner,Female,081200000420,eka.hartono420@example.com,Kupang,Nusa Tenggara Timur,2024-02-14,Active
+C0421,Joko Pratama,Individual,Female,081200000421,joko.pratama421@example.com,Denpasar,Bali,15/10/2022,1
+C0422,Sari Putri,Corporate,Female,081200000422,sari.putri422@example.com,Balikpapan,Kalimantan Timur,2022/09/09,1
+C0423,Sari Pratama,Corporate,Male,081200000423,sari.pratama423@example.com,Manado,Sulawesi Utara,02-04-2021,1
+C0424,Maya Wulandari,E-Commerce Partner,Male,081200000424,maya.wulandari424@example.com,Denpasar,Bali,Aug 07 2025,Yes
+C0425,Wulan Putri,Corporate,Male,081200000425,wulan.putri425@example.com,Kupang,Nusa Tenggara Timur,2025-10-06,Yes
+C0426,Joko Putri,Individual,Male,081200000426,joko.putri426@example.com,Tangerang,Banten,08/01/2024,1
+C0427,Wulan Wijaya,Individual,Female,081200000427,wulan.wijaya427@example.com,Yogyakarta,DI Yogyakarta,2021/10/11,Y
+C0428,Tono Wulandari,Marketplace Seller,Male,081200000428,tono.wulandari428@example.com,Padang,Sumatera Barat,06-01-2026,Y
+C0429,Rani Santoso,Corporate,Female,081200000429,rani.santoso429@example.com,Pekanbaru,Riau,Sep 30 2023,True
+C0430,Fajar Hartono,Individual,Male,081200000430,fajar.hartono430@example.com,Palembang,Sumatera Selatan,2024-08-06,True
+C0431,Rani Pratama,E-Commerce Partner,Male,081200000431,rani.pratama431@example.com,Jakarta,DKI Jakarta,14/10/2025,Yes
+C0432,Eka Wijaya,Corporate,Male,081200000432,eka.wijaya432@example.com,Pekanbaru,Riau,2022/05/02,1
+C0433,Tono Saputra,E-Commerce Partner,Male,081200000433,tono.saputra433@example.com,Bandung,Jawa Barat,10-10-2020,1
+C0434,Fajar Putri,E-Commerce Partner,Female,081200000434,fajar.putri434@example.com,Pekanbaru,Riau,Aug 14 2021,Y
+C0435,Nadia Saputra,Corporate,Female,081200000435,nadia.saputra435@example.com,Medan,Sumatera Utara,2024-05-21,Active
+C0436,Andi Wijaya,Marketplace Seller,Male,081200000436,andi.wijaya436@example.com,Surabaya,Jawa Timur,14/03/2026,1
+C0437,Hendra Hartono,Individual,Male,081200000437,hendra.hartono437@example.com,Banjarmasin,Kalimantan Selatan,2020/05/05,Active
+C0438,Kartika Wulandari,Corporate,Female,081200000438,kartika.wulandari438@example.com,Semarang,Jawa Tengah,02-12-2021,Y
+C0439,Putra Maulana,E-Commerce Partner,Female,081200000439,putra.maulana439@example.com,Kupang,Nusa Tenggara Timur,Dec 16 2020,Active
+C0440,Wulan Wijaya,Corporate,Male,081200000440,wulan.wijaya440@example.com,Bekasi,Jawa Barat,2021-09-09,Y
+C0441,Joko Gunawan,Individual,Male,081200000441,joko.gunawan441@example.com,Bekasi,Jawa Barat,14/02/2025,Active
+C0442,Joko Saputra,Marketplace Seller,Female,081200000442,joko.saputra442@example.com,Manado,Sulawesi Utara,2020/03/16,Y
+C0443,Andi Saputra,Corporate,Female,081200000443,andi.saputra443@example.com,Yogyakarta,DI Yogyakarta,30-07-2025,Yes
+C0444,Gita Santoso,Individual,Female,081200000444,gita.santoso444@example.com,Banjarmasin,Kalimantan Selatan,Oct 25 2025,Active
+C0445,Sari Santoso,E-Commerce Partner,Male,081200000445,sari.santoso445@example.com,Banjarmasin,Kalimantan Selatan,2024-01-27,Y
+C0446,Utami Gunawan,Corporate,Male,081200000446,utami.gunawan446@example.com,Jakarta,DKI Jakarta,22/03/2025,Y
+C0447,Eka Wijaya,Corporate,Female,081200000447,eka.wijaya447@example.com,Pontianak,Kalimantan Barat,2021/03/01,1
+C0448,Budi Wijaya,Marketplace Seller,Female,081200000448,budi.wijaya448@example.com,Semarang,Jawa Tengah,05-11-2022,Active
+C0449,Citra Pratama,Individual,Male,081200000449,citra.pratama449@example.com,Malang,Jawa Timur,Aug 26 2020,True
+C0450,Gita Wulandari,Corporate,Female,081200000450,gita.wulandari450@example.com,Bogor,Jawa Barat,2023-03-30,Yes
+C0451,Hendra Wijaya,E-Commerce Partner,Female,081200000451,hendra.wijaya451@example.com,Malang,Jawa Timur,25/06/2024,Active
+C0452,Utami Wulandari,Individual,Female,081200000452,utami.wulandari452@example.com,Mataram,Nusa Tenggara Barat,2022/04/22,1
+C0453,Kartika Putri,Corporate,Female,081200000453,kartika.putri453@example.com,Jakarta Pusat,DKI Jakarta,08-04-2020,Active
+C0454,Rani Gunawan,Individual,Female,081200000454,rani.gunawan454@example.com,Makassar,Sulawesi Selatan,Nov 10 2024,Yes
+C0455,Kartika Gunawan,Corporate,Male,081200000455,kartika.gunawan455@example.com,Tangerang,Banten,2023-11-14,1
+C0456,Fajar Santoso,Individual,Female,081200000456,fajar.santoso456@example.com,Tangerang,Banten,27/01/2023,Yes
+C0457,Nadia Wulandari,Marketplace Seller,Female,081200000457,nadia.wulandari457@example.com,Makassar,Sulawesi Selatan,2022/12/23,Yes
+C0458,Eka Gunawan,Corporate,Female,081200000458,eka.gunawan458@example.com,Denpasar,Bali,01-07-2021,Y
+C0459,Utami Pratama,Corporate,Female,081200000459,utami.pratama459@example.com,Solo,Jawa Tengah,Aug 27 2025,True
+C0460,Andi Lestari,E-Commerce Partner,Male,081200000460,andi.lestari460@example.com,Tangerang,Banten,2025-05-24,Yes
+C0461,Fajar Lestari,E-Commerce Partner,Female,081200000461,fajar.lestari461@example.com,Jakarta,DKI Jakarta,16/02/2020,Y
+C0462,Lestari Wulandari,E-Commerce Partner,Female,081200000462,lestari.wulandari462@example.com,Manado,Sulawesi Utara,2020/02/15,True
+C0463,Lestari Saputra,Corporate,Male,081200000463,lestari.saputra463@example.com,Yogyakarta,DI Yogyakarta,01-05-2021,1
+C0464,Indra Wulandari,Corporate,Female,081200000464,indra.wulandari464@example.com,Medan,Sumatera Utara,Sep 05 2020,Active
+C0465,Kartika Santoso,Marketplace Seller,Female,081200000465,kartika.santoso465@example.com,Semarang,Jawa Tengah,2021-01-06,True
+C0466,Putra Saputra,Individual,Male,081200000466,putra.saputra466@example.com,Denpasar,Bali,13/06/2025,Y
+C0467,Rani Santoso,Marketplace Seller,Male,081200000467,rani.santoso467@example.com,Kupang,Nusa Tenggara Timur,2020/10/29,True
+C0468,Rani Santoso,Individual,Female,081200000468,rani.santoso468@example.com,Batam,Kepulauan Riau,04-03-2025,True
+C0469,Tono Saputra,Individual,Female,081200000469,tono.saputra469@example.com,Pontianak,Kalimantan Barat,Nov 16 2025,Active
+C0470,Lestari Saputra,E-Commerce Partner,Female,081200000470,lestari.saputra470@example.com,Pekanbaru,Riau,2021-11-28,Yes
+C0471,Andi Wijaya,Corporate,Female,081200000471,andi.wijaya471@example.com,Semarang,Jawa Tengah,31/01/2025,True
+C0472,Citra Lestari,Individual,Female,081200000472,citra.lestari472@example.com,Jakarta,DKI Jakarta,2025/08/08,Active
+C0473,Lestari Saputra,Corporate,Male,081200000473,lestari.saputra473@example.com,Jakarta Pusat,DKI Jakarta,02-04-2020,1
+C0474,Nadia Pratama,Individual,Female,081200000474,nadia.pratama474@example.com,Batam,Kepulauan Riau,Oct 25 2022,Y
+C0475,Hendra Putri,Individual,Male,081200000475,hendra.putri475@example.com,Bogor,Jawa Barat,2024-04-30,Active
+C0476,Kartika Saputra,Individual,Male,081200000476,kartika.saputra476@example.com,Jakarta Pusat,DKI Jakarta,07/03/2020,True
+C0477,Citra Putri,Marketplace Seller,Male,081200000477,citra.putri477@example.com,Pontianak,Kalimantan Barat,2021/04/15,True
+C0478,Citra Gunawan,Corporate,Female,081200000478,citra.gunawan478@example.com,Solo,Jawa Tengah,29-05-2025,True
+C0479,Dewi Maulana,E-Commerce Partner,Female,081200000479,dewi.maulana479@example.com,Jakarta Pusat,DKI Jakarta,Mar 20 2022,1
+C0480,Kartika Putri,E-Commerce Partner,Female,081200000480,kartika.putri480@example.com,Padang,Sumatera Barat,2021-04-12,True
+C0481,Indra Pratama,Individual,Male,081200000481,indra.pratama481@example.com,Tangerang,Banten,13/12/2025,Yes
+C0482,Sari Wijaya,Corporate,Male,081200000482,sari.wijaya482@example.com,Solo,Jawa Tengah,2023/10/05,Active
+C0483,Nadia Gunawan,Marketplace Seller,Male,081200000483,nadia.gunawan483@example.com,Bogor,Jawa Barat,09-01-2021,True
+C0484,Budi Santoso,Marketplace Seller,Male,081200000484,budi.santoso484@example.com,Solo,Jawa Tengah,Jan 11 2026,Active
+C0485,Dewi Lestari,Corporate,Male,081200000485,dewi.lestari485@example.com,Bandung,Jawa Barat,2026-03-16,Yes
+C0486,Andi Saputra,Marketplace Seller,Female,081200000486,andi.saputra486@example.com,Bogor,Jawa Barat,19/01/2024,True
+C0487,Andi Wulandari,Marketplace Seller,Male,081200000487,andi.wulandari487@example.com,Surabaya,Jawa Timur,2025/02/28,Yes
+C0488,Wulan Hartono,Corporate,Female,081200000488,wulan.hartono488@example.com,Manado,Sulawesi Utara,21-11-2022,1
+C0489,Rani Saputra,Corporate,Male,081200000489,rani.saputra489@example.com,Malang,Jawa Timur,Jun 23 2023,Active
+C0490,Hendra Hartono,Individual,Male,081200000490,hendra.hartono490@example.com,Bandung,Jawa Barat,2021-04-05,1
+C0491,Dewi Lestari,Individual,Female,081200000491,dewi.lestari491@example.com,Balikpapan,Kalimantan Timur,20/01/2021,True
+C0492,Wulan Wijaya,Corporate,Male,081200000492,wulan.wijaya492@example.com,Palembang,Sumatera Selatan,2024/05/21,Active
+C0493,Nadia Wulandari,Marketplace Seller,Female,081200000493,nadia.wulandari493@example.com,Semarang,Jawa Tengah,20-07-2020,Y
+C0494,Sari Lestari,Individual,Male,081200000494,sari.lestari494@example.com,Solo,Jawa Tengah,Sep 08 2021,Y
+C0495,Dewi Saputra,Corporate,Male,081200000495,dewi.saputra495@example.com,Surabaya,Jawa Timur,2026-04-06,True
+C0496,Putra Putri,E-Commerce Partner,Female,081200000496,putra.putri496@example.com,Kupang,Nusa Tenggara Timur,04/09/2022,Active
+C0497,Dewi Wijaya,Individual,Female,081200000497,dewi.wijaya497@example.com,Banjarmasin,Kalimantan Selatan,2024/10/26,Y
+C0498,Joko Wijaya,E-Commerce Partner,Male,081200000498,joko.wijaya498@example.com,Mataram,Nusa Tenggara Barat,12-03-2024,Yes
+C0499,Citra Lestari,Marketplace Seller,Male,081200000499,citra.lestari499@example.com,Jakarta Pusat,DKI Jakarta,Jun 08 2024,1
+C0500,Eka Pratama,Individual,Female,081200000500,eka.pratama500@example.com,Bandung,Jawa Barat,2024-01-17,1
+C0501,Joko Hartono,Corporate,Female,081200000501,joko.hartono501@example.com,Palembang,Sumatera Selatan,28/02/2026,True
+C0502,Andi Lestari,Corporate,Female,081200000502,andi.lestari502@example.com,Padang,Sumatera Barat,2021/06/24,Active
+C0503,Indra Pratama,E-Commerce Partner,Female,081200000503,indra.pratama503@example.com,Padang,Sumatera Barat,19-07-2020,Yes
+C0504,Lestari Hartono,Corporate,Male,081200000504,lestari.hartono504@example.com,Pekanbaru,Riau,Aug 24 2021,Yes
+C0505,Fajar Saputra,Marketplace Seller,Female,081200000505,fajar.saputra505@example.com,Jakarta,DKI Jakarta,2023-04-29,True
+C0506,Nadia Lestari,Individual,Female,081200000506,nadia.lestari506@example.com,Denpasar,Bali,29/03/2024,1
+C0507,Maya Lestari,Corporate,Male,081200000507,maya.lestari507@example.com,Medan,Sumatera Utara,2021/04/11,1
+C0508,Putra Hartono,Individual,Female,081200000508,putra.hartono508@example.com,Bekasi,Jawa Barat,13-05-2021,Active
+C0509,Indra Lestari,Corporate,Male,081200000509,indra.lestari509@example.com,Bekasi,Jawa Barat,Aug 04 2022,True
+C0510,Eka Saputra,E-Commerce Partner,Male,081200000510,eka.saputra510@example.com,Batam,Kepulauan Riau,2023-01-06,Yes
+C0511,Andi Maulana,Individual,Male,081200000511,andi.maulana511@example.com,Pekanbaru,Riau,11/07/2025,Y
+C0512,Kartika Saputra,E-Commerce Partner,Male,081200000512,kartika.saputra512@example.com,Pekanbaru,Riau,2024/05/18,Active
+C0513,Gita Maulana,E-Commerce Partner,Female,081200000513,gita.maulana513@example.com,Mataram,Nusa Tenggara Barat,02-09-2023,1
+C0514,Andi Santoso,Individual,Male,081200000514,andi.santoso514@example.com,Tangerang,Banten,Mar 12 2021,Y
+C0515,Dewi Wulandari,Corporate,Male,081200000515,dewi.wulandari515@example.com,Medan,Sumatera Utara,2025-11-16,Active
+C0516,Sari Wijaya,Marketplace Seller,Female,081200000516,sari.wijaya516@example.com,Solo,Jawa Tengah,10/12/2024,Yes
+C0517,Utami Lestari,Individual,Male,081200000517,utami.lestari517@example.com,Manado,Sulawesi Utara,2024/09/21,True
+C0518,Lestari Maulana,Corporate,Female,081200000518,lestari.maulana518@example.com,Bandung,Jawa Barat,09-11-2023,Yes
+C0519,Utami Lestari,E-Commerce Partner,Female,081200000519,utami.lestari519@example.com,Yogyakarta,DI Yogyakarta,Dec 15 2024,True
+C0520,Putra Santoso,Marketplace Seller,Male,081200000520,putra.santoso520@example.com,Malang,Jawa Timur,2025-11-26,1
+C0521,Gita Saputra,Corporate,Female,081200000521,gita.saputra521@example.com,Denpasar,Bali,18/11/2025,Y
+C0522,Joko Lestari,Individual,Female,081200000522,joko.lestari522@example.com,Semarang,Jawa Tengah,2024/01/19,Active
+C0523,Citra Wijaya,Corporate,Female,081200000523,citra.wijaya523@example.com,Jakarta,DKI Jakarta,16-01-2022,1
+C0524,Sari Gunawan,Corporate,Male,081200000524,sari.gunawan524@example.com,Palembang,Sumatera Selatan,Dec 18 2022,Y
+C0525,Tono Santoso,Marketplace Seller,Male,081200000525,tono.santoso525@example.com,Manado,Sulawesi Utara,2024-04-17,Y
+C0526,Rani Hartono,E-Commerce Partner,Male,081200000526,rani.hartono526@example.com,Pekanbaru,Riau,15/04/2022,True
+C0527,Gita Wijaya,E-Commerce Partner,Male,081200000527,gita.wijaya527@example.com,Semarang,Jawa Tengah,2022/12/14,True
+C0528,Tono Pratama,E-Commerce Partner,Male,081200000528,tono.pratama528@example.com,Jakarta Pusat,DKI Jakarta,11-07-2021,1
+C0529,Andi Saputra,Marketplace Seller,Male,081200000529,andi.saputra529@example.com,Medan,Sumatera Utara,Feb 12 2025,Active
+C0530,Joko Hartono,E-Commerce Partner,Female,081200000530,joko.hartono530@example.com,Pekanbaru,Riau,2022-03-31,1
+C0531,Rani Santoso,Corporate,Male,081200000531,rani.santoso531@example.com,Yogyakarta,DI Yogyakarta,13/02/2024,True
+C0532,Sari Maulana,Individual,Male,081200000532,sari.maulana532@example.com,Balikpapan,Kalimantan Timur,2022/09/23,Y
+C0533,Tono Putri,E-Commerce Partner,Female,081200000533,tono.putri533@example.com,Balikpapan,Kalimantan Timur,13-04-2022,True
+C0534,Dewi Putri,Marketplace Seller,Male,081200000534,dewi.putri534@example.com,Bogor,Jawa Barat,Jun 22 2020,Yes
+C0535,Tono Santoso,E-Commerce Partner,Female,081200000535,tono.santoso535@example.com,Batam,Kepulauan Riau,2021-08-31,Yes
+C0536,Maya Saputra,E-Commerce Partner,Female,081200000536,maya.saputra536@example.com,Denpasar,Bali,29/04/2022,Active
+C0537,Joko Saputra,Corporate,Male,081200000537,joko.saputra537@example.com,Jakarta,DKI Jakarta,2024/12/12,Y
+C0538,Kartika Hartono,Individual,Female,081200000538,kartika.hartono538@example.com,Bogor,Jawa Barat,30-12-2023,Y
+C0539,Fajar Wijaya,Marketplace Seller,Female,081200000539,fajar.wijaya539@example.com,Tangerang,Banten,Sep 13 2020,Active
+C0540,Tono Santoso,Corporate,Female,081200000540,tono.santoso540@example.com,Manado,Sulawesi Utara,2020-01-05,True
+C0541,Tono Putri,Corporate,Male,081200000541,tono.putri541@example.com,Manado,Sulawesi Utara,04/08/2022,1
+C0542,Budi Maulana,E-Commerce Partner,Female,081200000542,budi.maulana542@example.com,Balikpapan,Kalimantan Timur,2024/12/08,Active
+C0543,Andi Maulana,Individual,Female,081200000543,andi.maulana543@example.com,Malang,Jawa Timur,19-04-2022,Active
+C0544,Joko Hartono,Individual,Male,081200000544,joko.hartono544@example.com,Palembang,Sumatera Selatan,Feb 17 2025,Yes
+C0545,Fajar Gunawan,Individual,Male,081200000545,fajar.gunawan545@example.com,Mataram,Nusa Tenggara Barat,2023-10-08,Yes
+C0546,Budi Wulandari,E-Commerce Partner,Female,081200000546,budi.wulandari546@example.com,Solo,Jawa Tengah,27/12/2023,True
+C0547,Nadia Wulandari,Corporate,Female,081200000547,nadia.wulandari547@example.com,Kupang,Nusa Tenggara Timur,2024/11/24,Yes
+C0548,Kartika Pratama,E-Commerce Partner,Female,081200000548,kartika.pratama548@example.com,Bandung,Jawa Barat,24-09-2020,True
+C0549,Tono Wijaya,Corporate,Male,081200000549,tono.wijaya549@example.com,Pontianak,Kalimantan Barat,Dec 23 2025,Yes
+C0550,Sari Gunawan,Corporate,Female,081200000550,sari.gunawan550@example.com,Makassar,Sulawesi Selatan,2023-04-10,Active
+C0551,Tono Wijaya,E-Commerce Partner,Female,081200000551,tono.wijaya551@example.com,Palembang,Sumatera Selatan,14/04/2022,Yes
+C0552,Wulan Putri,Marketplace Seller,Female,081200000552,wulan.putri552@example.com,Manado,Sulawesi Utara,2021/03/29,1
+C0553,Gita Pratama,Individual,Female,081200000553,gita.pratama553@example.com,Semarang,Jawa Tengah,06-12-2023,Active
+C0554,Nadia Pratama,E-Commerce Partner,Male,081200000554,nadia.pratama554@example.com,Malang,Jawa Timur,Nov 29 2023,Active
+C0555,Putra Wulandari,Corporate,Male,081200000555,putra.wulandari555@example.com,Semarang,Jawa Tengah,2023-08-05,True
+C0556,Nadia Santoso,Individual,Female,081200000556,nadia.santoso556@example.com,Manado,Sulawesi Utara,04/06/2020,1
+C0557,Wulan Santoso,E-Commerce Partner,Male,081200000557,wulan.santoso557@example.com,Manado,Sulawesi Utara,2020/06/01,Y
+C0558,Fajar Hartono,Corporate,Male,081200000558,fajar.hartono558@example.com,Balikpapan,Kalimantan Timur,11-04-2020,Y
+C0559,Fajar Santoso,Individual,Male,081200000559,fajar.santoso559@example.com,Tangerang,Banten,Sep 08 2025,True
+C0560,Utami Santoso,E-Commerce Partner,Male,081200000560,utami.santoso560@example.com,Makassar,Sulawesi Selatan,2021-02-02,Y
+C0561,Nadia Putri,Individual,Female,081200000561,nadia.putri561@example.com,Bekasi,Jawa Barat,19/11/2025,True
+C0562,Joko Hartono,Individual,Female,081200000562,joko.hartono562@example.com,Bekasi,Jawa Barat,2023/05/06,Yes
+C0563,Andi Saputra,Marketplace Seller,Male,081200000563,andi.saputra563@example.com,Pekanbaru,Riau,21-01-2026,Y
+C0564,Dewi Lestari,Marketplace Seller,Female,081200000564,dewi.lestari564@example.com,Bekasi,Jawa Barat,Sep 30 2022,Y
+C0565,Utami Wulandari,E-Commerce Partner,Male,081200000565,utami.wulandari565@example.com,Manado,Sulawesi Utara,2021-08-17,True
+C0566,Andi Maulana,Individual,Female,081200000566,andi.maulana566@example.com,Medan,Sumatera Utara,15/12/2025,True
+C0567,Budi Wulandari,E-Commerce Partner,Male,081200000567,budi.wulandari567@example.com,Semarang,Jawa Tengah,2021/03/17,True
+C0568,Citra Santoso,Marketplace Seller,Male,081200000568,citra.santoso568@example.com,Jakarta Pusat,DKI Jakarta,10-07-2021,Y
+C0569,Fajar Wulandari,Marketplace Seller,Male,081200000569,fajar.wulandari569@example.com,Bandung,Jawa Barat,Sep 23 2020,Yes
+C0570,Tono Wijaya,Individual,Female,081200000570,tono.wijaya570@example.com,Jakarta,DKI Jakarta,2021-02-14,Yes
+C0571,Fajar Maulana,Individual,Female,081200000571,fajar.maulana571@example.com,Kupang,Nusa Tenggara Timur,26/12/2021,Yes
+C0572,Rani Maulana,E-Commerce Partner,Female,081200000572,rani.maulana572@example.com,Surabaya,Jawa Timur,2025/11/05,Active
+C0573,Joko Lestari,Corporate,Female,081200000573,joko.lestari573@example.com,Bandung,Jawa Barat,15-10-2022,1
+C0574,Budi Maulana,Marketplace Seller,Male,081200000574,budi.maulana574@example.com,Jakarta,DKI Jakarta,Oct 26 2022,1
+C0575,Eka Hartono,Marketplace Seller,Female,081200000575,eka.hartono575@example.com,Solo,Jawa Tengah,2020-05-04,True
+C0576,Utami Pratama,Corporate,Male,081200000576,utami.pratama576@example.com,Yogyakarta,DI Yogyakarta,22/03/2023,True
+C0577,Fajar Saputra,Individual,Male,081200000577,fajar.saputra577@example.com,Yogyakarta,DI Yogyakarta,2022/01/21,Active
+C0578,Fajar Santoso,E-Commerce Partner,Male,081200000578,fajar.santoso578@example.com,Bekasi,Jawa Barat,12-12-2022,Y
+C0579,Joko Maulana,Corporate,Female,081200000579,joko.maulana579@example.com,Jakarta Pusat,DKI Jakarta,Oct 25 2021,Yes
+C0580,Wulan Wijaya,Corporate,Male,081200000580,wulan.wijaya580@example.com,Jakarta Pusat,DKI Jakarta,2024-12-22,True
+C0581,Lestari Gunawan,Marketplace Seller,Female,081200000581,lestari.gunawan581@example.com,Palembang,Sumatera Selatan,03/04/2026,Active
+C0582,Maya Lestari,Corporate,Female,081200000582,maya.lestari582@example.com,Padang,Sumatera Barat,2020/02/16,True
+C0583,Kartika Saputra,Individual,Male,081200000583,kartika.saputra583@example.com,Tangerang,Banten,24-05-2025,Yes
+C0584,Utami Saputra,Corporate,Female,081200000584,utami.saputra584@example.com,Yogyakarta,DI Yogyakarta,Apr 08 2022,Y
+C0585,Andi Putri,E-Commerce Partner,Male,081200000585,andi.putri585@example.com,Semarang,Jawa Tengah,2022-09-11,Y
+C0586,Citra Saputra,Individual,Male,081200000586,citra.saputra586@example.com,Manado,Sulawesi Utara,15/11/2023,Yes
+C0587,Andi Lestari,E-Commerce Partner,Male,081200000587,andi.lestari587@example.com,Makassar,Sulawesi Selatan,2023/09/24,Yes
+C0588,Citra Saputra,E-Commerce Partner,Female,081200000588,citra.saputra588@example.com,Malang,Jawa Timur,05-07-2023,1
+C0589,Putra Pratama,E-Commerce Partner,Male,081200000589,putra.pratama589@example.com,Balikpapan,Kalimantan Timur,Sep 13 2021,Active
+C0590,Indra Hartono,Corporate,Male,081200000590,indra.hartono590@example.com,Padang,Sumatera Barat,2021-09-07,1
+C0591,Wulan Putri,E-Commerce Partner,Male,081200000591,wulan.putri591@example.com,Batam,Kepulauan Riau,18/08/2022,Y
+C0592,Citra Lestari,Individual,Female,081200000592,citra.lestari592@example.com,Manado,Sulawesi Utara,2024/09/22,Yes
+C0593,Sari Putri,E-Commerce Partner,Female,081200000593,sari.putri593@example.com,Solo,Jawa Tengah,03-06-2023,Yes
+C0594,Hendra Santoso,E-Commerce Partner,Male,081200000594,hendra.santoso594@example.com,Tangerang,Banten,Dec 19 2020,1
+C0595,Utami Maulana,Corporate,Female,081200000595,utami.maulana595@example.com,Semarang,Jawa Tengah,2020-10-12,True
+C0596,Maya Putri,Marketplace Seller,Female,081200000596,maya.putri596@example.com,Pekanbaru,Riau,22/04/2021,True
+C0597,Nadia Pratama,Individual,Male,081200000597,nadia.pratama597@example.com,Banjarmasin,Kalimantan Selatan,2023/11/02,True
+C0598,Andi Putri,Corporate,Male,081200000598,andi.putri598@example.com,Bekasi,Jawa Barat,07-11-2022,True
+C0599,Indra Santoso,Marketplace Seller,Female,081200000599,indra.santoso599@example.com,Medan,Sumatera Utara,Jun 12 2025,Y
+C0600,Tono Hartono,E-Commerce Partner,Female,081200000600,tono.hartono600@example.com,Bekasi,Jawa Barat,2024-10-31,1
+C0601,Nadia Santoso,Corporate,Female,081200000601,nadia.santoso601@example.com,Bandung,Jawa Barat,05/03/2021,Active
+C0602,Eka Maulana,E-Commerce Partner,Female,081200000602,eka.maulana602@example.com,Malang,Jawa Timur,2022/05/06,Active
+C0603,Dewi Pratama,Marketplace Seller,Female,081200000603,dewi.pratama603@example.com,Padang,Sumatera Barat,21-02-2020,Y
+C0604,Rani Hartono,Corporate,Male,081200000604,rani.hartono604@example.com,Pontianak,Kalimantan Barat,Sep 11 2021,Y
+C0605,Nadia Wulandari,Individual,Male,081200000605,nadia.wulandari605@example.com,Jakarta Pusat,DKI Jakarta,2020-08-21,1
+C0606,Kartika Santoso,Individual,Female,081200000606,kartika.santoso606@example.com,Malang,Jawa Timur,08/10/2021,Yes
+C0607,Dewi Saputra,Marketplace Seller,Female,081200000607,dewi.saputra607@example.com,Jakarta,DKI Jakarta,2024/08/14,Y
+C0608,Gita Wulandari,Individual,Male,081200000608,gita.wulandari608@example.com,Semarang,Jawa Tengah,03-07-2022,1
+C0609,Rani Gunawan,Corporate,Male,081200000609,rani.gunawan609@example.com,Semarang,Jawa Tengah,Sep 30 2025,Y
+C0610,Andi Pratama,E-Commerce Partner,Male,081200000610,andi.pratama610@example.com,Malang,Jawa Timur,2020-08-15,Y
+C0611,Dewi Maulana,E-Commerce Partner,Male,081200000611,dewi.maulana611@example.com,Balikpapan,Kalimantan Timur,19/12/2021,Active
+C0612,Hendra Wulandari,Marketplace Seller,Female,081200000612,hendra.wulandari612@example.com,Jakarta Pusat,DKI Jakarta,2025/09/29,Y
+C0613,Fajar Pratama,E-Commerce Partner,Male,081200000613,fajar.pratama613@example.com,Surabaya,Jawa Timur,01-03-2020,True
+C0614,Kartika Hartono,Individual,Female,081200000614,kartika.hartono614@example.com,Makassar,Sulawesi Selatan,Jun 08 2022,1
+C0615,Indra Saputra,Marketplace Seller,Male,081200000615,indra.saputra615@example.com,Yogyakarta,DI Yogyakarta,2024-02-02,Active
+C0616,Hendra Putri,Individual,Female,081200000616,hendra.putri616@example.com,Yogyakarta,DI Yogyakarta,11/08/2024,Yes
+C0617,Hendra Hartono,Individual,Female,081200000617,hendra.hartono617@example.com,Bogor,Jawa Barat,2020/06/23,Active
+C0618,Andi Maulana,Corporate,Male,081200000618,andi.maulana618@example.com,Banjarmasin,Kalimantan Selatan,12-04-2024,Y
+C0619,Andi Maulana,E-Commerce Partner,Female,081200000619,andi.maulana619@example.com,Balikpapan,Kalimantan Timur,Aug 12 2022,Active
+C0620,Gita Wijaya,Corporate,Female,081200000620,gita.wijaya620@example.com,Padang,Sumatera Barat,2021-12-04,True
+C0621,Tono Saputra,Individual,Male,081200000621,tono.saputra621@example.com,Balikpapan,Kalimantan Timur,10/12/2020,Yes
+C0622,Kartika Saputra,Marketplace Seller,Male,081200000622,kartika.saputra622@example.com,Medan,Sumatera Utara,2022/04/12,Active
+C0623,Utami Saputra,Marketplace Seller,Male,081200000623,utami.saputra623@example.com,Balikpapan,Kalimantan Timur,11-05-2023,1
+C0624,Budi Santoso,Corporate,Male,081200000624,budi.santoso624@example.com,Denpasar,Bali,Apr 17 2025,1
+C0625,Dewi Santoso,Individual,Female,081200000625,dewi.santoso625@example.com,Denpasar,Bali,2020-03-06,True
+C0626,Budi Hartono,Corporate,Male,081200000626,budi.hartono626@example.com,Semarang,Jawa Tengah,10/08/2022,1
+C0627,Hendra Gunawan,E-Commerce Partner,Female,081200000627,hendra.gunawan627@example.com,Bogor,Jawa Barat,2026/03/27,1
+C0628,Kartika Hartono,Individual,Female,081200000628,kartika.hartono628@example.com,Padang,Sumatera Barat,12-02-2020,Active
+C0629,Kartika Gunawan,E-Commerce Partner,Female,081200000629,kartika.gunawan629@example.com,Batam,Kepulauan Riau,Jun 12 2023,Y
+C0630,Indra Saputra,Individual,Male,081200000630,indra.saputra630@example.com,Denpasar,Bali,2022-08-16,1
+C0631,Dewi Maulana,E-Commerce Partner,Female,081200000631,dewi.maulana631@example.com,Pontianak,Kalimantan Barat,27/05/2022,True
+C0632,Gita Santoso,Marketplace Seller,Male,081200000632,gita.santoso632@example.com,Kupang,Nusa Tenggara Timur,2022/09/02,Active
+C0633,Gita Maulana,Individual,Male,081200000633,gita.maulana633@example.com,Bogor,Jawa Barat,21-03-2024,Yes
+C0634,Tono Wulandari,Corporate,Male,081200000634,tono.wulandari634@example.com,Balikpapan,Kalimantan Timur,Mar 28 2020,Active
+C0635,Tono Pratama,Corporate,Male,081200000635,tono.pratama635@example.com,Padang,Sumatera Barat,2024-04-18,Active
+C0636,Sari Saputra,Individual,Female,081200000636,sari.saputra636@example.com,Bekasi,Jawa Barat,12/01/2021,True
+C0637,Maya Maulana,Individual,Female,081200000637,maya.maulana637@example.com,Balikpapan,Kalimantan Timur,2025/12/18,True
+C0638,Sari Maulana,Marketplace Seller,Female,081200000638,sari.maulana638@example.com,Tangerang,Banten,23-01-2025,Yes
+C0639,Wulan Hartono,Marketplace Seller,Male,081200000639,wulan.hartono639@example.com,Batam,Kepulauan Riau,Mar 04 2024,Yes
+C0640,Wulan Putri,Marketplace Seller,Male,081200000640,wulan.putri640@example.com,Bogor,Jawa Barat,2026-01-15,Active
+C0641,Tono Wulandari,Individual,Female,081200000641,tono.wulandari641@example.com,Mataram,Nusa Tenggara Barat,22/05/2020,Y
+C0642,Joko Saputra,Corporate,Male,081200000642,joko.saputra642@example.com,Pontianak,Kalimantan Barat,2025/04/25,Active
+C0643,Maya Lestari,Individual,Male,081200000643,maya.lestari643@example.com,Medan,Sumatera Utara,15-05-2024,Y
+C0644,Wulan Putri,Corporate,Female,081200000644,wulan.putri644@example.com,Malang,Jawa Timur,Aug 21 2021,Yes
+C0645,Wulan Wulandari,Individual,Male,081200000645,wulan.wulandari645@example.com,Bekasi,Jawa Barat,2025-02-18,Active
+C0646,Eka Gunawan,Marketplace Seller,Male,081200000646,eka.gunawan646@example.com,Semarang,Jawa Tengah,15/07/2025,True
+C0647,Budi Maulana,Individual,Male,081200000647,budi.maulana647@example.com,Malang,Jawa Timur,2021/04/27,Yes
+C0648,Putra Lestari,Corporate,Female,081200000648,putra.lestari648@example.com,Bekasi,Jawa Barat,26-09-2023,True
+C0649,Dewi Putri,Individual,Male,081200000649,dewi.putri649@example.com,Malang,Jawa Timur,Mar 25 2020,True
+C0650,Rani Wulandari,Corporate,Female,081200000650,rani.wulandari650@example.com,Jakarta,DKI Jakarta,2023-10-20,Active
+C0651,Fajar Lestari,Marketplace Seller,Female,081200000651,fajar.lestari651@example.com,Denpasar,Bali,26/06/2024,Active
+C0652,Budi Gunawan,Corporate,Male,081200000652,budi.gunawan652@example.com,Solo,Jawa Tengah,2020/09/22,Yes
+C0653,Hendra Hartono,Corporate,Female,081200000653,hendra.hartono653@example.com,Pontianak,Kalimantan Barat,13-12-2020,Yes
+C0654,Utami Gunawan,Marketplace Seller,Female,081200000654,utami.gunawan654@example.com,Banjarmasin,Kalimantan Selatan,Dec 01 2023,True
+C0655,Putra Wijaya,Corporate,Male,081200000655,putra.wijaya655@example.com,Balikpapan,Kalimantan Timur,2024-10-20,Active
+C0656,Dewi Pratama,Corporate,Female,081200000656,dewi.pratama656@example.com,Manado,Sulawesi Utara,19/07/2025,Yes
+C0657,Eka Wulandari,Individual,Female,081200000657,eka.wulandari657@example.com,Banjarmasin,Kalimantan Selatan,2021/07/06,Yes
+C0658,Joko Saputra,Marketplace Seller,Male,081200000658,joko.saputra658@example.com,Surabaya,Jawa Timur,13-05-2022,1
+C0659,Sari Putri,Marketplace Seller,Female,081200000659,sari.putri659@example.com,Malang,Jawa Timur,Feb 10 2020,1
+C0660,Citra Putri,Individual,Female,081200000660,citra.putri660@example.com,Surabaya,Jawa Timur,2020-05-31,Active
+C0661,Joko Hartono,Individual,Male,081200000661,joko.hartono661@example.com,Semarang,Jawa Tengah,01/07/2025,True
+C0662,Nadia Hartono,E-Commerce Partner,Female,081200000662,nadia.hartono662@example.com,Makassar,Sulawesi Selatan,2020/07/01,Yes
+C0663,Nadia Hartono,Marketplace Seller,Male,081200000663,nadia.hartono663@example.com,Malang,Jawa Timur,24-02-2020,True
+C0664,Budi Hartono,Corporate,Male,081200000664,budi.hartono664@example.com,Tangerang,Banten,Nov 09 2020,Active
+C0665,Dewi Wijaya,Marketplace Seller,Female,081200000665,dewi.wijaya665@example.com,Mataram,Nusa Tenggara Barat,2020-06-27,Active
+C0666,Lestari Putri,Individual,Male,081200000666,lestari.putri666@example.com,Palembang,Sumatera Selatan,05/02/2022,Active
+C0667,Indra Santoso,E-Commerce Partner,Female,081200000667,indra.santoso667@example.com,Pekanbaru,Riau,2021/11/29,Yes
+C0668,Andi Saputra,Marketplace Seller,Male,081200000668,andi.saputra668@example.com,Pekanbaru,Riau,30-01-2026,1
+C0669,Putra Maulana,Corporate,Male,081200000669,putra.maulana669@example.com,Solo,Jawa Tengah,Jan 27 2023,True
+C0670,Tono Putri,Individual,Male,081200000670,tono.putri670@example.com,Yogyakarta,DI Yogyakarta,2020-08-02,Active
+C0671,Maya Putri,E-Commerce Partner,Male,081200000671,maya.putri671@example.com,Medan,Sumatera Utara,05/10/2021,Y
+C0672,Nadia Lestari,Corporate,Female,081200000672,nadia.lestari672@example.com,Medan,Sumatera Utara,2021/02/02,Active
+C0673,Joko Wulandari,E-Commerce Partner,Female,081200000673,joko.wulandari673@example.com,Padang,Sumatera Barat,11-12-2025,1
+C0674,Utami Gunawan,Corporate,Female,081200000674,utami.gunawan674@example.com,Bekasi,Jawa Barat,Dec 25 2020,Y
+C0675,Budi Lestari,Corporate,Male,081200000675,budi.lestari675@example.com,Medan,Sumatera Utara,2025-08-20,Y
+C0676,Utami Wijaya,Individual,Male,081200000676,utami.wijaya676@example.com,Bandung,Jawa Barat,31/08/2023,Y
+C0677,Lestari Gunawan,Individual,Female,081200000677,lestari.gunawan677@example.com,Surabaya,Jawa Timur,2020/09/06,Y
+C0678,Utami Wulandari,Marketplace Seller,Female,081200000678,utami.wulandari678@example.com,Mataram,Nusa Tenggara Barat,04-11-2021,Active
+C0679,Wulan Maulana,Individual,Male,081200000679,wulan.maulana679@example.com,Semarang,Jawa Tengah,Dec 06 2024,1
+C0680,Gita Santoso,Marketplace Seller,Male,081200000680,gita.santoso680@example.com,Solo,Jawa Tengah,2021-06-10,Y
+C0681,Kartika Pratama,E-Commerce Partner,Male,081200000681,kartika.pratama681@example.com,Medan,Sumatera Utara,22/03/2022,Active
+C0682,Tono Maulana,E-Commerce Partner,Male,081200000682,tono.maulana682@example.com,Kupang,Nusa Tenggara Timur,2022/03/07,True
+C0683,Tono Lestari,Marketplace Seller,Male,081200000683,tono.lestari683@example.com,Pontianak,Kalimantan Barat,09-06-2025,Active
+C0684,Nadia Maulana,Individual,Female,081200000684,nadia.maulana684@example.com,Semarang,Jawa Tengah,Feb 21 2024,Active
+C0685,Wulan Pratama,Corporate,Female,081200000685,wulan.pratama685@example.com,Kupang,Nusa Tenggara Timur,2024-12-30,Y
+C0686,Indra Wijaya,E-Commerce Partner,Female,081200000686,indra.wijaya686@example.com,Medan,Sumatera Utara,13/03/2023,Active
+C0687,Andi Santoso,E-Commerce Partner,Male,081200000687,andi.santoso687@example.com,Makassar,Sulawesi Selatan,2023/10/24,Active
+C0688,Rani Wijaya,Marketplace Seller,Female,081200000688,rani.wijaya688@example.com,Banjarmasin,Kalimantan Selatan,20-09-2021,True
+C0689,Andi Santoso,Individual,Female,081200000689,andi.santoso689@example.com,Medan,Sumatera Utara,Mar 22 2024,Yes
+C0690,Fajar Wulandari,Marketplace Seller,Female,081200000690,fajar.wulandari690@example.com,Makassar,Sulawesi Selatan,2025-10-07,Y
+C0691,Budi Hartono,Marketplace Seller,Male,081200000691,budi.hartono691@example.com,Medan,Sumatera Utara,14/03/2026,Active
+C0692,Citra Wulandari,Individual,Male,081200000692,citra.wulandari692@example.com,Jakarta,DKI Jakarta,2021/12/12,1
+C0693,Tono Lestari,Corporate,Male,081200000693,tono.lestari693@example.com,Makassar,Sulawesi Selatan,04-02-2025,Active
+C0694,Putra Wulandari,Marketplace Seller,Male,081200000694,putra.wulandari694@example.com,Pekanbaru,Riau,Feb 22 2023,1
+C0695,Citra Pratama,E-Commerce Partner,Male,081200000695,citra.pratama695@example.com,Jakarta,DKI Jakarta,2020-12-17,Active
+C0696,Wulan Pratama,E-Commerce Partner,Female,081200000696,wulan.pratama696@example.com,Banjarmasin,Kalimantan Selatan,27/05/2022,Active
+C0697,Maya Wulandari,Corporate,Female,081200000697,maya.wulandari697@example.com,Yogyakarta,DI Yogyakarta,2024/10/27,True
+C0698,Indra Maulana,Corporate,Female,081200000698,indra.maulana698@example.com,Tangerang,Banten,11-02-2024,1
+C0699,Joko Saputra,Individual,Female,081200000699,joko.saputra699@example.com,Pontianak,Kalimantan Barat,May 30 2024,Yes
+C0700,Tono Gunawan,E-Commerce Partner,Female,081200000700,tono.gunawan700@example.com,Yogyakarta,DI Yogyakarta,2023-10-02,Yes
+C0701,Citra Gunawan,E-Commerce Partner,Female,081200000701,citra.gunawan701@example.com,Palembang,Sumatera Selatan,24/09/2021,True
+C0702,Rani Wijaya,E-Commerce Partner,Male,081200000702,rani.wijaya702@example.com,Bandung,Jawa Barat,2022/06/13,Y
+C0703,Kartika Maulana,Individual,Male,081200000703,kartika.maulana703@example.com,Banjarmasin,Kalimantan Selatan,15-06-2020,Yes
+C0704,Maya Pratama,E-Commerce Partner,Male,081200000704,maya.pratama704@example.com,Yogyakarta,DI Yogyakarta,Sep 06 2020,Y
+C0705,Fajar Lestari,E-Commerce Partner,Female,081200000705,fajar.lestari705@example.com,Solo,Jawa Tengah,2022-10-08,1
+C0706,Budi Pratama,Individual,Female,081200000706,budi.pratama706@example.com,Semarang,Jawa Tengah,13/04/2026,Yes
+C0707,Fajar Gunawan,E-Commerce Partner,Female,081200000707,fajar.gunawan707@example.com,Jakarta,DKI Jakarta,2024/08/02,Active
+C0708,Utami Santoso,Corporate,Female,081200000708,utami.santoso708@example.com,Batam,Kepulauan Riau,03-04-2024,Yes
+C0709,Utami Gunawan,Marketplace Seller,Female,081200000709,utami.gunawan709@example.com,Jakarta Pusat,DKI Jakarta,Nov 24 2022,True
+C0710,Tono Lestari,Individual,Male,081200000710,tono.lestari710@example.com,Jakarta Pusat,DKI Jakarta,2022-08-28,Active
+C0711,Budi Pratama,E-Commerce Partner,Male,081200000711,budi.pratama711@example.com,Bandung,Jawa Barat,20/01/2025,Y
+C0712,Andi Saputra,Individual,Male,081200000712,andi.saputra712@example.com,Tangerang,Banten,2023/08/06,Active
+C0713,Rani Pratama,Individual,Female,081200000713,rani.pratama713@example.com,Pekanbaru,Riau,26-03-2025,Active
+C0714,Hendra Pratama,Marketplace Seller,Male,081200000714,hendra.pratama714@example.com,Balikpapan,Kalimantan Timur,May 07 2023,True
+C0715,Sari Pratama,E-Commerce Partner,Male,081200000715,sari.pratama715@example.com,Denpasar,Bali,2024-04-15,Active
+C0716,Hendra Saputra,Individual,Female,081200000716,hendra.saputra716@example.com,Bekasi,Jawa Barat,29/03/2020,Yes
+C0717,Tono Maulana,Corporate,Male,081200000717,tono.maulana717@example.com,Batam,Kepulauan Riau,2024/09/23,True
+C0718,Rani Santoso,E-Commerce Partner,Male,081200000718,rani.santoso718@example.com,Bogor,Jawa Barat,28-12-2020,Yes
+C0719,Sari Gunawan,E-Commerce Partner,Female,081200000719,sari.gunawan719@example.com,Banjarmasin,Kalimantan Selatan,Jul 20 2023,True
+C0720,Tono Wulandari,Marketplace Seller,Male,081200000720,tono.wulandari720@example.com,Palembang,Sumatera Selatan,2023-06-30,Active
+C0721,Wulan Hartono,E-Commerce Partner,Female,081200000721,wulan.hartono721@example.com,Bogor,Jawa Barat,02/09/2020,Yes
+C0722,Eka Wulandari,Corporate,Female,081200000722,eka.wulandari722@example.com,Kupang,Nusa Tenggara Timur,2021/12/20,Yes
+C0723,Fajar Maulana,Corporate,Female,081200000723,fajar.maulana723@example.com,Mataram,Nusa Tenggara Barat,01-04-2022,1
+C0724,Utami Pratama,Individual,Male,081200000724,utami.pratama724@example.com,Tangerang,Banten,Sep 29 2023,True
+C0725,Kartika Hartono,Corporate,Male,081200000725,kartika.hartono725@example.com,Mataram,Nusa Tenggara Barat,2020-03-18,Y
+C0726,Utami Lestari,Marketplace Seller,Female,081200000726,utami.lestari726@example.com,Denpasar,Bali,14/05/2025,Active
+C0727,Sari Gunawan,E-Commerce Partner,Female,081200000727,sari.gunawan727@example.com,Jakarta Pusat,DKI Jakarta,2025/02/23,Yes
+C0728,Eka Putri,Individual,Female,081200000728,eka.putri728@example.com,Mataram,Nusa Tenggara Barat,03-03-2021,1
+C0729,Eka Saputra,Corporate,Female,081200000729,eka.saputra729@example.com,Banjarmasin,Kalimantan Selatan,Nov 28 2021,1
+C0730,Dewi Gunawan,Corporate,Male,081200000730,dewi.gunawan730@example.com,Banjarmasin,Kalimantan Selatan,2020-09-05,Y
+C0731,Tono Putri,Marketplace Seller,Male,081200000731,tono.putri731@example.com,Kupang,Nusa Tenggara Timur,20/11/2023,True
+C0732,Eka Gunawan,E-Commerce Partner,Male,081200000732,eka.gunawan732@example.com,Palembang,Sumatera Selatan,2021/07/29,Active
+C0733,Maya Lestari,Marketplace Seller,Female,081200000733,maya.lestari733@example.com,Bandung,Jawa Barat,17-08-2023,Active
+C0734,Fajar Putri,Individual,Male,081200000734,fajar.putri734@example.com,Surabaya,Jawa Timur,Oct 01 2025,Active
+C0735,Putra Saputra,Individual,Female,081200000735,putra.saputra735@example.com,Mataram,Nusa Tenggara Barat,2021-06-16,Yes
+C0736,Rani Gunawan,E-Commerce Partner,Male,081200000736,rani.gunawan736@example.com,Pekanbaru,Riau,09/11/2021,True
+C0737,Utami Maulana,Individual,Male,081200000737,utami.maulana737@example.com,Bandung,Jawa Barat,2021/11/24,Active
+C0738,Hendra Pratama,Marketplace Seller,Male,081200000738,hendra.pratama738@example.com,Denpasar,Bali,24-04-2024,Yes
+C0739,Eka Pratama,E-Commerce Partner,Male,081200000739,eka.pratama739@example.com,Bogor,Jawa Barat,Apr 17 2023,Y
+C0740,Maya Putri,Individual,Female,081200000740,maya.putri740@example.com,Makassar,Sulawesi Selatan,2024-09-05,1
+C0741,Kartika Saputra,Marketplace Seller,Male,081200000741,kartika.saputra741@example.com,Denpasar,Bali,12/10/2022,True
+C0742,Fajar Saputra,Corporate,Male,081200000742,fajar.saputra742@example.com,Yogyakarta,DI Yogyakarta,2022/10/14,Active
+C0743,Budi Hartono,Marketplace Seller,Male,081200000743,budi.hartono743@example.com,Makassar,Sulawesi Selatan,19-09-2023,Yes
+C0744,Kartika Putri,Individual,Male,081200000744,kartika.putri744@example.com,Palembang,Sumatera Selatan,Sep 30 2025,Y
+C0745,Nadia Wijaya,E-Commerce Partner,Female,081200000745,nadia.wijaya745@example.com,Palembang,Sumatera Selatan,2024-02-16,True
+C0746,Eka Lestari,E-Commerce Partner,Female,081200000746,eka.lestari746@example.com,Bekasi,Jawa Barat,25/07/2022,1
+C0747,Nadia Wijaya,E-Commerce Partner,Female,081200000747,nadia.wijaya747@example.com,Jakarta Pusat,DKI Jakarta,2024/01/30,Active
+C0748,Dewi Hartono,Marketplace Seller,Male,081200000748,dewi.hartono748@example.com,Padang,Sumatera Barat,27-01-2024,Y
+C0749,Maya Pratama,E-Commerce Partner,Male,081200000749,maya.pratama749@example.com,Jakarta Pusat,DKI Jakarta,Mar 26 2023,True
+C0750,Dewi Lestari,Corporate,Male,081200000750,dewi.lestari750@example.com,Jakarta,DKI Jakarta,2023-11-10,Active
+C0751,Sari Santoso,E-Commerce Partner,Female,081200000751,sari.santoso751@example.com,Manado,Sulawesi Utara,30/07/2024,1
+C0752,Eka Lestari,Corporate,Female,081200000752,eka.lestari752@example.com,Banjarmasin,Kalimantan Selatan,2025/09/16,Y
+C0753,Budi Putri,Corporate,Male,081200000753,budi.putri753@example.com,Surabaya,Jawa Timur,01-09-2022,True
+C0754,Indra Pratama,Individual,Female,081200000754,indra.pratama754@example.com,Semarang,Jawa Tengah,Oct 04 2022,Y
+C0755,Joko Lestari,Marketplace Seller,Male,081200000755,joko.lestari755@example.com,Bogor,Jawa Barat,2025-11-13,Yes
+C0756,Tono Wijaya,E-Commerce Partner,Male,081200000756,tono.wijaya756@example.com,Manado,Sulawesi Utara,18/02/2021,Y
+C0757,Citra Gunawan,Marketplace Seller,Female,081200000757,citra.gunawan757@example.com,Padang,Sumatera Barat,2025/11/24,1
+C0758,Eka Wulandari,Individual,Female,081200000758,eka.wulandari758@example.com,Mataram,Nusa Tenggara Barat,09-12-2025,Y
+C0759,Indra Hartono,Individual,Male,081200000759,indra.hartono759@example.com,Balikpapan,Kalimantan Timur,Dec 07 2022,True
+C0760,Putra Saputra,Corporate,Male,081200000760,putra.saputra760@example.com,Bekasi,Jawa Barat,2024-10-10,Active
+C0761,Andi Gunawan,Individual,Male,081200000761,andi.gunawan761@example.com,Bekasi,Jawa Barat,14/03/2022,Active
+C0762,Andi Santoso,Corporate,Male,081200000762,andi.santoso762@example.com,Jakarta Pusat,DKI Jakarta,2021/03/03,1
+C0763,Gita Hartono,Marketplace Seller,Female,081200000763,gita.hartono763@example.com,Medan,Sumatera Utara,03-02-2021,Yes
+C0764,Gita Putri,Marketplace Seller,Female,081200000764,gita.putri764@example.com,Manado,Sulawesi Utara,Feb 27 2022,Yes
+C0765,Putra Wulandari,E-Commerce Partner,Female,081200000765,putra.wulandari765@example.com,Padang,Sumatera Barat,2025-09-16,Active
+C0766,Joko Santoso,Individual,Male,081200000766,joko.santoso766@example.com,Malang,Jawa Timur,03/05/2022,True
+C0767,Rani Wijaya,Individual,Male,081200000767,rani.wijaya767@example.com,Tangerang,Banten,2023/12/02,Yes
+C0768,Maya Gunawan,E-Commerce Partner,Female,081200000768,maya.gunawan768@example.com,Makassar,Sulawesi Selatan,03-02-2023,Y
+C0769,Citra Wijaya,E-Commerce Partner,Male,081200000769,citra.wijaya769@example.com,Surabaya,Jawa Timur,Apr 04 2026,Active
+C0770,Fajar Maulana,Corporate,Male,081200000770,fajar.maulana770@example.com,Bandung,Jawa Barat,2021-03-02,True
+C0771,Andi Hartono,Marketplace Seller,Female,081200000771,andi.hartono771@example.com,Pekanbaru,Riau,16/05/2022,1
+C0772,Indra Putri,Individual,Female,081200000772,indra.putri772@example.com,Bekasi,Jawa Barat,2022/04/13,Yes
+C0773,Dewi Maulana,Marketplace Seller,Female,081200000773,dewi.maulana773@example.com,Denpasar,Bali,02-04-2021,Active
+C0774,Rani Saputra,E-Commerce Partner,Male,081200000774,rani.saputra774@example.com,Jakarta,DKI Jakarta,Aug 10 2025,1
+C0775,Nadia Wijaya,Marketplace Seller,Male,081200000775,nadia.wijaya775@example.com,Mataram,Nusa Tenggara Barat,2021-09-27,Yes
+C0776,Budi Saputra,Individual,Female,081200000776,budi.saputra776@example.com,Bandung,Jawa Barat,23/01/2022,Yes
+C0777,Wulan Wijaya,E-Commerce Partner,Male,081200000777,wulan.wijaya777@example.com,Malang,Jawa Timur,2021/10/20,True
+C0778,Eka Saputra,Corporate,Female,081200000778,eka.saputra778@example.com,Banjarmasin,Kalimantan Selatan,18-07-2023,True
+C0779,Wulan Lestari,Marketplace Seller,Female,081200000779,wulan.lestari779@example.com,Padang,Sumatera Barat,Jan 22 2020,Active
+C0780,Andi Hartono,Corporate,Female,081200000780,andi.hartono780@example.com,Surabaya,Jawa Timur,2020-12-08,Y
+C0781,Joko Putri,E-Commerce Partner,Male,081200000781,joko.putri781@example.com,Yogyakarta,DI Yogyakarta,14/12/2023,Yes
+C0782,Andi Saputra,E-Commerce Partner,Male,081200000782,andi.saputra782@example.com,Yogyakarta,DI Yogyakarta,2025/07/30,Yes
+C0783,Budi Lestari,E-Commerce Partner,Male,081200000783,budi.lestari783@example.com,Banjarmasin,Kalimantan Selatan,05-11-2022,Yes
+C0784,Maya Wijaya,E-Commerce Partner,Female,081200000784,maya.wijaya784@example.com,Jakarta,DKI Jakarta,Oct 30 2025,1
+C0785,Dewi Santoso,E-Commerce Partner,Female,081200000785,dewi.santoso785@example.com,Padang,Sumatera Barat,2024-01-25,Active
+C0786,Gita Santoso,Marketplace Seller,Male,081200000786,gita.santoso786@example.com,Tangerang,Banten,30/11/2024,Yes
+C0787,Fajar Lestari,E-Commerce Partner,Female,081200000787,fajar.lestari787@example.com,Bogor,Jawa Barat,2025/11/14,Active
+C0788,Joko Pratama,Marketplace Seller,Female,081200000788,joko.pratama788@example.com,Yogyakarta,DI Yogyakarta,04-05-2021,Y
+C0789,Maya Hartono,Individual,Female,081200000789,maya.hartono789@example.com,Medan,Sumatera Utara,Jan 31 2025,True
+C0790,Gita Putri,E-Commerce Partner,Male,081200000790,gita.putri790@example.com,Palembang,Sumatera Selatan,2020-11-29,Active
+C0791,Indra Lestari,E-Commerce Partner,Male,081200000791,indra.lestari791@example.com,Makassar,Sulawesi Selatan,15/06/2020,Y
+C0792,Budi Lestari,Corporate,Female,081200000792,budi.lestari792@example.com,Bekasi,Jawa Barat,2021/10/29,1
+C0793,Maya Wulandari,Individual,Male,081200000793,maya.wulandari793@example.com,Surabaya,Jawa Timur,16-04-2021,1
+C0794,Putra Wulandari,Corporate,Female,081200000794,putra.wulandari794@example.com,Palembang,Sumatera Selatan,Oct 20 2025,True
+C0795,Putra Putri,E-Commerce Partner,Male,081200000795,putra.putri795@example.com,Kupang,Nusa Tenggara Timur,2022-10-22,1
+C0796,Maya Santoso,Individual,Male,081200000796,maya.santoso796@example.com,Solo,Jawa Tengah,07/03/2023,True
+C0797,Eka Wijaya,Individual,Female,081200000797,eka.wijaya797@example.com,Jakarta Pusat,DKI Jakarta,2021/07/23,Active
+C0798,Indra Lestari,E-Commerce Partner,Female,081200000798,indra.lestari798@example.com,Bandung,Jawa Barat,06-11-2023,Y
+C0799,Maya Putri,Corporate,Male,081200000799,maya.putri799@example.com,Tangerang,Banten,Sep 20 2025,Yes
+C0800,Budi Lestari,Individual,Female,081200000800,budi.lestari800@example.com,Padang,Sumatera Barat,2025-10-19,Yes
