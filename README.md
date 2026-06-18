@@ -52,6 +52,33 @@ Examples of dirty data:
 - Mixed boolean values: `Yes`, `Active`, `1`, `False`, `N`
 - Inconsistent city names such as `JKT Pusat` and `Jakarta Pusat`
 
+The CSV files in `data/` can be reproduced with:
+
+```powershell
+python scripts\generate_dummy_data.py
+```
+
+Default generated data volume:
+
+| CSV File | Default Rows | Notes |
+|---|---:|---|
+| `shipments.csv` | 10,000 | Main transaction source |
+| `packages.csv` | 10,000 | One package record per shipment |
+| `payments.csv` | 10,000 | One payment record per shipment |
+| `customers.csv` | 800 | Reused by many shipments |
+| `couriers.csv` | 250 | Reused by many shipments |
+| `branches.csv` | 40 | Reused as origin and destination branches |
+| `services.csv` | 7 | Service master data |
+| `shipment_status.csv` | 7 | Shipment status master data |
+
+To generate a larger transaction snapshot:
+
+```powershell
+python scripts\generate_dummy_data.py --shipments 10500
+```
+
+The generator uses a fixed default seed (`42`). If only `--shipments` is changed, the earlier shipment IDs remain reproducible and the additional IDs are appended, for example `SHP10001` to `SHP10500`.
+
 ---
 
 ## 4. Database Structure
@@ -158,7 +185,9 @@ Load      : Cleaned data is loaded into Dim_* tables and FactShipment.
 
 ## 7. SQL Script Execution Order
 
-Run the SQL scripts in this order:
+### 7.1 Initial Full Load
+
+Run the SQL scripts in this order when building the data warehouse from zero:
 
 ```text
 01_create_database.sql
@@ -172,12 +201,26 @@ Run the SQL scripts in this order:
 09_check_etl_result.sql
 ```
 
+### 7.2 Incremental Load After the Initial Load
+
+After the initial load has been completed, use this order when adding a new CSV batch or a larger generated snapshot:
+
+```text
+03_import_csv.sql
+05_transform_data.sql
+10_load_incremental.sql
+09_check_etl_result.sql
+```
+
+Do not run `07_load_dimensions.sql` or `08_load_fact.sql` for incremental updates. Those two scripts are full-load scripts and clear/reload warehouse tables.
+
 ---
 
 ## 8. Script Description
 
 | Script | Description |
 |---|---|
+| `scripts/generate_dummy_data.py` | Reproduces the 8 CSV source files with configurable shipment volume |
 | `01_create_database.sql` | Creates `LDR_Staging` and `LDR_DW` databases |
 | `02_create_staging_tables.sql` | Creates raw staging tables for CSV import |
 | `03_import_csv.sql` | Imports CSV files into staging tables |
@@ -187,6 +230,7 @@ Run the SQL scripts in this order:
 | `07_load_dimensions.sql` | Loads transformed data into dimension tables |
 | `08_load_fact.sql` | Loads shipment transactions into `FactShipment` |
 | `09_check_etl_result.sql` | Validates ETL result and checks row counts |
+| `10_load_incremental.sql` | Loads new/changed transformed data without clearing the warehouse |
 
 ---
 
@@ -217,11 +261,73 @@ If the path is different, update the `@data_path` variable in `03_import_csv.sql
 
 ---
 
-## 10. Transformation Rules
+## 10. Reproducing and Extending Dummy Data
+
+The project stores generated dummy CSV files in the `data/` folder. The generator overwrites those CSV files while keeping the headers expected by the existing staging tables.
+
+### 10.1 Generate the Default Dataset
+
+```powershell
+python scripts\generate_dummy_data.py
+```
+
+This creates a reproducible dataset with 10,000 shipment transactions.
+
+### 10.2 Generate a Larger Snapshot
+
+```powershell
+python scripts\generate_dummy_data.py --shipments 10500
+```
+
+This creates 10,500 shipments and also creates 10,500 package and payment rows. The first 10,000 shipment IDs stay reproducible as long as the same seed and master-data counts are used.
+
+### 10.3 Optional Generator Parameters
+
+```powershell
+python scripts\generate_dummy_data.py --shipments 10500 --customers 900 --branches 45 --couriers 275
+```
+
+Available parameters:
+
+| Parameter | Default | Meaning |
+|---|---:|---|
+| `--shipments` | 10000 | Total shipment transactions to generate |
+| `--customers` | 800 | Total customer master rows |
+| `--branches` | 40 | Total branch master rows |
+| `--couriers` | 250 | Total courier master rows |
+| `--seed` | 42 | Random seed for reproducible data |
+
+For incremental simulation, change only `--shipments` unless the test specifically needs new customers, branches, or couriers.
+
+---
+
+## 11. Incremental Load and SCD Type 1
+
+The original `07_load_dimensions.sql` and `08_load_fact.sql` scripts are full-load scripts. They are correct for rebuilding the warehouse from zero, but they clear and reload warehouse data.
+
+The additional `10_load_incremental.sql` script is used after the initial load. It keeps the existing star schema unchanged so the current cube remains compatible.
+
+Incremental load behavior:
+
+| Warehouse Area | Behavior | Data Warehouse Concept |
+|---|---|---|
+| Dimensions | Insert new business keys and update changed attributes | SCD Type 1 |
+| FactShipment | Insert only shipment IDs that do not already exist | Incremental append |
+| Star schema | No new columns and no table rebuild | Cube-compatible schema |
+
+SCD Type 1 means the latest master-data value overwrites the old value. For example, if customer `C0001` changes from `Individual` to `Corporate`, `DimCustomer` is updated in place. This project does not store historical versions of dimension rows because SCD Type 2 would require extra columns such as `effective_start_date`, `effective_end_date`, and `is_current`.
+
+The fact table is append-only in the incremental script. If `FactShipment` already contains `SHP00001` to `SHP10000`, and the latest transformed data contains `SHP00001` to `SHP10500`, only `SHP10001` to `SHP10500` are inserted.
+
+`10_load_incremental.sql` also validates that new fact rows can be mapped to all required dimensions before inserting them.
+
+---
+
+## 12. Transformation Rules
 
 The transformation process includes:
 
-### 10.1 Text Standardization
+### 12.1 Text Standardization
 
 - Trim spaces
 - Convert IDs to uppercase
@@ -239,7 +345,7 @@ Female / F / P → Female
 
 ---
 
-### 10.2 Date Conversion
+### 12.2 Date Conversion
 
 Dirty date strings are converted into SQL Server `DATE` format using `TRY_CONVERT`.
 
@@ -255,7 +361,7 @@ Jan 7 2025
 
 ---
 
-### 10.3 Numeric and Money Conversion
+### 12.3 Numeric and Money Conversion
 
 Money values are cleaned by removing:
 
@@ -278,7 +384,7 @@ Rp35000 → 35000.00
 
 ---
 
-### 10.4 Boolean Conversion
+### 12.4 Boolean Conversion
 
 Values are converted to `BIT`.
 
@@ -306,7 +412,7 @@ False
 
 ---
 
-### 10.5 Missing Value Handling
+### 12.5 Missing Value Handling
 
 The project does not blindly replace all `NULL` values. Missing values are handled based on their business meaning.
 
@@ -323,7 +429,7 @@ This approach reduces unnecessary NULL values without fabricating operational da
 
 ---
 
-### 10.6 Courier Handling
+### 12.6 Courier Handling
 
 If `courier_id` is missing in shipment data, it is mapped to:
 
@@ -336,7 +442,7 @@ This prevents `courier_key` from becoming NULL in the fact table.
 
 ---
 
-### 10.7 Payment Handling
+### 12.7 Payment Handling
 
 `bank_name` is transformed based on payment method:
 
@@ -351,7 +457,7 @@ This prevents `courier_key` from becoming NULL in the fact table.
 
 ---
 
-### 10.8 Estimated Days Handling
+### 12.8 Estimated Days Handling
 
 If `estimated_days` is missing, it is filled based on `service_code`.
 
@@ -367,7 +473,7 @@ If `estimated_days` is missing, it is filled based on `service_code`.
 
 ---
 
-### 10.9 Total Amount Calculation
+### 12.9 Total Amount Calculation
 
 `total_amount` is calculated in the transform layer using:
 
@@ -379,7 +485,7 @@ This prevents revenue from becoming 0 due to dirty or inconsistent `total_amount
 
 ---
 
-### 10.10 Delay Days Calculation
+### 12.10 Delay Days Calculation
 
 `delay_days` is calculated in the transform layer and never becomes negative.
 
@@ -401,14 +507,14 @@ NULL = shipment duration is not yet known
 
 ---
 
-## 11. Expected ETL Result
+## 13. Expected ETL Result
 
-After running all ETL scripts, expected results include:
+After running the default generated dataset through the full-load SQL scripts, expected results include:
 
 ```text
-Stg_Shipments      ≈ 220 rows
-Trf_Shipments      ≈ 220 rows
-FactShipment       ≈ 220 rows
+Stg_Shipments      = 10,000 rows
+Trf_Shipments      = 10,000 rows
+FactShipment       = 10,000 rows
 ```
 
 Expected validation:
@@ -443,16 +549,16 @@ These NULL values are intentional and should not be replaced with fabricated dat
 
 ---
 
-## 12. Validation Queries
+## 14. Validation Queries
 
-### 12.1 Check Fact Row Count
+### 14.1 Check Fact Row Count
 
 ```sql
 SELECT COUNT(*) AS total_fact_rows
 FROM LDR_DW.dbo.FactShipment;
 ```
 
-### 12.2 Check Revenue
+### 14.2 Check Revenue
 
 ```sql
 SELECT 
@@ -463,7 +569,7 @@ SELECT
 FROM LDR_DW.dbo.FactShipment;
 ```
 
-### 12.3 Check Foreign Keys
+### 14.3 Check Foreign Keys
 
 ```sql
 SELECT
@@ -482,7 +588,7 @@ FROM LDR_DW.dbo.FactShipment;
 
 ---
 
-## 13. Sample Analytical Query
+## 15. Sample Analytical Query
 
 ### Total Shipment and Revenue by Service
 
@@ -504,7 +610,7 @@ ORDER BY total_shipments DESC;
 
 ---
 
-## 14. Project Folder Structure
+## 16. Project Folder Structure
 
 Recommended folder structure:
 
@@ -537,26 +643,48 @@ LDR-DataWarehouse/
 
 ---
 
-## 15. Notes for Re-running ETL
-
-If the databases and staging tables already exist, you do not need to rerun all scripts from the beginning.
-
-To rerun the latest ETL result, use:
+Additional reproducibility and incremental-load files:
 
 ```text
+scripts/generate_dummy_data.py
+sql/10_load_incremental.sql
+```
+
+---
+
+## 17. Notes for Re-running ETL
+
+If the databases and staging tables already exist, you do not always need to rerun all scripts from the beginning.
+
+To rebuild the warehouse from zero, run:
+
+```text
+01_create_database.sql
+02_create_staging_tables.sql
+03_import_csv.sql
 04_create_transform_tables.sql
 05_transform_data.sql
+06_create_dw_tables.sql
 07_load_dimensions.sql
 08_load_fact.sql
 09_check_etl_result.sql
 ```
 
-Only rerun `01`, `02`, `03`, and `06` if you want to rebuild the whole project from the beginning.
+To load a new batch or larger generated snapshot after the warehouse already exists, run:
+
+```text
+03_import_csv.sql
+05_transform_data.sql
+10_load_incremental.sql
+09_check_etl_result.sql
+```
+
+Use `10_load_incremental.sql` for incremental updates. Do not use `07_load_dimensions.sql` and `08_load_fact.sql` for incremental updates because they are full-load scripts.
 
 ---
 
-## 16. Conclusion
+## 18. Conclusion
 
-This ETL project demonstrates how fragmented and dirty operational CSV data from PT. LDR can be integrated into a structured SQL Server data warehouse. The process includes extraction from CSV files, staging, transformation, dimension loading, fact loading, and final validation.
+This ETL project demonstrates how fragmented and dirty operational CSV data from PT. LDR can be integrated into a structured SQL Server data warehouse. The process includes reproducible CSV generation, extraction from CSV files, staging, transformation, dimension loading, fact loading, incremental loading, and final validation.
 
 The final data warehouse supports shipment performance analysis, revenue analysis, service performance analysis, branch performance analysis, courier performance analysis, and delivery delay analysis.
