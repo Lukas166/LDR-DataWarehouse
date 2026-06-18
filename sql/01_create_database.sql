@@ -60,6 +60,20 @@ GO
 ALTER DATABASE LDR_Staging SET RECOVERY SIMPLE;
 GO
 
+ALTER DATABASE LDR_Staging MODIFY FILE (
+    NAME = N'LDR_Staging',
+    FILEGROWTH = 64MB,
+    MAXSIZE = UNLIMITED
+);
+GO
+
+ALTER DATABASE LDR_Staging MODIFY FILE (
+    NAME = N'LDR_Staging_log',
+    FILEGROWTH = 64MB,
+    MAXSIZE = UNLIMITED
+);
+GO
+
 /* Create data warehouse database.
    This database will store the final star schema:
    - DimDate
@@ -77,6 +91,20 @@ CREATE DATABASE LDR_DW;
 GO
 
 ALTER DATABASE LDR_DW SET RECOVERY SIMPLE;
+GO
+
+ALTER DATABASE LDR_DW MODIFY FILE (
+    NAME = N'LDR_DW',
+    FILEGROWTH = 64MB,
+    MAXSIZE = UNLIMITED
+);
+GO
+
+ALTER DATABASE LDR_DW MODIFY FILE (
+    NAME = N'LDR_DW_log',
+    FILEGROWTH = 64MB,
+    MAXSIZE = UNLIMITED
+);
 GO
 
 /* Check created databases */

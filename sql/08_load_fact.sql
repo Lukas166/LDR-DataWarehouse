@@ -19,6 +19,25 @@
 USE LDR_DW;
 GO
 
+ALTER DATABASE LDR_DW SET RECOVERY SIMPLE;
+GO
+
+DECLARE @file_growth_sql NVARCHAR(MAX) = N'';
+
+SELECT @file_growth_sql = @file_growth_sql
+    + N'ALTER DATABASE LDR_DW MODIFY FILE (NAME = N'''
+    + REPLACE(name, '''', '''''')
+    + N''', FILEGROWTH = 64MB, MAXSIZE = UNLIMITED);'
+    + CHAR(13) + CHAR(10)
+FROM sys.database_files
+WHERE type_desc IN ('ROWS', 'LOG');
+
+EXEC sp_executesql @file_growth_sql;
+GO
+
+CHECKPOINT;
+GO
+
 DELETE FROM dbo.FactShipment;
 GO
 
