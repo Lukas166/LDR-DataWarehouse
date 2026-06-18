@@ -57,6 +57,9 @@ GO
 CREATE DATABASE LDR_Staging;
 GO
 
+ALTER DATABASE LDR_Staging SET RECOVERY SIMPLE;
+GO
+
 /* Create data warehouse database.
    This database will store the final star schema:
    - DimDate
@@ -73,11 +76,15 @@ GO
 CREATE DATABASE LDR_DW;
 GO
 
+ALTER DATABASE LDR_DW SET RECOVERY SIMPLE;
+GO
+
 /* Check created databases */
 
 SELECT 
     name AS database_name,
-    create_date
+    create_date,
+    recovery_model_desc
 FROM sys.databases
 WHERE name IN ('LDR_Staging', 'LDR_DW');
 GO

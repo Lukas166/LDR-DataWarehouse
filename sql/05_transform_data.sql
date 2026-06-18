@@ -21,6 +21,9 @@
 USE LDR_Staging;
 GO
 
+ALTER DATABASE LDR_Staging SET RECOVERY SIMPLE;
+GO
+
 /* Clear transform tables before re-transform */
 
 TRUNCATE TABLE dbo.Trf_Shipments;
@@ -31,6 +34,9 @@ TRUNCATE TABLE dbo.Trf_Couriers;
 TRUNCATE TABLE dbo.Trf_Packages;
 TRUNCATE TABLE dbo.Trf_Payments;
 TRUNCATE TABLE dbo.Trf_ShipmentStatus;
+GO
+
+CHECKPOINT;
 GO
 
 /* ============================================================
@@ -50,6 +56,9 @@ SELECT DISTINCT
     LTRIM(RTRIM(status_description)) AS status_description
 FROM dbo.Stg_ShipmentStatus
 WHERE NULLIF(LTRIM(RTRIM(status_code)), '') IS NOT NULL;
+GO
+
+CHECKPOINT;
 GO
 
 IF NOT EXISTS (
@@ -139,6 +148,9 @@ FROM dbo.Stg_Customers
 WHERE NULLIF(LTRIM(RTRIM(customer_id)), '') IS NOT NULL;
 GO
 
+CHECKPOINT;
+GO
+
 /* ============================================================
    3. Transform branches
    ============================================================ */
@@ -203,6 +215,9 @@ FROM dbo.Stg_Branches
 WHERE NULLIF(LTRIM(RTRIM(branch_id)), '') IS NOT NULL;
 GO
 
+CHECKPOINT;
+GO
+
 /* ============================================================
    4. Transform services
    ============================================================ */
@@ -250,6 +265,9 @@ SELECT DISTINCT
 
 FROM dbo.Stg_Services
 WHERE NULLIF(LTRIM(RTRIM(service_code)), '') IS NOT NULL;
+GO
+
+CHECKPOINT;
 GO
 
 /* ============================================================
@@ -312,6 +330,9 @@ SELECT DISTINCT
 
 FROM dbo.Stg_Couriers
 WHERE NULLIF(LTRIM(RTRIM(courier_id)), '') IS NOT NULL;
+GO
+
+CHECKPOINT;
 GO
 
 IF NOT EXISTS (
@@ -437,6 +458,9 @@ FROM (
 ) p;
 GO
 
+CHECKPOINT;
+GO
+
 /* ============================================================
    7. Transform payments
    ============================================================ */
@@ -522,6 +546,9 @@ FROM (
     FROM dbo.Stg_Payments
     WHERE NULLIF(LTRIM(RTRIM(payment_id)), '') IS NOT NULL
 ) p;
+GO
+
+CHECKPOINT;
 GO
 
 /* ============================================================
@@ -696,6 +723,9 @@ FROM (
         WHERE NULLIF(LTRIM(RTRIM(shipment_id)), '') IS NOT NULL
     ) base
 ) s;
+GO
+
+CHECKPOINT;
 GO
 
 /* ============================================================

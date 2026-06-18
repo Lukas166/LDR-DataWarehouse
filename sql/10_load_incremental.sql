@@ -15,6 +15,8 @@
       existing business keys are updated, new business keys are inserted.
     - FactShipment is append-only:
       only shipment_id values that do not exist in FactShipment are inserted.
+    - The script uses autocommit statements instead of one large transaction
+      to avoid filling the transaction log on small local SQL Server databases.
     - Run this after importing and transforming the latest batch:
       03_import_csv.sql
       05_transform_data.sql
@@ -28,11 +30,11 @@
 USE LDR_DW;
 GO
 
-SET XACT_ABORT ON;
+ALTER DATABASE LDR_DW SET RECOVERY SIMPLE;
 GO
 
-BEGIN TRY
-    BEGIN TRANSACTION;
+SET XACT_ABORT ON;
+GO
 
     /* ============================================================
        1. Prepare one-row-per-business-key source sets
@@ -605,7 +607,8 @@ BEGIN TRY
           )
     )
     BEGIN
-        THROW 50001, 'Incremental fact load failed because one or more new shipments cannot be mapped to all required dimensions.', 1;
+        RAISERROR ('Incremental fact load failed because one or more new shipments cannot be mapped to all required dimensions.', 16, 1);
+        RETURN;
     END;
 
     /* ============================================================
@@ -699,14 +702,6 @@ BEGIN TRY
           WHERE f.shipment_id = s.shipment_id
       );
 
-    COMMIT TRANSACTION;
-END TRY
-BEGIN CATCH
-    IF @@TRANCOUNT > 0
-        ROLLBACK TRANSACTION;
-
-    THROW;
-END CATCH;
 GO
 
 /* ============================================================
